@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "HourlyForecastGenerator",
-        "generatedAt": "2026-10-06T21:20:10+00:00",
-        "updateTime": "2026-10-06T21:11:43+00:00",
-        "validTimes": "2026-10-06T15:00:00+00:00/P7DT10H",
+        "generatedAt": "2026-10-06T21:01:18+00:00",
+        "updateTime": "2026-10-06T18:21:31+00:00",
+        "validTimes": "2026-10-06T12:00:00+00:00/P7DT13H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -59,7 +59,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 94
+                    "value": 90
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -86,7 +86,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 91
+                    "value": 88
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -113,7 +113,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 84
+                    "value": 87
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -125,7 +125,7 @@
                 },
                 "windSpeed": "9 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,80?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,90?size=small",
                 "shortForecast": "Rain Showers",
                 "detailedForecast": ""
             },
@@ -140,7 +140,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 93
+                    "value": 85
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -167,7 +167,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 72
+                    "value": 83
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -179,7 +179,7 @@
                 },
                 "windSpeed": "8 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,70?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,80?size=small",
                 "shortForecast": "Rain Showers",
                 "detailedForecast": ""
             },
@@ -194,7 +194,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 64
+                    "value": 81
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -206,7 +206,7 @@
                 },
                 "windSpeed": "8 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,60?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,80?size=small",
                 "shortForecast": "Rain Showers",
                 "detailedForecast": ""
             },
@@ -221,7 +221,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 66
+                    "value": 78
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -233,7 +233,7 @@
                 },
                 "windSpeed": "7 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,70?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,80?size=small",
                 "shortForecast": "Rain Showers",
                 "detailedForecast": ""
             },
@@ -248,7 +248,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 67
+                    "value": 78
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -260,7 +260,7 @@
                 },
                 "windSpeed": "7 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,70?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,80?size=small",
                 "shortForecast": "Rain Showers",
                 "detailedForecast": ""
             },
@@ -275,7 +275,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 68
+                    "value": 78
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -287,7 +287,7 @@
                 },
                 "windSpeed": "6 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,70?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,80?size=small",
                 "shortForecast": "Rain Showers",
                 "detailedForecast": ""
             },
@@ -302,7 +302,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 72
+                    "value": 77
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -314,7 +314,7 @@
                 },
                 "windSpeed": "6 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,70?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,80?size=small",
                 "shortForecast": "Rain Showers",
                 "detailedForecast": ""
             },
@@ -329,7 +329,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 66
+                    "value": 74
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -356,7 +356,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 55
+                    "value": 71
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -368,7 +368,7 @@
                 },
                 "windSpeed": "7 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,60?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,70?size=small",
                 "shortForecast": "Rain Showers Likely",
                 "detailedForecast": ""
             },
@@ -383,7 +383,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 41
+                    "value": 68
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -395,7 +395,7 @@
                 },
                 "windSpeed": "8 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,40?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,70?size=small",
                 "shortForecast": "Rain Showers Likely",
                 "detailedForecast": ""
             },
@@ -410,7 +410,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 38
+                    "value": 54
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -422,7 +422,7 @@
                 },
                 "windSpeed": "8 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/rain_showers,40?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers,50?size=small",
                 "shortForecast": "Chance Rain Showers",
                 "detailedForecast": ""
             },
@@ -437,7 +437,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 34
+                    "value": 41
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -449,7 +449,7 @@
                 },
                 "windSpeed": "9 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/rain_showers,30?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers,40?size=small",
                 "shortForecast": "Chance Rain Showers",
                 "detailedForecast": ""
             },
@@ -464,7 +464,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 41
+                    "value": 61
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -476,7 +476,7 @@
                 },
                 "windSpeed": "10 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/rain_showers,40?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers,60?size=small",
                 "shortForecast": "Rain Showers Likely",
                 "detailedForecast": ""
             },
@@ -491,7 +491,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 41
+                    "value": 55
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -503,7 +503,7 @@
                 },
                 "windSpeed": "12 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/rain_showers,40?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers,60?size=small",
                 "shortForecast": "Rain Showers Likely",
                 "detailedForecast": ""
             },
@@ -518,7 +518,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 49
+                    "value": 46
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -545,7 +545,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 48
+                    "value": 51
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -572,7 +572,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 55
+                    "value": 38
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -584,7 +584,7 @@
                 },
                 "windSpeed": "13 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/tsra,60?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/tsra,40?size=small",
                 "shortForecast": "Chance Showers And Thunderstorms",
                 "detailedForecast": ""
             },
@@ -599,34 +599,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 65
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": 23.88888888888889
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 91
-                },
-                "windSpeed": "13 mph",
-                "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/tsra,70?size=small",
-                "shortForecast": "Chance Showers And Thunderstorms",
-                "detailedForecast": ""
-            },
-            {
-                "number": 22,
-                "name": "",
-                "startTime": "2026-10-07T14:00:00-04:00",
-                "endTime": "2026-10-07T15:00:00-04:00",
-                "isDaytime": true,
-                "temperature": 78,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 48
+                    "value": 50
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -643,6 +616,33 @@
                 "detailedForecast": ""
             },
             {
+                "number": 22,
+                "name": "",
+                "startTime": "2026-10-07T14:00:00-04:00",
+                "endTime": "2026-10-07T15:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 78,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 38
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 23.88888888888889
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 91
+                },
+                "windSpeed": "13 mph",
+                "windDirection": "NE",
+                "icon": "https://api.weather.gov/icons/land/day/tsra,40?size=small",
+                "shortForecast": "Chance Showers And Thunderstorms",
+                "detailedForecast": ""
+            },
+            {
                 "number": 23,
                 "name": "",
                 "startTime": "2026-10-07T15:00:00-04:00",
@@ -653,7 +653,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 55
+                    "value": 44
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -665,7 +665,7 @@
                 },
                 "windSpeed": "14 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/tsra,60?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/tsra,40?size=small",
                 "shortForecast": "Chance Showers And Thunderstorms",
                 "detailedForecast": ""
             },
@@ -680,7 +680,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 48
+                    "value": 52
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -707,7 +707,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 40
+                    "value": 53
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -719,7 +719,7 @@
                 },
                 "windSpeed": "13 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/tsra,40?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/tsra,50?size=small",
                 "shortForecast": "Chance Showers And Thunderstorms",
                 "detailedForecast": ""
             },
@@ -734,7 +734,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 36
+                    "value": 45
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -746,7 +746,7 @@
                 },
                 "windSpeed": "14 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/tsra,40?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/tsra,50?size=small",
                 "shortForecast": "Chance Showers And Thunderstorms",
                 "detailedForecast": ""
             },
@@ -761,7 +761,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 30
+                    "value": 37
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -773,7 +773,7 @@
                 },
                 "windSpeed": "12 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/tsra,30?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/tsra,40?size=small",
                 "shortForecast": "Chance Showers And Thunderstorms",
                 "detailedForecast": ""
             },
