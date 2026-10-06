@@ -1,181 +1,495 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>UF North Central Florida Weather</title>
+
+<meta
+  http-equiv="refresh"
+  content="300"
+>
+
+<meta
+  name="viewport"
+  content="width=device-width,initial-scale=1"
+>
+
+<title>
+UF North Central Florida Weather
+</title>
+
 <style>
-:root{--blue:#0021A5;--orange:#FA4616;--ink:#0c1b33;--muted:#61718a;--panel:#fff;--bg:#eef3f8;--ok:#147a4b;--warn:#f5a000;--danger:#b42318}
-*{box-sizing:border-box} html,body{width:100%;height:100%;margin:0;overflow:hidden;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink)}
-body{display:grid;grid-template-rows:94px 1fr 34px}
-header{background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 34px;border-bottom:8px solid var(--orange)}
-.brand{display:flex;align-items:center;gap:18px}.ufmark{font-weight:900;font-size:34px;letter-spacing:1px;border-right:2px solid rgba(255,255,255,.5);padding-right:18px}
-.brand h1{font-size:27px;margin:0}.brand small{display:block;font-size:14px;opacity:.85;margin-top:4px;letter-spacing:.7px}
-.clock{text-align:right}.clock b{display:block;font-size:28px}.clock span{font-size:14px;opacity:.9}
-main{display:grid;grid-template-columns:29% 71%;min-height:0}
-.forecast{padding:18px;display:grid;grid-template-rows:1.65fr 1fr 1fr;gap:14px;background:#e7edf5}
-.card{background:var(--panel);border-radius:18px;box-shadow:0 4px 16px rgba(0,0,0,.10);padding:18px 22px;overflow:hidden}
-.today{border-top:7px solid var(--orange);display:grid;grid-template-rows:auto 1fr auto}
-.daytitle{font-weight:900;font-size:24px;color:var(--blue);letter-spacing:.8px}.condition{font-size:19px;color:var(--muted);margin-top:4px}
-.nowrow{display:flex;align-items:center;justify-content:space-between}.temp{font-size:82px;line-height:1;font-weight:900;color:var(--blue)}.wxicon{font-size:68px}
-.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;border-top:1px solid #dfe5ec;padding-top:14px}
-.metric{text-align:center}.metric label{display:block;color:var(--muted);font-size:13px;text-transform:uppercase;font-weight:700}.metric b{font-size:25px}
-.future{display:grid;grid-template-columns:1fr auto;align-items:center;border-left:7px solid var(--blue)}
-.future .left b{font-size:25px;color:var(--blue)}.future .left div{font-size:18px;color:var(--muted);margin-top:5px}.future .right{text-align:right}.future .right .icon{font-size:38px}.future .temps{font-size:24px;font-weight:800;margin-top:5px}.future .rain{font-size:16px;color:var(--muted);margin-top:5px}
-.radarwrap{display:grid;grid-template-rows:1fr auto;min-width:0;background:#cad4df}
-.radar{position:relative;min-height:0;background:#d9e2ea}
-.radar iframe{width:100%;height:100%;border:0;display:block}
-.radarlabel{position:absolute;left:20px;top:18px;z-index:5;background:rgba(0,33,165,.92);color:white;padding:10px 16px;border-radius:10px;font-weight:800;box-shadow:0 3px 12px rgba(0,0,0,.25);pointer-events:none}
-.alert{min-height:76px;padding:12px 24px;display:flex;align-items:center;gap:16px;background:#e9f6ef;color:#0b5d39;border-top:5px solid #28a36a}
-.alert .symbol{font-size:34px}.alert strong{font-size:21px;display:block}.alert span{font-size:15px}
-.alert.warning{background:#fff2d6;color:#7a4600;border-color:var(--warn)}.alert.danger{background:#ffe3e0;color:#82170f;border-color:var(--danger)}
-footer{background:#101c2d;color:#cdd6e2;display:flex;align-items:center;justify-content:space-between;padding:0 20px;font-size:12px}
-#error{color:#ffd0c8}
-@media(max-aspect-ratio:4/3){main{grid-template-columns:34% 66%}.temp{font-size:64px}}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e9eff6;
+    color: #10233e;
+}
+
+body {
+    display: grid;
+    grid-template-rows:
+        92px
+        1fr
+        32px;
+}
+
+header {
+    background: #0021A5;
+    color: white;
+    border-bottom:
+        7px solid #FA4616;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content:
+        space-between;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.uf {
+    font-size: 38px;
+    font-weight: 900;
+    border-right:
+        2px solid #ffffff88;
+    padding-right: 18px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.subtitle {
+    font-size: 13px;
+    letter-spacing: 1px;
+    opacity: .85;
+}
+
+.date {
+    text-align: right;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+main {
+    display: grid;
+    grid-template-columns:
+        29% 71%;
+    min-height: 0;
+}
+
+.forecast {
+    padding: 16px;
+    display: grid;
+    grid-template-rows:
+        1.7fr 1fr 1fr;
+    gap: 13px;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 18px 21px;
+    box-shadow:
+        0 3px 13px #0002;
+    overflow: hidden;
+}
+
+.today {
+    border-top:
+        7px solid #FA4616;
+    display: grid;
+    grid-template-rows:
+        auto 1fr auto;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #0021A5;
+}
+
+.condition {
+    font-size: 18px;
+    color: #62728a;
+    margin-top: 5px;
+}
+
+.now {
+    display: flex;
+    align-items: center;
+    justify-content:
+        space-between;
+}
+
+.temp {
+    font-size: 82px;
+    font-weight: 900;
+    color: #0021A5;
+}
+
+.icon {
+    font-size: 60px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns:
+        repeat(3,1fr);
+    border-top:
+        1px solid #dbe2ea;
+    padding-top: 12px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat label {
+    display: block;
+    font-size: 12px;
+    color: #62728a;
+    font-weight: bold;
+}
+
+.stat b {
+    font-size: 25px;
+}
+
+.future {
+    border-left:
+        7px solid #0021A5;
+    display: flex;
+    align-items: center;
+    justify-content:
+        space-between;
+}
+
+.future-name {
+    font-size: 24px;
+    font-weight: 900;
+    color: #0021A5;
+}
+
+.future-condition {
+    font-size: 17px;
+    color: #62728a;
+    margin-top: 5px;
+    max-width: 250px;
+}
+
+.future-right {
+    text-align: right;
+}
+
+.future-icon {
+    font-size: 38px;
+}
+
+.future-temp {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.future-rain {
+    font-size: 15px;
+    color: #62728a;
+}
+
+.right {
+    display: grid;
+    grid-template-rows:
+        1fr auto;
+    background: #cbd5df;
+}
+
+.radar {
+    position: relative;
+    overflow: hidden;
+    background: #18222d;
+}
+
+.radar img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.radar-label {
+    position: absolute;
+    top: 17px;
+    left: 18px;
+    background: #0021A5;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 9px;
+    font-weight: 900;
+}
+
+.alert {
+    min-height: 78px;
+    padding: 12px 22px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.normal {
+    background: #e8f6ee;
+    border-top:
+        5px solid #24965f;
+    color: #075c37;
+}
+
+.warning {
+    background: #fff2d8;
+    border-top:
+        5px solid #f2a000;
+    color: #744600;
+}
+
+.alert-symbol {
+    font-size: 31px;
+}
+
+.alert strong {
+    display: block;
+    font-size: 20px;
+}
+
+.alert span {
+    font-size: 14px;
+}
+
+footer {
+    background: #111e30;
+    color: #cbd4df;
+    padding: 0 18px;
+    display: flex;
+    align-items: center;
+    justify-content:
+        space-between;
+    font-size: 11px;
+}
+
 </style>
 </head>
+
 <body>
+
 <header>
-  <div class="brand"><div class="ufmark">UF</div><div><h1>North Central Florida Weather</h1><small>ENVIRONMENTAL HEALTH &amp; SAFETY • GAINESVILLE</small></div></div>
-  <div class="clock"><b id="clock">--:--</b><span id="date">Loading…</span></div>
+
+<div class="brand">
+
+<div class="uf">
+UF
+</div>
+
+<div>
+
+<h1>
+North Central Florida Weather
+</h1>
+
+<div class="subtitle">
+ENVIRONMENTAL HEALTH &amp; SAFETY
+• GAINESVILLE
+</div>
+
+</div>
+</div>
+
+<div class="date">
+TUESDAY • OCTOBER 06, 2026
+</div>
+
 </header>
+
 <main>
+
 <section class="forecast">
-  <article class="card today">
-    <div><div class="daytitle">TODAY • GAINESVILLE</div><div class="condition" id="condition">Loading current conditions…</div></div>
-    <div class="nowrow"><div class="temp" id="temp">--°</div><div class="wxicon" id="icon">☁️</div></div>
-    <div class="metrics">
-      <div class="metric"><label>Rain</label><b id="rain">--%</b></div>
-      <div class="metric"><label>High</label><b id="high">--°</b></div>
-      <div class="metric"><label>Low</label><b id="low">--°</b></div>
-    </div>
-  </article>
-  <article class="card future"><div class="left"><b id="d1name">TOMORROW</b><div id="d1cond">Loading forecast…</div></div><div class="right"><div class="icon" id="d1icon">☁️</div><div class="temps"><span id="d1hi">--°</span> / <span id="d1lo">--°</span></div><div class="rain">Rain <span id="d1rain">--%</span></div></div></article>
-  <article class="card future"><div class="left"><b id="d2name">DAY 3</b><div id="d2cond">Loading forecast…</div></div><div class="right"><div class="icon" id="d2icon">☁️</div><div class="temps"><span id="d2hi">--°</span> / <span id="d2lo">--°</span></div><div class="rain">Rain <span id="d2rain">--%</span></div></div></article>
+
+<article class="card today">
+
+<div>
+
+<div class="title">
+TODAY • GAINESVILLE
+</div>
+
+<div class="condition">
+Rain
+</div>
+
+</div>
+
+<div class="now">
+
+<div class="temp">
+73°
+</div>
+
+<div class="icon">
+🌧️
+</div>
+
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<label>RAIN</label>
+<b>80%</b>
+</div>
+
+<div class="stat">
+<label>HIGH</label>
+<b>77°</b>
+</div>
+
+<div class="stat">
+<label>LOW</label>
+<b>70°</b>
+</div>
+
+</div>
+
+</article>
+
+<article class="card future">
+
+<div>
+
+<div class="future-name">
+WEDNESDAY
+</div>
+
+<div class="future-condition">
+Chance Showers And Thunderstorms
+</div>
+
+</div>
+
+<div class="future-right">
+
+<div class="future-icon">
+⛈️
+</div>
+
+<div class="future-temp">
+80°
+/
+70°
+</div>
+
+<div class="future-rain">
+Rain 49%
+</div>
+
+</div>
+
+</article>
+
+<article class="card future">
+
+<div>
+
+<div class="future-name">
+THURSDAY
+</div>
+
+<div class="future-condition">
+Showers And Thunderstorms Likely
+</div>
+
+</div>
+
+<div class="future-right">
+
+<div class="future-icon">
+⛈️
+</div>
+
+<div class="future-temp">
+79°
+/
+69°
+</div>
+
+<div class="future-rain">
+Rain 63%
+</div>
+
+</div>
+
+</article>
+
 </section>
-<section class="radarwrap">
-  <div class="radar">
-    <div class="radarlabel">LIVE NWS RADAR • NORTH CENTRAL FLORIDA</div>
-    <img id="radarFrame" alt="North Central Florida live NEXRAD radar" style="width:100%;height:100%;object-fit:fill;display:block">
-  </div>
-  <div class="alert" id="alert"><div class="symbol">✓</div><div><strong>CHECKING WEATHER ALERTS…</strong><span>National Weather Service</span></div></div>
+
+<section class="right">
+
+<div class="radar">
+
+<img
+  src="https://mesonet.agron.iastate.edu/GIS/radmap.php?width=1200&amp;height=850&amp;bbox=-85.0,27.4,-80.2,31.6&amp;layers[]=uscounties&amp;layers[]=nexrad&amp;layers[]=sbw&amp;layers[]=places&amp;layers[]=interstates&amp;layers[]=legend"
+  alt="North Central Florida Radar"
+>
+
+<div class="radar-label">
+LIVE RADAR • NORTH CENTRAL FLORIDA
+</div>
+
+</div>
+
+<div class="alert normal">
+
+<div class="alert-symbol">
+✓
+</div>
+
+<div>
+
+<strong>
+NO ACTIVE NWS WEATHER ALERTS FOR GAINESVILLE
+</strong>
+
+<span>
+National Weather Service
+</span>
+
+</div>
+
+</div>
+
 </section>
+
 </main>
-<footer><span>Weather data: NOAA / National Weather Service</span><span id="updated">Waiting for first update…</span><span id="error"></span></footer>
-<script>
-const LAT=29.6436, LON=-82.3549; // UF Gainesville area
-const UA='UF-EHS-Lobby-Weather/1.0 (digital signage)';
-const $=id=>document.getElementById(id);
-let point=null, forecastUrl=null, hourlyUrl=null, stationsUrl=null;
 
-function clock(){
- const d=new Date();
- $('clock').textContent=d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});
- $('date').textContent=d.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'}).toUpperCase();
-}
-function iconFor(s=''){
- s=s.toLowerCase();
- if(s.includes('thunder'))return '⛈️'; if(s.includes('snow')||s.includes('sleet'))return '🌨️';
- if(s.includes('rain')||s.includes('shower'))return '🌧️'; if(s.includes('fog'))return '🌫️';
- if(s.includes('mostly sunny')||s.includes('partly cloudy'))return '🌤️'; if(s.includes('sunny')||s.includes('clear'))return '☀️';
- if(s.includes('cloud'))return '☁️'; return '🌤️';
-}
-async function j(url){
- const sep=url.includes('?')?'&':'?';
- const r=await fetch(url+sep+'_cb='+Date.now(),{cache:'no-store',headers:{'Accept':'application/json'}});
- if(!r.ok) throw new Error('Weather data '+r.status);
- return r.json();
-}
-async function initPoint(){
- point=await j(`data/point.json`);
- forecastUrl='data/forecast.json'; hourlyUrl='data/hourly.json'; stationsUrl='data/stations.json';
-}
-async function updateWeather(){
- try{
-  if(!point) await initPoint();
-  const [fc,hourly,stations]=await Promise.all([j(forecastUrl),j(hourlyUrl),j(stationsUrl)]);
-  const periods=fc.properties.periods;
-  let obs=null;
-  try{obs=await j('data/current.json');}catch(e){}
-  const now=hourly.properties.periods[0];
-  let tf=now.temperature;
-  if(obs?.properties?.temperature?.value!=null) tf=Math.round(obs.properties.temperature.value*9/5+32);
-  $('temp').textContent=tf+'°';
-  $('condition').textContent=obs?.properties?.textDescription || now.shortForecast;
-  $('icon').textContent=iconFor($('condition').textContent);
-  $('rain').textContent=(now.probabilityOfPrecipitation?.value ?? 0)+'%';
+<footer>
 
-  const days=[];
-  for(let i=0;i<periods.length;i++){
-    const p=periods[i]; const date=new Date(p.startTime).toLocaleDateString('en-CA');
-    let d=days.find(x=>x.date===date); if(!d){d={date,day:null,night:null};days.push(d);}
-    if(p.isDaytime)d.day=p; else d.night=p;
-  }
-  const today=days[0];
-  $('high').textContent=(today.day?.temperature ?? periods[0].temperature)+'°';
-  $('low').textContent=(today.night?.temperature ?? '--')+'°';
-  for(let k=1;k<=2;k++){
-    const d=days[k]; if(!d)continue; const p=d.day||d.night;
-    $(`d${k}name`).textContent=new Date(d.date+'T12:00:00').toLocaleDateString('en-US',{weekday:'long'}).toUpperCase();
-    $(`d${k}cond`).textContent=p.shortForecast;
-    $(`d${k}icon`).textContent=iconFor(p.shortForecast);
-    $(`d${k}hi`).textContent=(d.day?.temperature ?? '--')+'°';
-    $(`d${k}lo`).textContent=(d.night?.temperature ?? '--')+'°';
-    const probs=[d.day?.probabilityOfPrecipitation?.value,d.night?.probabilityOfPrecipitation?.value].filter(v=>v!=null);
-    $(`d${k}rain`).textContent=(probs.length?Math.max(...probs):0)+'%';
-  }
-  $('updated').textContent='Updated '+new Date().toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});
-  $('error').textContent='';
- }catch(e){$('error').textContent='Weather feed temporarily unavailable'; console.error(e);}
-}
-async function updateAlerts(){
- try{
-  const a=await j(`data/alerts.json`);
-  const box=$('alert');
-  if(!a.features.length){box.className='alert';box.innerHTML='<div class="symbol">✓</div><div><strong>NO ACTIVE NWS WEATHER ALERTS FOR GAINESVILLE</strong><span>Conditions can change quickly. Display updates automatically.</span></div>';return;}
-  const f=a.features[0].properties, severe=/Extreme|Severe/i.test(f.severity)||/Tornado Warning|Severe Thunderstorm Warning/i.test(f.event);
-  box.className='alert '+(severe?'danger':'warning');
-  const end=f.ends?new Date(f.ends).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}):'until further notice';
-  box.innerHTML=`<div class="symbol">${severe?'⚠':'!'}</div><div><strong>${f.event.toUpperCase()}</strong><span>${f.areaDesc} • ${end}</span></div>`;
- }catch(e){console.error(e);}
-}
-let radarFrames=[], radarIndex=0, radarTimer=null;
-function radarStamp(minutesAgo){
- const d=new Date(Date.now()-minutesAgo*60000);
- const z=n=>String(n).padStart(2,'0');
- return d.getUTCFullYear()+z(d.getUTCMonth()+1)+z(d.getUTCDate())+z(d.getUTCHours())+z(d.getUTCMinutes());
-}
-function buildRadarFrames(){
- radarFrames=[];
- for(let m=30;m>=0;m-=5){
-  let u='https://mesonet.agron.iastate.edu/GIS/radmap.php?width=1200&height=850&bbox=-85.0,27.4,-80.2,31.6';
-  u+='&layers[]=uscounties&layers[]=nexrad&layers[]=sbw&layers[]=places&layers[]=interstates&layers[]=legend';
-  u+='&ts='+radarStamp(m);
-  radarFrames.push(u);
- }
- radarFrames.forEach(u=>{const im=new Image();im.src=u;});
- radarIndex=0;
-}
-function playRadar(){
- if(!radarFrames.length) buildRadarFrames();
- $('radarFrame').src=radarFrames[radarIndex]+'&_='+Date.now();
- radarIndex++;
- if(radarIndex>=radarFrames.length){
-  radarIndex=0;
-  radarTimer=setTimeout(playRadar,1800);
- } else {
-  radarTimer=setTimeout(playRadar,750);
- }
-}
-function loadRadar(){
- if(radarTimer) clearTimeout(radarTimer);
- buildRadarFrames();
- playRadar();
-}
-clock(); setInterval(clock,1000);
-loadRadar(); updateWeather(); updateAlerts();
-setInterval(updateWeather,5*60*1000);
-setInterval(updateAlerts,60*1000);
-setInterval(loadRadar,5*60*1000);
-</script>
-</body></html>
+<span>
+NOAA / National Weather Service
+</span>
+
+<span>
+WEATHER UPDATED 9:53 AM
+</span>
+
+</footer>
+
+</body>
+</html>
