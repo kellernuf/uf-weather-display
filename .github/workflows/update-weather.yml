@@ -1,19 +1,78 @@
-      - name: Build 30 minute radar loop
+name: Build UF Weather Display
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build-weather:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch NWS weather
+        run: |
+          mkdir -p data
+
+          curl --fail --retry 3 \
+            -H "User-Agent: UF-EHS-Lobby-Weather/1.0" \
+            -H "Accept: application/geo+json" \
+            "https://api.weather.gov/points/29.6436,-82.3549" \
+            -o data/point.json
+
+          FORECAST=$(jq -r '.properties.forecast' data/point.json)
+          HOURLY=$(jq -r '.properties.forecastHourly' data/point.json)
+          STATIONS=$(jq -r '.properties.observationStations' data/point.json)
+
+          curl --fail --retry 3 \
+            -H "User-Agent: UF-EHS-Lobby-Weather/1.0" \
+            "$FORECAST" \
+            -o data/forecast.json
+
+          curl --fail --retry 3 \
+            -H "User-Agent: UF-EHS-Lobby-Weather/1.0" \
+            "$HOURLY" \
+            -o data/hourly.json
+
+          curl --fail --retry 3 \
+            -H "User-Agent: UF-EHS-Lobby-Weather/1.0" \
+            "$STATIONS" \
+            -o data/stations.json
+
+          STATION=$(jq -r '.features[0].id' data/stations.json)
+
+          curl --fail --retry 3 \
+            -H "User-Agent: UF-EHS-Lobby-Weather/1.0" \
+            "$STATION/observations/latest" \
+            -o data/current.json
+
+          curl --fail --retry 3 \
+            -H "User-Agent: UF-EHS-Lobby-Weather/1.0" \
+            "https://api.weather.gov/alerts/active?point=29.6436,-82.3549" \
+            -o data/alerts.json
+
+      - name: Install radar tools
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick
 
+      - name: Build 30 minute radar loop
+        run: |
           mkdir -p radar
           rm -f radar/*.png radar/radar-loop.gif
 
           python3 <<'PY'
           from datetime import datetime, timedelta, timezone
           import subprocess
-          import os
 
           now = datetime.now(timezone.utc)
 
-          # Round down to the most recent 5-minute interval.
           now = now.replace(
               minute=(now.minute // 5) * 5,
               second=0,
@@ -22,7 +81,6 @@
 
           frames = []
 
-          # 30 minutes ago through now
           for minutes_ago in range(30, -1, -5):
 
               frame_time = now - timedelta(
@@ -53,8 +111,8 @@
               )
 
               print(
-                  f"Downloading radar "
-                  f"{minutes_ago} minutes ago..."
+                  f"Downloading radar frame "
+                  f"{minutes_ago} minutes ago"
               )
 
               subprocess.run(
@@ -72,26 +130,23 @@
 
               frames.append(filename)
 
-          # Make NOW linger longer than previous frames.
-          gif_inputs = []
+          command = ["convert"]
 
           for frame in frames[:-1]:
-              gif_inputs.extend([
-                  "-delay", "75",
-                  frame
-              ])
+              command.extend(
+                  ["-delay", "75", frame]
+              )
 
-          gif_inputs.extend([
-              "-delay", "200",
-              frames[-1]
-          ])
+          command.extend(
+              ["-delay", "200", frames[-1]]
+          )
 
-          command = [
-              "convert",
-              *gif_inputs,
-              "-loop", "0",
-              "radar/radar-loop.gif"
-          ]
+          command.extend(
+              [
+                  "-loop", "0",
+                  "radar/radar-loop.gif"
+              ]
+          )
 
           subprocess.run(
               command,
@@ -109,3 +164,823 @@
               )
 
           PY
+
+      - name: Build static weather page
+        run: |
+          python3 <<'PY'
+          import json
+          import html
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          with open("data/forecast.json") as f:
+              forecast = json.load(f)
+
+          with open("data/hourly.json") as f:
+              hourly = json.load(f)
+
+          with open("data/current.json") as f:
+              current = json.load(f)
+
+          with open("data/alerts.json") as f:
+              alerts = json.load(f)
+
+          periods = forecast["properties"]["periods"]
+
+          hourly_periods = (
+              hourly["properties"]["periods"]
+          )
+
+          hour = hourly_periods[0]
+
+          celsius = (
+              current
+              .get("properties", {})
+              .get("temperature", {})
+              .get("value")
+          )
+
+          if celsius is not None:
+              temp = round(
+                  celsius * 9 / 5 + 32
+              )
+          else:
+              temp = hour.get(
+                  "temperature",
+                  "--"
+              )
+
+          condition = (
+              current
+              .get("properties", {})
+              .get("textDescription")
+              or hour.get("shortForecast")
+              or "Current Conditions"
+          )
+
+          rain = (
+              hour
+              .get(
+                  "probabilityOfPrecipitation",
+                  {}
+              )
+              .get("value")
+          )
+
+          if rain is None:
+              rain = 0
+
+          days = []
+
+          for p in periods:
+
+              date = p["startTime"][:10]
+
+              existing = next(
+                  (
+                      d for d in days
+                      if d["date"] == date
+                  ),
+                  None
+              )
+
+              if existing is None:
+                  existing = {
+                      "date": date,
+                      "day": None,
+                      "night": None
+                  }
+
+                  days.append(existing)
+
+              if p["isDaytime"]:
+                  existing["day"] = p
+              else:
+                  existing["night"] = p
+
+          today = days[0]
+
+          if today["day"]:
+              high = today["day"][
+                  "temperature"
+              ]
+          else:
+              high = "--"
+
+          if today["night"]:
+              low = today["night"][
+                  "temperature"
+              ]
+          else:
+              low = "--"
+
+          def future_day(index):
+
+              if index >= len(days):
+                  return {
+                      "name": "",
+                      "condition": "",
+                      "high": "--",
+                      "low": "--",
+                      "rain": 0
+                  }
+
+              d = days[index]
+
+              p = (
+                  d["day"]
+                  or d["night"]
+                  or {}
+              )
+
+              dt = datetime.fromisoformat(
+                  d["date"] + "T12:00:00"
+              )
+
+              probs = []
+
+              if d["day"]:
+
+                  value = (
+                      d["day"]
+                      .get(
+                          "probabilityOfPrecipitation",
+                          {}
+                      )
+                      .get("value")
+                  )
+
+                  if value is not None:
+                      probs.append(value)
+
+              if d["night"]:
+
+                  value = (
+                      d["night"]
+                      .get(
+                          "probabilityOfPrecipitation",
+                          {}
+                      )
+                      .get("value")
+                  )
+
+                  if value is not None:
+                      probs.append(value)
+
+              return {
+                  "name":
+                      dt.strftime("%A").upper(),
+
+                  "condition":
+                      p.get(
+                          "shortForecast",
+                          ""
+                      ),
+
+                  "high":
+                      d["day"]["temperature"]
+                      if d["day"]
+                      else "--",
+
+                  "low":
+                      d["night"]["temperature"]
+                      if d["night"]
+                      else "--",
+
+                  "rain":
+                      max(probs)
+                      if probs
+                      else 0
+              }
+
+          day1 = future_day(1)
+          day2 = future_day(2)
+
+          def weather_icon(text):
+
+              text = text.lower()
+
+              if "thunder" in text:
+                  return "⛈️"
+
+              if (
+                  "rain" in text
+                  or "shower" in text
+              ):
+                  return "🌧️"
+
+              if "fog" in text:
+                  return "🌫️"
+
+              if "cloud" in text:
+                  return "☁️"
+
+              if (
+                  "sun" in text
+                  or "clear" in text
+              ):
+                  return "☀️"
+
+              return "🌤️"
+
+          features = alerts.get(
+              "features",
+              []
+          )
+
+          if features:
+
+              a = features[0][
+                  "properties"
+              ]
+
+              alert_title = (
+                  a.get(
+                      "event",
+                      "WEATHER ALERT"
+                  )
+                  .upper()
+              )
+
+              alert_area = a.get(
+                  "areaDesc",
+                  "Gainesville Area"
+              )
+
+              alert_class = "warning"
+              alert_symbol = "⚠"
+
+          else:
+
+              alert_title = (
+                  "NO ACTIVE NWS WEATHER "
+                  "ALERTS FOR GAINESVILLE"
+              )
+
+              alert_area = (
+                  "National Weather Service"
+              )
+
+              alert_class = "normal"
+              alert_symbol = "✓"
+
+          now = datetime.now(
+              ZoneInfo(
+                  "America/New_York"
+              )
+          )
+
+          updated = (
+              now
+              .strftime("%I:%M %p")
+              .lstrip("0")
+          )
+
+          date_text = (
+              now
+              .strftime(
+                  "%A • %B %d, %Y"
+              )
+              .upper()
+          )
+
+          def safe(value):
+              return html.escape(
+                  str(value)
+              )
+
+          page = f"""<!doctype html>
+
+          <html lang="en">
+
+          <head>
+
+          <meta charset="utf-8">
+
+          <meta
+              http-equiv="refresh"
+              content="300"
+          >
+
+          <meta
+              name="viewport"
+              content="width=device-width,
+              initial-scale=1"
+          >
+
+          <title>
+          UF North Central Florida Weather
+          </title>
+
+          <style>
+
+          * {{
+              box-sizing: border-box;
+          }}
+
+          html,
+          body {{
+              width: 100%;
+              height: 100%;
+              margin: 0;
+              overflow: hidden;
+              font-family:
+                  Arial,
+                  Helvetica,
+                  sans-serif;
+              background: #e9eff6;
+              color: #10233e;
+          }}
+
+          body {{
+              display: grid;
+              grid-template-rows:
+                  92px
+                  1fr
+                  32px;
+          }}
+
+          header {{
+              background: #0021A5;
+              color: white;
+              border-bottom:
+                  7px solid #FA4616;
+              padding: 0 32px;
+              display: flex;
+              align-items: center;
+              justify-content:
+                  space-between;
+          }}
+
+          .brand {{
+              display: flex;
+              align-items: center;
+              gap: 18px;
+          }}
+
+          .uf {{
+              font-size: 38px;
+              font-weight: 900;
+              border-right:
+                  2px solid #ffffff88;
+              padding-right: 18px;
+          }}
+
+          h1 {{
+              margin: 0;
+              font-size: 28px;
+          }}
+
+          .subtitle {{
+              font-size: 13px;
+              letter-spacing: 1px;
+              opacity: .85;
+          }}
+
+          .date {{
+              text-align: right;
+              font-size: 17px;
+              font-weight: bold;
+          }}
+
+          main {{
+              display: grid;
+              grid-template-columns:
+                  29% 71%;
+              min-height: 0;
+          }}
+
+          .forecast {{
+              padding: 16px;
+              display: grid;
+              grid-template-rows:
+                  1.7fr 1fr 1fr;
+              gap: 13px;
+          }}
+
+          .card {{
+              background: white;
+              border-radius: 16px;
+              padding: 18px 21px;
+              box-shadow:
+                  0 3px 13px #0002;
+              overflow: hidden;
+          }}
+
+          .today {{
+              border-top:
+                  7px solid #FA4616;
+              display: grid;
+              grid-template-rows:
+                  auto 1fr auto;
+          }}
+
+          .title {{
+              font-size: 24px;
+              font-weight: 900;
+              color: #0021A5;
+          }}
+
+          .condition {{
+              font-size: 18px;
+              color: #62728a;
+              margin-top: 5px;
+          }}
+
+          .now {{
+              display: flex;
+              align-items: center;
+              justify-content:
+                  space-between;
+          }}
+
+          .temp {{
+              font-size: 82px;
+              font-weight: 900;
+              color: #0021A5;
+          }}
+
+          .icon {{
+              font-size: 60px;
+          }}
+
+          .stats {{
+              display: grid;
+              grid-template-columns:
+                  repeat(3, 1fr);
+              border-top:
+                  1px solid #dbe2ea;
+              padding-top: 12px;
+          }}
+
+          .stat {{
+              text-align: center;
+          }}
+
+          .stat label {{
+              display: block;
+              font-size: 12px;
+              color: #62728a;
+              font-weight: bold;
+          }}
+
+          .stat b {{
+              font-size: 25px;
+          }}
+
+          .future {{
+              border-left:
+                  7px solid #0021A5;
+              display: flex;
+              align-items: center;
+              justify-content:
+                  space-between;
+          }}
+
+          .future-name {{
+              font-size: 24px;
+              font-weight: 900;
+              color: #0021A5;
+          }}
+
+          .future-condition {{
+              font-size: 17px;
+              color: #62728a;
+              margin-top: 5px;
+              max-width: 250px;
+          }}
+
+          .future-right {{
+              text-align: right;
+          }}
+
+          .future-icon {{
+              font-size: 38px;
+          }}
+
+          .future-temp {{
+              font-size: 23px;
+              font-weight: bold;
+          }}
+
+          .future-rain {{
+              font-size: 15px;
+              color: #62728a;
+          }}
+
+          .right {{
+              display: grid;
+              grid-template-rows:
+                  1fr auto;
+              background: #cbd5df;
+          }}
+
+          .radar {{
+              position: relative;
+              overflow: hidden;
+              background: #18222d;
+          }}
+
+          .radar img {{
+              width: 100%;
+              height: 100%;
+              object-fit: fill;
+              display: block;
+          }}
+
+          .radar-label {{
+              position: absolute;
+              top: 17px;
+              left: 18px;
+              background: #0021A5;
+              color: white;
+              padding: 10px 15px;
+              border-radius: 9px;
+              font-weight: 900;
+          }}
+
+          .alert {{
+              min-height: 78px;
+              padding: 12px 22px;
+              display: flex;
+              align-items: center;
+              gap: 15px;
+          }}
+
+          .normal {{
+              background: #e8f6ee;
+              border-top:
+                  5px solid #24965f;
+              color: #075c37;
+          }}
+
+          .warning {{
+              background: #fff2d8;
+              border-top:
+                  5px solid #f2a000;
+              color: #744600;
+          }}
+
+          .alert-symbol {{
+              font-size: 31px;
+          }}
+
+          .alert strong {{
+              display: block;
+              font-size: 20px;
+          }}
+
+          .alert span {{
+              font-size: 14px;
+          }}
+
+          footer {{
+              background: #111e30;
+              color: #cbd4df;
+              padding: 0 18px;
+              display: flex;
+              align-items: center;
+              justify-content:
+                  space-between;
+              font-size: 11px;
+          }}
+
+          </style>
+
+          </head>
+
+          <body>
+
+          <header>
+
+          <div class="brand">
+
+          <div class="uf">
+          UF
+          </div>
+
+          <div>
+
+          <h1>
+          North Central Florida Weather
+          </h1>
+
+          <div class="subtitle">
+          ENVIRONMENTAL HEALTH &amp; SAFETY
+          • GAINESVILLE
+          </div>
+
+          </div>
+
+          </div>
+
+          <div class="date">
+          {safe(date_text)}
+          </div>
+
+          </header>
+
+          <main>
+
+          <section class="forecast">
+
+          <article class="card today">
+
+          <div>
+
+          <div class="title">
+          TODAY • GAINESVILLE
+          </div>
+
+          <div class="condition">
+          {safe(condition)}
+          </div>
+
+          </div>
+
+          <div class="now">
+
+          <div class="temp">
+          {safe(temp)}°
+          </div>
+
+          <div class="icon">
+          {weather_icon(condition)}
+          </div>
+
+          </div>
+
+          <div class="stats">
+
+          <div class="stat">
+          <label>RAIN</label>
+          <b>{safe(rain)}%</b>
+          </div>
+
+          <div class="stat">
+          <label>HIGH</label>
+          <b>{safe(high)}°</b>
+          </div>
+
+          <div class="stat">
+          <label>LOW</label>
+          <b>{safe(low)}°</b>
+          </div>
+
+          </div>
+
+          </article>
+
+          <article class="card future">
+
+          <div>
+
+          <div class="future-name">
+          {safe(day1["name"])}
+          </div>
+
+          <div class="future-condition">
+          {safe(day1["condition"])}
+          </div>
+
+          </div>
+
+          <div class="future-right">
+
+          <div class="future-icon">
+          {weather_icon(day1["condition"])}
+          </div>
+
+          <div class="future-temp">
+          {safe(day1["high"])}°
+          /
+          {safe(day1["low"])}°
+          </div>
+
+          <div class="future-rain">
+          Rain {safe(day1["rain"])}%
+          </div>
+
+          </div>
+
+          </article>
+
+          <article class="card future">
+
+          <div>
+
+          <div class="future-name">
+          {safe(day2["name"])}
+          </div>
+
+          <div class="future-condition">
+          {safe(day2["condition"])}
+          </div>
+
+          </div>
+
+          <div class="future-right">
+
+          <div class="future-icon">
+          {weather_icon(day2["condition"])}
+          </div>
+
+          <div class="future-temp">
+          {safe(day2["high"])}°
+          /
+          {safe(day2["low"])}°
+          </div>
+
+          <div class="future-rain">
+          Rain {safe(day2["rain"])}%
+          </div>
+
+          </div>
+
+          </article>
+
+          </section>
+
+          <section class="right">
+
+          <div class="radar">
+
+          <img
+              src="radar/radar-loop.gif"
+              alt="North Central Florida
+              30 Minute Radar Loop"
+          >
+
+          <div class="radar-label">
+          RADAR LOOP • PAST 30 MINUTES
+          </div>
+
+          </div>
+
+          <div class="alert {alert_class}">
+
+          <div class="alert-symbol">
+          {alert_symbol}
+          </div>
+
+          <div>
+
+          <strong>
+          {safe(alert_title)}
+          </strong>
+
+          <span>
+          {safe(alert_area)}
+          </span>
+
+          </div>
+
+          </div>
+
+          </section>
+
+          </main>
+
+          <footer>
+
+          <span>
+          NOAA / National Weather Service
+          • NEXRAD Radar
+          </span>
+
+          <span>
+          WEATHER &amp; RADAR UPDATED
+          {safe(updated)}
+          </span>
+
+          </footer>
+
+          </body>
+
+          </html>
+          """
+
+          with open(
+              "index.html",
+              "w",
+              encoding="utf-8"
+          ) as f:
+              f.write(page)
+
+          PY
+
+      - name: Commit updated display
+        run: |
+          git config user.name "UF Weather Bot"
+          git config user.email "actions@github.com"
+
+          git add index.html data/ radar/
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit \
+              -m "Update UF weather and radar"
+
+            git push
+          fi
