@@ -1,0 +1,74 @@
+name: Update UF Weather Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-weather:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download Gainesville weather data
+        run: |
+          mkdir -p data
+
+          curl --fail --retry 3 \
+            -H "User-Agent: UF-EHS-Lobby-Weather/1.0" \
+            -H "Accept: application/geo+json" \
+            "https://api.weather.gov/points/29.6436,-82.3549" \
+            -o data/point.json
+
+          FORECAST=$(jq -r '.properties.forecast' data/point.json)
+          HOURLY=$(jq -r '.properties.forecastHourly' data/point.json)
+          STATIONS=$(jq -r '.properties.observationStations' data/point.json)
+
+          curl --fail --retry 3 \
+            -H "User-Agent: UF-EHS-Lobby-Weather/1.0" \
+            "$FORECAST" \
+            -o data/forecast.json
+
+          curl --fail --retry 3 \
+            -H "User-Agent: UF-EHS-Lobby-Weather/1.0" \
+            "$HOURLY" \
+            -o data/hourly.json
+
+          curl --fail --retry 3 \
+            -H "User-Agent: UF-EHS-Lobby-Weather/1.0" \
+            "$STATIONS" \
+            -o data/stations.json
+
+          STATION=$(jq -r '.features[0].id' data/stations.json)
+
+          curl --fail --retry 3 \
+            -H "User-Agent: UF-EHS-Lobby-Weather/1.0" \
+            "$STATION/observations/latest" \
+            -o data/current.json
+
+          curl --fail --retry 3 \
+            -H "User-Agent: UF-EHS-Lobby-Weather/1.0" \
+            "https://api.weather.gov/alerts/active?point=29.6436,-82.3549" \
+            -o data/alerts.json
+
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > data/updated.txt
+
+      - name: Save updated weather
+        run: |
+          git config user.name "UF Weather Bot"
+          git config user.email "actions@github.com"
+
+          git add data/
+
+          if git diff --cached --quiet; then
+            echo "No weather changes to commit."
+          else
+            git commit -m "Update live weather data"
+            git push
+          fi
