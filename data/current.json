@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KGNV/observations/2026-10-06T13:40:00+00:00",
+    "id": "https://api.weather.gov/stations/KGNV/observations/2026-10-06T13:45:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-10-06T13:40:00+00:00",
+        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-10-06T13:45:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,16 +61,16 @@
         "station": "https://api.weather.gov/stations/KGNV",
         "stationId": "KGNV",
         "stationName": "Gainesville, Gainesville Regional Airport",
-        "timestamp": "2026-10-06T13:40:00+00:00",
+        "timestamp": "2026-10-06T13:45:00+00:00",
         "rawMessage": "",
-        "textDescription": "Rain",
+        "textDescription": "Heavy Rain",
         "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
         "presentWeather": [
             {
-                "intensity": null,
+                "intensity": "heavy",
                 "modifier": null,
                 "weather": "rain",
-                "rawString": "RA"
+                "rawString": "+RA"
             }
         ],
         "temperature": {
@@ -85,7 +85,7 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 40,
+            "value": 30,
             "qualityControl": "V"
         },
         "windSpeed": {
