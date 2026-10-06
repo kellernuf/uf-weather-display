@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KGNV/observations/2026-10-06T19:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KGNV/observations/2026-10-06T20:10:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-10-06T19:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-10-06T20:10:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,7 +61,7 @@
         "station": "https://api.weather.gov/stations/KGNV",
         "stationId": "KGNV",
         "stationName": "Gainesville, Gainesville Regional Airport",
-        "timestamp": "2026-10-06T19:55:00+00:00",
+        "timestamp": "2026-10-06T20:10:00+00:00",
         "rawMessage": "",
         "textDescription": "Mostly Cloudy",
         "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
@@ -83,7 +83,7 @@
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 18.504,
+            "value": 16.668,
             "qualityControl": "V"
         },
         "windGust": {
@@ -140,7 +140,7 @@
                     "unitCode": "wmoUnit:m",
                     "value": 304.8
                 },
-                "amount": "FEW"
+                "amount": "BKN"
             },
             {
                 "base": {
