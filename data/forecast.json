@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-06T19:02:25+00:00",
+        "generatedAt": "2026-10-06T18:34:49+00:00",
         "updateTime": "2026-10-06T18:21:31+00:00",
         "validTimes": "2026-10-06T12:00:00+00:00/P7DT13H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "This Afternoon",
-                "startTime": "2026-10-06T15:00:00-04:00",
+                "startTime": "2026-10-06T14:00:00-04:00",
                 "endTime": "2026-10-06T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 75,
@@ -59,7 +59,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 92
+                    "value": 93
                 },
                 "windSpeed": "9 mph",
                 "windDirection": "NE",
