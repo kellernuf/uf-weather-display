@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KGNV/observations/2026-10-06T17:35:00+00:00",
+    "id": "https://api.weather.gov/stations/KGNV/observations/2026-10-06T17:55:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-10-06T17:35:00+00:00",
+        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-10-06T17:55:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,7 +61,7 @@
         "station": "https://api.weather.gov/stations/KGNV",
         "stationId": "KGNV",
         "stationName": "Gainesville, Gainesville Regional Airport",
-        "timestamp": "2026-10-06T17:35:00+00:00",
+        "timestamp": "2026-10-06T17:55:00+00:00",
         "rawMessage": "",
         "textDescription": "Light Rain",
         "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
@@ -75,12 +75,12 @@
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 24,
+            "value": 25,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 23,
+            "value": 24,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -100,7 +100,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101456.2,
+            "value": 101422.34,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -128,7 +128,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 94.148645022418,
+            "value": 94.191011834057,
             "qualityControl": "V"
         },
         "windChill": {
@@ -138,7 +138,7 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 24.913881286696668,
+            "value": 26.01498753122278,
             "qualityControl": "V"
         },
         "cloudLayers": [
@@ -152,7 +152,7 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 365.76
+                    "value": 1524
                 },
                 "amount": "BKN"
             },
@@ -161,7 +161,7 @@
                     "unitCode": "wmoUnit:m",
                     "value": 1981.2
                 },
-                "amount": "BKN"
+                "amount": "OVC"
             }
         ]
     }
