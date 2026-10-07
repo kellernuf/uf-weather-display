@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-06T22:23:43+00:00",
+        "generatedAt": "2026-10-07T02:39:28+00:00",
         "updateTime": "2026-10-06T21:47:28+00:00",
         "validTimes": "2026-10-06T15:00:00+00:00/P7DT10H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Tonight",
-                "startTime": "2026-10-06T18:00:00-04:00",
+                "startTime": "2026-10-06T22:00:00-04:00",
                 "endTime": "2026-10-07T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 70,
@@ -59,13 +59,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 100
+                    "value": 89
                 },
-                "windSpeed": "7 to 12 mph",
+                "windSpeed": "9 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/tsra,100/tsra,90?size=medium",
+                "icon": "https://api.weather.gov/icons/land/night/tsra,90?size=medium",
                 "shortForecast": "Showers And Thunderstorms",
-                "detailedForecast": "Showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy. Low around 70, with temperatures rising to around 71 overnight. Northeast wind 7 to 12 mph, with gusts as high as 17 mph. Chance of precipitation is 100%. New rainfall amounts between 1 and 2 inches possible."
+                "detailedForecast": "Showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy. Low around 70, with temperatures rising to around 71 overnight. Northeast wind around 9 mph. Chance of precipitation is 90%. New rainfall amounts between three quarters and one inch possible."
             },
             {
                 "number": 2,
