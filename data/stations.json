@@ -138,8 +138,8 @@
                 "stationIdentifier": "K42J",
                 "name": "Keystone Heights Airport",
                 "timeZone": "America/New_York",
-                "provider": "OTHER-MTR",
-                "subProvider": "",
+                "provider": "NonFedAWOS",
+                "subProvider": "TG",
                 "distance": {
                     "unitCode": "wmoUnit:m",
                     "value": 37192.655583351
