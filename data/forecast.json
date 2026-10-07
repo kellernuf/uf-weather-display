@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-07T15:01:04+00:00",
+        "generatedAt": "2026-10-07T16:02:31+00:00",
         "updateTime": "2026-10-07T14:11:28+00:00",
         "validTimes": "2026-10-07T08:00:00+00:00/P7DT17H",
         "elevation": {
@@ -50,8 +50,8 @@
         "periods": [
             {
                 "number": 1,
-                "name": "Today",
-                "startTime": "2026-10-07T11:00:00-04:00",
+                "name": "This Afternoon",
+                "startTime": "2026-10-07T12:00:00-04:00",
                 "endTime": "2026-10-07T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 79,
@@ -63,7 +63,7 @@
                 },
                 "windSpeed": "10 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/day/rain_showers,60/rain_showers,70?size=medium",
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers,70?size=medium",
                 "shortForecast": "Rain Showers Likely",
                 "detailedForecast": "Rain showers likely. Mostly cloudy. High near 79, with temperatures falling to around 76 in the afternoon. East wind around 10 mph, with gusts as high as 23 mph. Chance of precipitation is 70%. New rainfall amounts between three quarters and one inch possible."
             },
