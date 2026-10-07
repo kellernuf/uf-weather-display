@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-07T12:25:34+00:00",
-        "updateTime": "2026-10-07T06:21:38+00:00",
-        "validTimes": "2026-10-07T00:00:00+00:00/P8DT1H",
+        "generatedAt": "2026-10-07T13:06:20+00:00",
+        "updateTime": "2026-10-07T12:56:50+00:00",
+        "validTimes": "2026-10-07T06:00:00+00:00/P7DT19H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Today",
-                "startTime": "2026-10-07T08:00:00-04:00",
+                "startTime": "2026-10-07T09:00:00-04:00",
                 "endTime": "2026-10-07T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 79,
@@ -61,11 +61,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 72
                 },
-                "windSpeed": "7 to 12 mph",
+                "windSpeed": "8 to 12 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/day/rain_showers,70/tsra,70?size=medium",
                 "shortForecast": "Rain Showers Likely",
-                "detailedForecast": "Rain showers likely before 2pm, then showers and thunderstorms likely. Mostly cloudy. High near 79, with temperatures falling to around 76 in the afternoon. Northeast wind 7 to 12 mph, with gusts as high as 22 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
+                "detailedForecast": "Rain showers likely before 2pm, then showers and thunderstorms likely. Mostly cloudy. High near 79, with temperatures falling to around 76 in the afternoon. Northeast wind 8 to 12 mph, with gusts as high as 22 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
             },
             {
                 "number": 2,
