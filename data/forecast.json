@@ -40,8 +40,8 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-07T21:47:06+00:00",
-        "updateTime": "2026-10-07T21:19:21+00:00",
+        "generatedAt": "2026-10-07T21:21:56+00:00",
+        "updateTime": "2026-10-07T21:16:40+00:00",
         "validTimes": "2026-10-07T15:00:00+00:00/P7DT10H",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -59,13 +59,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 77
+                    "value": 73
                 },
-                "windSpeed": "13 mph",
+                "windSpeed": "9 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/day/tsra,80?size=medium",
-                "shortForecast": "Showers And Thunderstorms",
-                "detailedForecast": "Showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy. High near 79, with temperatures falling to around 76 in the afternoon. East wind around 13 mph, with gusts as high as 20 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
+                "icon": "https://api.weather.gov/icons/land/day/tsra,70?size=medium",
+                "shortForecast": "Showers And Thunderstorms Likely",
+                "detailedForecast": "Showers and thunderstorms likely. Mostly cloudy. High near 79, with temperatures falling to around 77 in the afternoon. East wind around 9 mph, with gusts as high as 23 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
             },
             {
                 "number": 2,
@@ -73,18 +73,18 @@
                 "startTime": "2026-10-07T18:00:00-04:00",
                 "endTime": "2026-10-08T06:00:00-04:00",
                 "isDaytime": false,
-                "temperature": 70,
+                "temperature": 71,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 83
+                    "value": 76
                 },
-                "windSpeed": "6 to 12 mph",
+                "windSpeed": "5 to 9 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/tsra,80/tsra,50?size=medium",
-                "shortForecast": "Showers And Thunderstorms",
-                "detailedForecast": "Showers and thunderstorms before 5am, then a chance of rain showers and patchy fog. Some of the storms could produce heavy rain. Cloudy, with a low around 70. Northeast wind 6 to 12 mph, with gusts as high as 17 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,80/rain_showers,40?size=medium",
+                "shortForecast": "Chance Rain Showers",
+                "detailedForecast": "A chance of rain showers. Mostly cloudy. Low around 71, with temperatures rising to around 72 overnight. Northeast wind 5 to 9 mph, with gusts as high as 20 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
             },
             {
                 "number": 3,
@@ -97,13 +97,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 82
+                    "value": 73
                 },
-                "windSpeed": "7 to 13 mph",
+                "windSpeed": "7 to 12 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/tsra,60/tsra,80?size=medium",
-                "shortForecast": "Showers And Thunderstorms",
-                "detailedForecast": "A chance of rain showers and patchy fog before 11am, then showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy. High near 81, with temperatures falling to around 76 in the afternoon. Northeast wind 7 to 13 mph, with gusts as high as 20 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
+                "icon": "https://api.weather.gov/icons/land/day/tsra,40/tsra,70?size=medium",
+                "shortForecast": "Slight Chance Showers And Thunderstorms",
+                "detailedForecast": "A slight chance of rain showers before 8am, then a slight chance of showers and thunderstorms between 8am and 1pm, then showers and thunderstorms likely. Mostly cloudy. High near 81, with temperatures falling to around 78 in the afternoon. Northeast wind 7 to 12 mph, with gusts as high as 22 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
             },
             {
                 "number": 4,
@@ -111,18 +111,18 @@
                 "startTime": "2026-10-08T18:00:00-04:00",
                 "endTime": "2026-10-09T06:00:00-04:00",
                 "isDaytime": false,
-                "temperature": 70,
+                "temperature": 71,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 82
+                    "value": 71
                 },
-                "windSpeed": "9 to 13 mph",
+                "windSpeed": "7 to 10 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/tsra,80/tsra,40?size=medium",
-                "shortForecast": "Showers And Thunderstorms",
-                "detailedForecast": "Showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy, with a low around 70. Northeast wind 9 to 13 mph, with gusts as high as 20 mph. Chance of precipitation is 80%."
+                "icon": "https://api.weather.gov/icons/land/night/tsra,70/tsra,40?size=medium",
+                "shortForecast": "Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms",
+                "detailedForecast": "A slight chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms. Cloudy. Low around 71, with temperatures rising to around 72 overnight. Northeast wind 7 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 70%."
             },
             {
                 "number": 5,
@@ -141,7 +141,7 @@
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/day/tsra,70/tsra,90?size=medium",
                 "shortForecast": "Showers And Thunderstorms",
-                "detailedForecast": "Showers and thunderstorms. Cloudy. High near 81, with temperatures falling to around 76 in the afternoon. Northeast wind 12 to 15 mph, with gusts as high as 23 mph. Chance of precipitation is 90%."
+                "detailedForecast": "Showers and thunderstorms. Mostly cloudy. High near 81, with temperatures falling to around 77 in the afternoon. Northeast wind 12 to 15 mph, with gusts as high as 23 mph. Chance of precipitation is 90%."
             },
             {
                 "number": 6,
