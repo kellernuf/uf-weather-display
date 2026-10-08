@@ -40,8 +40,8 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-08T18:35:16+00:00",
-        "updateTime": "2026-10-08T18:21:00+00:00",
+        "generatedAt": "2026-10-08T18:55:21+00:00",
+        "updateTime": "2026-10-08T18:36:02+00:00",
         "validTimes": "2026-10-08T12:00:00+00:00/P8DT1H",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -78,13 +78,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 72
+                    "value": 78
                 },
                 "windSpeed": "9 to 13 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/night/tsra,70/tsra,60?size=medium",
-                "shortForecast": "Showers And Thunderstorms Likely",
-                "detailedForecast": "Showers and thunderstorms likely. Mostly cloudy, with a low around 70. East wind 9 to 13 mph, with gusts as high as 23 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
+                "icon": "https://api.weather.gov/icons/land/night/tsra,80/tsra,60?size=medium",
+                "shortForecast": "Showers And Thunderstorms",
+                "detailedForecast": "Showers and thunderstorms. Mostly cloudy, with a low around 70. East wind 9 to 13 mph, with gusts as high as 23 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
             },
             {
                 "number": 3,
