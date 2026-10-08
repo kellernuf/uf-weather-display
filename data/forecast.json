@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-08T09:39:08+00:00",
+        "generatedAt": "2026-10-08T07:58:12+00:00",
         "updateTime": "2026-10-08T06:36:31+00:00",
         "validTimes": "2026-10-08T00:00:00+00:00/P8DT1H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Overnight",
-                "startTime": "2026-10-08T05:00:00-04:00",
+                "startTime": "2026-10-08T03:00:00-04:00",
                 "endTime": "2026-10-08T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 71,
@@ -59,13 +59,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 12
+                    "value": 14
                 },
                 "windSpeed": "7 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
                 "shortForecast": "Patchy Fog",
-                "detailedForecast": "Patchy fog. Mostly cloudy. Low around 71, with temperatures rising to around 72 overnight. Northeast wind around 7 mph. New rainfall amounts less than a tenth of an inch possible."
+                "detailedForecast": "Patchy fog after 5am. Mostly cloudy. Low around 71, with temperatures rising to around 72 overnight. Northeast wind around 7 mph. New rainfall amounts less than a tenth of an inch possible."
             },
             {
                 "number": 2,
