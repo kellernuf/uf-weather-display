@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-08T10:28:16+00:00",
+        "generatedAt": "2026-10-08T11:13:07+00:00",
         "updateTime": "2026-10-08T06:36:31+00:00",
         "validTimes": "2026-10-08T00:00:00+00:00/P8DT1H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Today",
-                "startTime": "2026-10-08T06:00:00-04:00",
+                "startTime": "2026-10-08T07:00:00-04:00",
                 "endTime": "2026-10-08T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 80,
