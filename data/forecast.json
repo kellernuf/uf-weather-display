@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-08T05:50:56+00:00",
-        "updateTime": "2026-10-08T05:31:08+00:00",
-        "validTimes": "2026-10-07T23:00:00+00:00/P8DT2H",
+        "generatedAt": "2026-10-08T07:06:13+00:00",
+        "updateTime": "2026-10-08T06:36:31+00:00",
+        "validTimes": "2026-10-08T00:00:00+00:00/P8DT1H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Overnight",
-                "startTime": "2026-10-08T01:00:00-04:00",
+                "startTime": "2026-10-08T03:00:00-04:00",
                 "endTime": "2026-10-08T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 71,
@@ -59,13 +59,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 36
+                    "value": 14
                 },
                 "windSpeed": "7 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,40?size=medium",
-                "shortForecast": "Chance Rain Showers",
-                "detailedForecast": "A chance of rain showers before 3am, then patchy fog. Mostly cloudy. Low around 71, with temperatures rising to around 72 overnight. Northeast wind around 7 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
+                "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+                "shortForecast": "Patchy Fog",
+                "detailedForecast": "Patchy fog after 5am. Mostly cloudy. Low around 71, with temperatures rising to around 72 overnight. Northeast wind around 7 mph. New rainfall amounts less than a tenth of an inch possible."
             },
             {
                 "number": 2,
@@ -215,9 +215,9 @@
                 },
                 "windSpeed": "2 to 7 mph",
                 "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/night/tsra_hi,70/sct?size=medium",
-                "shortForecast": "Showers And Thunderstorms Likely then Partly Cloudy",
-                "detailedForecast": "Showers and thunderstorms likely before 8pm. Partly cloudy, with a low around 73. Chance of precipitation is 70%."
+                "icon": "https://api.weather.gov/icons/land/night/tsra_hi,70/bkn?size=medium",
+                "shortForecast": "Showers And Thunderstorms Likely then Mostly Cloudy",
+                "detailedForecast": "Showers and thunderstorms likely before 8pm. Mostly cloudy, with a low around 73. Chance of precipitation is 70%."
             },
             {
                 "number": 10,
@@ -230,7 +230,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 20
+                    "value": 18
                 },
                 "windSpeed": "3 to 9 mph",
                 "windDirection": "NW",
@@ -249,7 +249,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 20
+                    "value": 18
                 },
                 "windSpeed": "2 to 7 mph",
                 "windDirection": "NW",
@@ -306,7 +306,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 5
+                    "value": 4
                 },
                 "windSpeed": "3 to 8 mph",
                 "windDirection": "NW",
