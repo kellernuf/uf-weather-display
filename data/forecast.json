@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-08T18:55:21+00:00",
+        "generatedAt": "2026-10-08T20:59:39+00:00",
         "updateTime": "2026-10-08T18:36:02+00:00",
         "validTimes": "2026-10-08T12:00:00+00:00/P8DT1H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "This Afternoon",
-                "startTime": "2026-10-08T14:00:00-04:00",
+                "startTime": "2026-10-08T16:00:00-04:00",
                 "endTime": "2026-10-08T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 79,
@@ -65,7 +65,7 @@
                 "windDirection": "E",
                 "icon": "https://api.weather.gov/icons/land/day/tsra,80?size=medium",
                 "shortForecast": "Showers And Thunderstorms",
-                "detailedForecast": "Showers and thunderstorms. Mostly cloudy. High near 79, with temperatures falling to around 75 in the afternoon. East wind around 13 mph, with gusts as high as 22 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
+                "detailedForecast": "Showers and thunderstorms. Cloudy. High near 79, with temperatures falling to around 75 in the afternoon. East wind around 13 mph, with gusts as high as 22 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
             },
             {
                 "number": 2,
