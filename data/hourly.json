@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "HourlyForecastGenerator",
-        "generatedAt": "2026-10-09T19:14:07+00:00",
-        "updateTime": "2026-10-09T19:06:24+00:00",
-        "validTimes": "2026-10-09T13:00:00+00:00/P7DT12H",
+        "generatedAt": "2026-10-09T19:01:04+00:00",
+        "updateTime": "2026-10-09T18:51:08+00:00",
+        "validTimes": "2026-10-09T12:00:00+00:00/P7DT13H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -69,7 +69,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 80
                 },
-                "windSpeed": "13 mph",
+                "windSpeed": "12 mph",
                 "windDirection": "E",
                 "icon": "https://api.weather.gov/icons/land/day/tsra,50?size=small",
                 "shortForecast": "Chance Showers And Thunderstorms",
@@ -96,7 +96,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 82
                 },
-                "windSpeed": "14 mph",
+                "windSpeed": "13 mph",
                 "windDirection": "E",
                 "icon": "https://api.weather.gov/icons/land/day/tsra,60?size=small",
                 "shortForecast": "Showers And Thunderstorms Likely",
@@ -123,7 +123,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 88
                 },
-                "windSpeed": "14 mph",
+                "windSpeed": "12 mph",
                 "windDirection": "E",
                 "icon": "https://api.weather.gov/icons/land/day/tsra,70?size=small",
                 "shortForecast": "Showers And Thunderstorms Likely",
@@ -150,7 +150,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 94
                 },
-                "windSpeed": "13 mph",
+                "windSpeed": "12 mph",
                 "windDirection": "E",
                 "icon": "https://api.weather.gov/icons/land/night/tsra,80?size=small",
                 "shortForecast": "Showers And Thunderstorms",
@@ -177,7 +177,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 94
                 },
-                "windSpeed": "13 mph",
+                "windSpeed": "12 mph",
                 "windDirection": "E",
                 "icon": "https://api.weather.gov/icons/land/night/tsra,70?size=small",
                 "shortForecast": "Showers And Thunderstorms Likely",
@@ -204,7 +204,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 97
                 },
-                "windSpeed": "13 mph",
+                "windSpeed": "12 mph",
                 "windDirection": "E",
                 "icon": "https://api.weather.gov/icons/land/night/tsra_sct,50?size=small",
                 "shortForecast": "Chance Showers And Thunderstorms",
