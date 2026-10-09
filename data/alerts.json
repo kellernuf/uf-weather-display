@@ -1,9 +1,142 @@
 {
-    "@context": {
-        "@version": "1.1"
-    },
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
     "type": "FeatureCollection",
-    "features": [],
+    "features": [
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d202cb33a00419a46c5afab0e0359e931b7a9f2.002.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d202cb33a00419a46c5afab0e0359e931b7a9f2.002.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.8d202cb33a00419a46c5afab0e0359e931b7a9f2.002.1",
+                "areaDesc": "Suwannee; Baker; Inland Nassau; Union; Bradford; Gilchrist; Eastern Hamilton; Coastal Nassau; Coastal Duval; Eastern Clay; Eastern Alachua; Western Hamilton; Trout River; Western Clay; Western Alachua; Northern Columbia; South Central Duval; Southeastern Columbia; Western Duval; Southwestern Columbia",
+                "geocode": {
+                    "SAME": [
+                        "012121",
+                        "012003",
+                        "012089",
+                        "012125",
+                        "012007",
+                        "012041",
+                        "012047",
+                        "012031",
+                        "012019",
+                        "012001",
+                        "012023"
+                    ],
+                    "UGC": [
+                        "FLZ021",
+                        "FLZ023",
+                        "FLZ024",
+                        "FLZ030",
+                        "FLZ031",
+                        "FLZ035",
+                        "FLZ120",
+                        "FLZ124",
+                        "FLZ125",
+                        "FLZ132",
+                        "FLZ136",
+                        "FLZ220",
+                        "FLZ225",
+                        "FLZ232",
+                        "FLZ236",
+                        "FLZ322",
+                        "FLZ325",
+                        "FLZ422",
+                        "FLZ425",
+                        "FLZ522"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/FLZ021",
+                    "https://api.weather.gov/zones/forecast/FLZ023",
+                    "https://api.weather.gov/zones/forecast/FLZ024",
+                    "https://api.weather.gov/zones/forecast/FLZ030",
+                    "https://api.weather.gov/zones/forecast/FLZ031",
+                    "https://api.weather.gov/zones/forecast/FLZ035",
+                    "https://api.weather.gov/zones/forecast/FLZ120",
+                    "https://api.weather.gov/zones/forecast/FLZ124",
+                    "https://api.weather.gov/zones/forecast/FLZ125",
+                    "https://api.weather.gov/zones/forecast/FLZ132",
+                    "https://api.weather.gov/zones/forecast/FLZ136",
+                    "https://api.weather.gov/zones/forecast/FLZ220",
+                    "https://api.weather.gov/zones/forecast/FLZ225",
+                    "https://api.weather.gov/zones/forecast/FLZ232",
+                    "https://api.weather.gov/zones/forecast/FLZ236",
+                    "https://api.weather.gov/zones/forecast/FLZ322",
+                    "https://api.weather.gov/zones/forecast/FLZ325",
+                    "https://api.weather.gov/zones/forecast/FLZ422",
+                    "https://api.weather.gov/zones/forecast/FLZ425",
+                    "https://api.weather.gov/zones/forecast/FLZ522"
+                ],
+                "references": [],
+                "sent": "2026-10-09T02:26:00-04:00",
+                "effective": "2026-10-09T02:26:00-04:00",
+                "onset": "2026-10-09T02:26:00-04:00",
+                "expires": "2026-10-10T02:00:00-04:00",
+                "ends": "2026-10-10T02:00:00-04:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Possible",
+                "urgency": "Future",
+                "event": "Flood Watch",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Jacksonville FL",
+                "headline": "Flood Watch issued October 9 at 2:26AM EDT until October 10 at 2:00AM EDT by NWS Jacksonville FL",
+                "description": "* WHAT...Flash flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of northeast and northern Florida, including the\nfollowing areas, in northeast Florida, Baker, Coastal Duval,\nCoastal Nassau, Eastern Clay, Inland Nassau, South Central Duval,\nTrout River, Western Clay and Western Duval. In northern Florida,\nBradford, Eastern Alachua, Eastern Hamilton, Gilchrist, Northern\nColumbia, Southeastern Columbia, Southwestern Columbia, Suwannee,\nUnion, Western Alachua and Western Hamilton.\n\n* WHEN...Through late tonight.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\n\n* ADDITIONAL DETAILS...\n- A lifting warm front and moisture due to Hurricane Isaias passing\nwest of the area will bring waves of moderate to heavy rainfall\nacross areas of Northeast Florida today into this evening.\nSeveral inches of rain from the last several days will make for\nsaturated soils and additional rainfall amounts of 1 to 3 inches\nwith locally higher amounts may lead to flash flooding. The heavy\nrainfall may combine with higher than normal tidal levels and may\nworsen flood problems in some St. Johns River locations.\n\n- Http://www.weather.gov/safety/flood",
+                "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
+                "response": "Prepare",
+                "note": null,
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FFAJAX"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS62 KJAX 090626"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WATCH IN EFFECT THROUGH LATE TONIGHT"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXB.KJAX.FA.A.0005.000000T0000Z-261010T0600Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2026-10-10T02:00:00-04:00"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "FFA"
+                    ],
+                    "NationalWeatherService": [
+                        "FAA"
+                    ]
+                }
+            }
+        }
+    ],
     "title": "Current watches, warnings, and advisories for 29.6436 N, 82.3549 W",
-    "updated": "2026-10-09T06:12:59+00:00"
+    "updated": "2026-10-09T06:35:34+00:00"
 }
