@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-09T21:36:34+00:00",
+        "generatedAt": "2026-10-09T22:01:33+00:00",
         "updateTime": "2026-10-09T21:26:31+00:00",
         "validTimes": "2026-10-09T15:00:00+00:00/P7DT10H",
         "elevation": {
@@ -50,25 +50,6 @@
         "periods": [
             {
                 "number": 1,
-                "name": "This Afternoon",
-                "startTime": "2026-10-09T17:00:00-04:00",
-                "endTime": "2026-10-09T18:00:00-04:00",
-                "isDaytime": true,
-                "temperature": 86,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 68
-                },
-                "windSpeed": "16 mph",
-                "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/day/tsra,70?size=medium",
-                "shortForecast": "Showers And Thunderstorms Likely",
-                "detailedForecast": "Showers and thunderstorms likely. Some of the storms could produce heavy rain. Cloudy. High near 86, with temperatures falling to around 78 in the afternoon. East wind around 16 mph, with gusts as high as 24 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
-            },
-            {
-                "number": 2,
                 "name": "Tonight",
                 "startTime": "2026-10-09T18:00:00-04:00",
                 "endTime": "2026-10-10T06:00:00-04:00",
@@ -87,7 +68,7 @@
                 "detailedForecast": "Showers and thunderstorms before 2am. Some of the storms could be severe and produce heavy rain. Cloudy. Low around 74, with temperatures rising to around 75 overnight. East wind 12 to 16 mph, with gusts as high as 24 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
             },
             {
-                "number": 3,
+                "number": 2,
                 "name": "Saturday",
                 "startTime": "2026-10-10T06:00:00-04:00",
                 "endTime": "2026-10-10T18:00:00-04:00",
@@ -106,7 +87,7 @@
                 "detailedForecast": "A chance of rain showers before 2pm, then showers and thunderstorms likely. Some of the storms could produce heavy rain. Mostly cloudy. High near 89, with temperatures falling to around 84 in the afternoon. Heat index values as high as 103. South wind 12 to 18 mph, with gusts as high as 28 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
             },
             {
-                "number": 4,
+                "number": 3,
                 "name": "Saturday Night",
                 "startTime": "2026-10-10T18:00:00-04:00",
                 "endTime": "2026-10-11T06:00:00-04:00",
@@ -122,10 +103,10 @@
                 "windDirection": "S",
                 "icon": "https://api.weather.gov/icons/land/night/tsra_sct,50/tsra_sct,40?size=medium",
                 "shortForecast": "Chance Showers And Thunderstorms",
-                "detailedForecast": "A chance of rain showers before 8pm, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 74. South wind 9 to 15 mph, with gusts as high as 23 mph. Chance of precipitation is 50%."
+                "detailedForecast": "A chance of rain showers before 8pm, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 74. South wind 9 to 15 mph, with gusts as high as 23 mph. Chance of precipitation is 50%. New rainfall amounts between a quarter and half of an inch possible."
             },
             {
-                "number": 5,
+                "number": 4,
                 "name": "Sunday",
                 "startTime": "2026-10-11T06:00:00-04:00",
                 "endTime": "2026-10-11T18:00:00-04:00",
@@ -144,7 +125,7 @@
                 "detailedForecast": "Showers and thunderstorms likely. Mostly cloudy. High near 85, with temperatures falling to around 84 in the afternoon. Southwest wind 6 to 10 mph, with gusts as high as 16 mph. Chance of precipitation is 60%."
             },
             {
-                "number": 6,
+                "number": 5,
                 "name": "Sunday Night",
                 "startTime": "2026-10-11T18:00:00-04:00",
                 "endTime": "2026-10-12T06:00:00-04:00",
@@ -160,10 +141,10 @@
                 "windDirection": "W",
                 "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/sct?size=medium",
                 "shortForecast": "Slight Chance Rain Showers then Partly Cloudy",
-                "detailedForecast": "A slight chance of rain showers before 8pm. Partly cloudy, with a low around 65. Chance of precipitation is 20%."
+                "detailedForecast": "A slight chance of rain showers before 8pm. Partly cloudy. Low around 65, with temperatures rising to around 66 overnight. West wind around 5 mph. Chance of precipitation is 20%."
             },
             {
-                "number": 7,
+                "number": 6,
                 "name": "Columbus Day",
                 "startTime": "2026-10-12T06:00:00-04:00",
                 "endTime": "2026-10-12T18:00:00-04:00",
@@ -182,7 +163,7 @@
                 "detailedForecast": "Sunny, with a high near 86."
             },
             {
-                "number": 8,
+                "number": 7,
                 "name": "Monday Night",
                 "startTime": "2026-10-12T18:00:00-04:00",
                 "endTime": "2026-10-13T06:00:00-04:00",
@@ -201,7 +182,7 @@
                 "detailedForecast": "Mostly clear, with a low around 64."
             },
             {
-                "number": 9,
+                "number": 8,
                 "name": "Tuesday",
                 "startTime": "2026-10-13T06:00:00-04:00",
                 "endTime": "2026-10-13T18:00:00-04:00",
@@ -220,7 +201,7 @@
                 "detailedForecast": "Sunny, with a high near 87."
             },
             {
-                "number": 10,
+                "number": 9,
                 "name": "Tuesday Night",
                 "startTime": "2026-10-13T18:00:00-04:00",
                 "endTime": "2026-10-14T06:00:00-04:00",
@@ -239,7 +220,7 @@
                 "detailedForecast": "Clear, with a low around 64."
             },
             {
-                "number": 11,
+                "number": 10,
                 "name": "Wednesday",
                 "startTime": "2026-10-14T06:00:00-04:00",
                 "endTime": "2026-10-14T18:00:00-04:00",
@@ -258,7 +239,7 @@
                 "detailedForecast": "Sunny, with a high near 88."
             },
             {
-                "number": 12,
+                "number": 11,
                 "name": "Wednesday Night",
                 "startTime": "2026-10-14T18:00:00-04:00",
                 "endTime": "2026-10-15T06:00:00-04:00",
@@ -277,7 +258,7 @@
                 "detailedForecast": "Mostly clear, with a low around 66."
             },
             {
-                "number": 13,
+                "number": 12,
                 "name": "Thursday",
                 "startTime": "2026-10-15T06:00:00-04:00",
                 "endTime": "2026-10-15T18:00:00-04:00",
@@ -296,7 +277,7 @@
                 "detailedForecast": "Sunny, with a high near 86."
             },
             {
-                "number": 14,
+                "number": 13,
                 "name": "Thursday Night",
                 "startTime": "2026-10-15T18:00:00-04:00",
                 "endTime": "2026-10-16T06:00:00-04:00",
@@ -313,6 +294,25 @@
                 "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
                 "shortForecast": "Mostly Clear",
                 "detailedForecast": "Mostly clear, with a low around 67."
+            },
+            {
+                "number": 14,
+                "name": "Friday",
+                "startTime": "2026-10-16T06:00:00-04:00",
+                "endTime": "2026-10-16T18:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 84,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 12
+                },
+                "windSpeed": "3 to 9 mph",
+                "windDirection": "E",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "shortForecast": "Sunny",
+                "detailedForecast": "Sunny, with a high near 84."
             }
         ]
     }
