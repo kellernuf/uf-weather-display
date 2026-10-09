@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-08T23:32:29+00:00",
+        "generatedAt": "2026-10-08T22:27:22+00:00",
         "updateTime": "2026-10-08T18:36:02+00:00",
         "validTimes": "2026-10-08T12:00:00+00:00/P8DT1H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Tonight",
-                "startTime": "2026-10-08T19:00:00-04:00",
+                "startTime": "2026-10-08T18:00:00-04:00",
                 "endTime": "2026-10-09T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 70,
@@ -59,7 +59,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 75
+                    "value": 78
                 },
                 "windSpeed": "9 to 13 mph",
                 "windDirection": "E",
