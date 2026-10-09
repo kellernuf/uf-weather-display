@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-09T20:48:07+00:00",
-        "updateTime": "2026-10-09T20:26:51+00:00",
-        "validTimes": "2026-10-09T14:00:00+00:00/P7DT11H",
+        "generatedAt": "2026-10-09T21:36:34+00:00",
+        "updateTime": "2026-10-09T21:26:31+00:00",
+        "validTimes": "2026-10-09T15:00:00+00:00/P7DT10H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,21 +51,21 @@
             {
                 "number": 1,
                 "name": "This Afternoon",
-                "startTime": "2026-10-09T16:00:00-04:00",
+                "startTime": "2026-10-09T17:00:00-04:00",
                 "endTime": "2026-10-09T18:00:00-04:00",
                 "isDaytime": true,
-                "temperature": 85,
+                "temperature": 86,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 71
+                    "value": 68
                 },
-                "windSpeed": "14 mph",
+                "windSpeed": "16 mph",
                 "windDirection": "E",
                 "icon": "https://api.weather.gov/icons/land/day/tsra,70?size=medium",
                 "shortForecast": "Showers And Thunderstorms Likely",
-                "detailedForecast": "Showers and thunderstorms likely. Mostly cloudy. High near 85, with temperatures falling to around 80 in the afternoon. East wind around 14 mph, with gusts as high as 21 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible."
+                "detailedForecast": "Showers and thunderstorms likely. Some of the storms could produce heavy rain. Cloudy. High near 86, with temperatures falling to around 78 in the afternoon. East wind around 16 mph, with gusts as high as 24 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
             },
             {
                 "number": 2,
@@ -78,13 +78,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 82
+                    "value": 96
                 },
-                "windSpeed": "14 mph",
+                "windSpeed": "12 to 16 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/night/tsra_sct,80/tsra_sct,20?size=medium",
-                "shortForecast": "Showers And Thunderstorms then Slight Chance Showers And Thunderstorms",
-                "detailedForecast": "Showers and thunderstorms before 7pm, then showers and thunderstorms likely between 7pm and 11pm, then a chance of showers and thunderstorms between 11pm and midnight, then a slight chance of showers and thunderstorms between midnight and 3am. Mostly cloudy. Low around 74, with temperatures rising to around 76 overnight. East wind around 14 mph, with gusts as high as 24 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible."
+                "icon": "https://api.weather.gov/icons/land/night/tsra,100/tsra,20?size=medium",
+                "shortForecast": "Showers And Thunderstorms",
+                "detailedForecast": "Showers and thunderstorms before 2am. Some of the storms could be severe and produce heavy rain. Cloudy. Low around 74, with temperatures rising to around 75 overnight. East wind 12 to 16 mph, with gusts as high as 24 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible."
             },
             {
                 "number": 3,
@@ -92,18 +92,18 @@
                 "startTime": "2026-10-10T06:00:00-04:00",
                 "endTime": "2026-10-10T18:00:00-04:00",
                 "isDaytime": true,
-                "temperature": 88,
+                "temperature": 89,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 79
+                    "value": 68
                 },
-                "windSpeed": "10 to 15 mph",
+                "windSpeed": "12 to 18 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/day/bkn/tsra_sct,80?size=medium",
-                "shortForecast": "Partly Sunny then Slight Chance Showers And Thunderstorms",
-                "detailedForecast": "A slight chance of showers and thunderstorms between noon and 1pm, then showers and thunderstorms. Partly sunny. High near 88, with temperatures falling to around 83 in the afternoon. Heat index values as high as 101. South wind 10 to 15 mph, with gusts as high as 24 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers,30/tsra,70?size=medium",
+                "shortForecast": "Showers And Thunderstorms Likely",
+                "detailedForecast": "A chance of rain showers before 2pm, then showers and thunderstorms likely. Some of the storms could produce heavy rain. Mostly cloudy. High near 89, with temperatures falling to around 84 in the afternoon. Heat index values as high as 103. South wind 12 to 18 mph, with gusts as high as 28 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
             },
             {
                 "number": 4,
@@ -116,13 +116,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 66
+                    "value": 54
                 },
-                "windSpeed": "6 to 9 mph",
+                "windSpeed": "9 to 15 mph",
                 "windDirection": "S",
-                "icon": "https://api.weather.gov/icons/land/night/tsra_sct,70/tsra_sct,40?size=medium",
-                "shortForecast": "Showers And Thunderstorms Likely",
-                "detailedForecast": "Showers and thunderstorms likely. Mostly cloudy. Low around 74, with temperatures rising to around 75 overnight. South wind 6 to 9 mph, with gusts as high as 17 mph. Chance of precipitation is 70%."
+                "icon": "https://api.weather.gov/icons/land/night/tsra_sct,50/tsra_sct,40?size=medium",
+                "shortForecast": "Chance Showers And Thunderstorms",
+                "detailedForecast": "A chance of rain showers before 8pm, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 74. South wind 9 to 15 mph, with gusts as high as 23 mph. Chance of precipitation is 50%."
             },
             {
                 "number": 5,
@@ -141,7 +141,7 @@
                 "windDirection": "SW",
                 "icon": "https://api.weather.gov/icons/land/day/tsra_sct,60?size=medium",
                 "shortForecast": "Showers And Thunderstorms Likely",
-                "detailedForecast": "Showers and thunderstorms likely. Partly sunny. High near 85, with temperatures falling to around 83 in the afternoon. Southwest wind 6 to 10 mph, with gusts as high as 17 mph. Chance of precipitation is 60%."
+                "detailedForecast": "Showers and thunderstorms likely. Mostly cloudy. High near 85, with temperatures falling to around 84 in the afternoon. Southwest wind 6 to 10 mph, with gusts as high as 16 mph. Chance of precipitation is 60%."
             },
             {
                 "number": 6,
