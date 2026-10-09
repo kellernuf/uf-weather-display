@@ -10,6 +10,160 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd86b4cec6409e7c96b546ec4f9b5e840a0cd9e2.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -82.4,
+                            29.5
+                        ],
+                        [
+                            -82.55,
+                            29.54
+                        ],
+                        [
+                            -82.63,
+                            29.69
+                        ],
+                        [
+                            -82.53,
+                            30.21
+                        ],
+                        [
+                            -82.46,
+                            30.15
+                        ],
+                        [
+                            -82.46,
+                            30.14
+                        ],
+                        [
+                            -82.45,
+                            30.14
+                        ],
+                        [
+                            -81.8,
+                            29.59
+                        ],
+                        [
+                            -81.88,
+                            29.02
+                        ],
+                        [
+                            -82.4,
+                            29.5
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd86b4cec6409e7c96b546ec4f9b5e840a0cd9e2.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.dd86b4cec6409e7c96b546ec4f9b5e840a0cd9e2.001.1",
+                "areaDesc": "Union; Bradford; Eastern Alachua; Eastern Marion; Western Clay; Western Alachua; Western Putnam; Central Marion; Western Marion; Southeastern Columbia; Southwestern Columbia",
+                "geocode": {
+                    "SAME": [
+                        "012125",
+                        "012007",
+                        "012001",
+                        "012083",
+                        "012019",
+                        "012107",
+                        "012023"
+                    ],
+                    "UGC": [
+                        "FLZ030",
+                        "FLZ031",
+                        "FLZ136",
+                        "FLZ140",
+                        "FLZ232",
+                        "FLZ236",
+                        "FLZ237",
+                        "FLZ240",
+                        "FLZ340",
+                        "FLZ422",
+                        "FLZ522"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/FLZ030",
+                    "https://api.weather.gov/zones/forecast/FLZ031",
+                    "https://api.weather.gov/zones/forecast/FLZ136",
+                    "https://api.weather.gov/zones/forecast/FLZ140",
+                    "https://api.weather.gov/zones/forecast/FLZ232",
+                    "https://api.weather.gov/zones/forecast/FLZ236",
+                    "https://api.weather.gov/zones/forecast/FLZ237",
+                    "https://api.weather.gov/zones/forecast/FLZ240",
+                    "https://api.weather.gov/zones/forecast/FLZ340",
+                    "https://api.weather.gov/zones/forecast/FLZ422",
+                    "https://api.weather.gov/zones/forecast/FLZ522"
+                ],
+                "references": [],
+                "sent": "2026-10-09T18:47:00-04:00",
+                "effective": "2026-10-09T18:47:00-04:00",
+                "onset": "2026-10-09T18:47:00-04:00",
+                "expires": "2026-10-09T19:15:00-04:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Observed",
+                "urgency": "Expected",
+                "event": "Special Weather Statement",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Jacksonville FL",
+                "headline": "Special Weather Statement issued October 9 at 6:47PM EDT by NWS Jacksonville FL",
+                "description": "At 647 PM EDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Gainesville to Lynne. Movement was north\nat 30 mph.\n\nHAZARD...Wind gusts around 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nGainesville, Lake Butler, Interlachen, Melrose, Worthington Spring,\nFort McCoy, Citra, Lynne, Alachua, and High Springs.",
+                "instruction": "If outdoors, consider seeking shelter inside a building.\n\nTorrential rainfall is also occurring with these storms and may lead\nto localized flooding. Do not drive your vehicle through flooded\nroadways.\n\nA Tornado Watch remains in effect until 900 PM EDT for northern and\nnortheastern Florida.",
+                "response": "Execute",
+                "note": null,
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SPSJAX"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS82 KJAX 092247"
+                    ],
+                    "NWSheadline": [
+                        "STRONG THUNDERSTORMS WILL IMPACT CENTRAL BRADFORD...ALACHUA... EASTERN MARION...WEST CENTRAL PUTNAM...WESTERN UNION...SOUTHWESTERN CLAY AND SOUTHEASTERN COLUMBIA COUNTIES THROUGH 715 PM EDT"
+                    ],
+                    "eventMotionDescription": [
+                        "2026-10-09T22:47:00-00:00...storm...182DEG...24KT...29.74,-82.37 29.22,-81.93"
+                    ],
+                    "maxWindGust": [
+                        "40 MPH"
+                    ],
+                    "maxHailSize": [
+                        "0.00"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "SPS"
+                    ],
+                    "NationalWeatherService": [
+                        "SPS"
+                    ]
+                }
+            }
+        },
+        {
             "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d3e8b0f3e964cc62fde91fb82e23c9430ceef8a0.001.1",
             "type": "Feature",
             "geometry": {
@@ -150,202 +304,6 @@
                     ],
                     "NationalWeatherService": [
                         "FAY"
-                    ]
-                }
-            }
-        },
-        {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b2cd75db4b4d7e82c91cbf75065315f50192957.001.1",
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -82.47,
-                            29.05
-                        ],
-                        [
-                            -82.54,
-                            29.04
-                        ],
-                        [
-                            -82.54,
-                            29.21
-                        ],
-                        [
-                            -82.4,
-                            29.22
-                        ],
-                        [
-                            -82.41,
-                            29.48
-                        ],
-                        [
-                            -82.55,
-                            29.48
-                        ],
-                        [
-                            -82.56,
-                            29.54
-                        ],
-                        [
-                            -82.65,
-                            29.53
-                        ],
-                        [
-                            -82.66,
-                            29.56
-                        ],
-                        [
-                            -82.75,
-                            29.56
-                        ],
-                        [
-                            -82.78,
-                            29.58
-                        ],
-                        [
-                            -82.96,
-                            29.59
-                        ],
-                        [
-                            -82.93,
-                            29.81
-                        ],
-                        [
-                            -82.89,
-                            29.83
-                        ],
-                        [
-                            -82.87,
-                            29.88
-                        ],
-                        [
-                            -82.92,
-                            29.89
-                        ],
-                        [
-                            -82.96,
-                            29.97
-                        ],
-                        [
-                            -82.15,
-                            29.96
-                        ],
-                        [
-                            -81.95,
-                            28.97
-                        ],
-                        [
-                            -82.31,
-                            28.96
-                        ],
-                        [
-                            -82.47,
-                            29.05
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b2cd75db4b4d7e82c91cbf75065315f50192957.001.1",
-                "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.4b2cd75db4b4d7e82c91cbf75065315f50192957.001.1",
-                "areaDesc": "Suwannee; Union; Bradford; Gilchrist; Eastern Alachua; Western Alachua; Central Marion; Western Marion; Southeastern Columbia; Southwestern Columbia",
-                "geocode": {
-                    "SAME": [
-                        "012121",
-                        "012125",
-                        "012007",
-                        "012041",
-                        "012001",
-                        "012083",
-                        "012023"
-                    ],
-                    "UGC": [
-                        "FLZ021",
-                        "FLZ030",
-                        "FLZ031",
-                        "FLZ035",
-                        "FLZ136",
-                        "FLZ236",
-                        "FLZ240",
-                        "FLZ340",
-                        "FLZ422",
-                        "FLZ522"
-                    ]
-                },
-                "affectedZones": [
-                    "https://api.weather.gov/zones/forecast/FLZ021",
-                    "https://api.weather.gov/zones/forecast/FLZ030",
-                    "https://api.weather.gov/zones/forecast/FLZ031",
-                    "https://api.weather.gov/zones/forecast/FLZ035",
-                    "https://api.weather.gov/zones/forecast/FLZ136",
-                    "https://api.weather.gov/zones/forecast/FLZ236",
-                    "https://api.weather.gov/zones/forecast/FLZ240",
-                    "https://api.weather.gov/zones/forecast/FLZ340",
-                    "https://api.weather.gov/zones/forecast/FLZ422",
-                    "https://api.weather.gov/zones/forecast/FLZ522"
-                ],
-                "references": [],
-                "sent": "2026-10-09T18:12:00-04:00",
-                "effective": "2026-10-09T18:12:00-04:00",
-                "onset": "2026-10-09T18:12:00-04:00",
-                "expires": "2026-10-09T18:45:00-04:00",
-                "ends": null,
-                "status": "Actual",
-                "messageType": "Alert",
-                "category": "Met",
-                "severity": "Moderate",
-                "certainty": "Observed",
-                "urgency": "Expected",
-                "event": "Special Weather Statement",
-                "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Jacksonville FL",
-                "headline": "Special Weather Statement issued October 9 at 6:12PM EDT by NWS Jacksonville FL",
-                "description": "At 612 PM EDT, Doppler radar was tracking a strong thunderstorm\ncapable of producing a landspout 7 miles east of Williston, moving\nnorth at 35 mph.\n\nHAZARD...Landspouts and wind gusts of 45 to 55 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to outdoor objects is possible. Gusty winds\ncould knock down tree limbs and blow around unsecured\nobjects.\n\nLocations impacted include...\nGainesville, Ocala, Rainbow Lakes Estates, Trenton, Bell, Worthington\nSpring, Ichetucknee Spring, Citra, Alachua, and High Springs.",
-                "instruction": "If outdoors, consider seeking shelter inside a building.\n\nTorrential rainfall is also occurring with this storm and may lead to\nlocalized flooding. Do not drive your vehicle through flooded\nroadways.\n\nA Tornado Watch remains in effect until 900 PM EDT for northern\nFlorida.",
-                "response": "Execute",
-                "note": null,
-                "parameters": {
-                    "AWIPSidentifier": [
-                        "SPSJAX"
-                    ],
-                    "WMOidentifier": [
-                        "WWUS82 KJAX 092212"
-                    ],
-                    "NWSheadline": [
-                        "A STRONG THUNDERSTORM WILL IMPACT GILCHRIST...CENTRAL BRADFORD... ALACHUA...WESTERN MARION...SOUTHWESTERN UNION...SOUTHWESTERN COLUMBIA AND SOUTHEASTERN SUWANNEE COUNTIES THROUGH 645 PM EDT"
-                    ],
-                    "eventMotionDescription": [
-                        "2026-10-09T22:12:00-00:00...storm...179DEG...37KT...29.36,-82.33"
-                    ],
-                    "maxWindGust": [
-                        "55 MPH"
-                    ],
-                    "maxHailSize": [
-                        "0.00"
-                    ],
-                    "BLOCKCHANNEL": [
-                        "EAS",
-                        "NWEM",
-                        "CMAS"
-                    ],
-                    "EAS-ORG": [
-                        "WXR"
-                    ]
-                },
-                "scope": "Public",
-                "code": "IPAWSv1.0",
-                "language": "en-US",
-                "web": "http://www.weather.gov",
-                "eventCode": {
-                    "SAME": [
-                        "SPS"
-                    ],
-                    "NationalWeatherService": [
-                        "SPS"
                     ]
                 }
             }
@@ -617,5 +575,5 @@
         }
     ],
     "title": "Current watches, warnings, and advisories for 29.6436 N, 82.3549 W",
-    "updated": "2026-10-09T22:34:11+00:00"
+    "updated": "2026-10-09T22:49:10+00:00"
 }
