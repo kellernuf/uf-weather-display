@@ -10,23 +10,35 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.810f25594b66e704a7644c44a43442d40840cd16.001.1",
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d3e8b0f3e964cc62fde91fb82e23c9430ceef8a0.001.1",
             "type": "Feature",
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
                     [
                         [
-                            -82.32,
-                            28.97
+                            -82.65,
+                            29.71
                         ],
                         [
-                            -82.4,
-                            29.02
+                            -82.33,
+                            29.68
                         ],
                         [
-                            -82.42,
-                            29.02
+                            -82.28,
+                            29.37
+                        ],
+                        [
+                            -82.23,
+                            29.24
+                        ],
+                        [
+                            -82.02,
+                            28.96
+                        ],
+                        [
+                            -82.31,
+                            28.96
                         ],
                         [
                             -82.47,
@@ -34,6 +46,127 @@
                         ],
                         [
                             -82.53,
+                            29.04
+                        ],
+                        [
+                            -82.54,
+                            29.21
+                        ],
+                        [
+                            -82.4,
+                            29.22
+                        ],
+                        [
+                            -82.41,
+                            29.48
+                        ],
+                        [
+                            -82.56,
+                            29.48
+                        ],
+                        [
+                            -82.56,
+                            29.54
+                        ],
+                        [
+                            -82.64,
+                            29.54
+                        ],
+                        [
+                            -82.65,
+                            29.71
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d3e8b0f3e964cc62fde91fb82e23c9430ceef8a0.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.d3e8b0f3e964cc62fde91fb82e23c9430ceef8a0.001.1",
+                "areaDesc": "Alachua, FL; Marion, FL",
+                "geocode": {
+                    "SAME": [
+                        "012001",
+                        "012083"
+                    ],
+                    "UGC": [
+                        "FLC001",
+                        "FLC083"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/FLC001",
+                    "https://api.weather.gov/zones/county/FLC083"
+                ],
+                "references": [],
+                "sent": "2026-10-09T18:16:00-04:00",
+                "effective": "2026-10-09T18:16:00-04:00",
+                "onset": "2026-10-09T18:16:00-04:00",
+                "expires": "2026-10-09T20:15:00-04:00",
+                "ends": "2026-10-09T20:15:00-04:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Minor",
+                "certainty": "Likely",
+                "urgency": "Expected",
+                "event": "Flood Advisory",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Jacksonville FL",
+                "headline": "Flood Advisory issued October 9 at 6:16PM EDT until October 9 at 8:15PM EDT by NWS Jacksonville FL",
+                "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...Southwestern Alachua County in northern Florida...\nWestern Marion County in northern Florida...\n\n* WHEN...Until 815 PM EDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 616 PM EDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area. Between 1 and 3 inches of rain have\nfallen.\n- Additional rainfall amounts of 1 to 3 inches are expected over\nthe area. This additional rain will result in minor flooding.\n- Some locations that will experience flooding include...\nGainesville, Ocala, Rainbow Lakes Estates, Archer, Ocala Airport,\nUniversity Of Florida, Newberry, Dunnellon, Romeo and Flemington.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+                "response": "Avoid",
+                "note": null,
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSJAX"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS82 KJAX 092216"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD ADVISORY IN EFFECT UNTIL 815 PM EDT THIS EVENING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KJAX.FA.Y.0358.261009T2216Z-261010T0015Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2026-10-09T20:15:00-04:00"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "NWS"
+                    ],
+                    "NationalWeatherService": [
+                        "FAY"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b2cd75db4b4d7e82c91cbf75065315f50192957.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -82.47,
+                            29.05
+                        ],
+                        [
+                            -82.54,
                             29.04
                         ],
                         [
@@ -65,39 +198,64 @@
                             29.56
                         ],
                         [
-                            -82.69,
-                            29.57
+                            -82.75,
+                            29.56
                         ],
                         [
-                            -82.73,
+                            -82.78,
+                            29.58
+                        ],
+                        [
+                            -82.96,
+                            29.59
+                        ],
+                        [
+                            -82.93,
+                            29.81
+                        ],
+                        [
+                            -82.89,
+                            29.83
+                        ],
+                        [
+                            -82.87,
+                            29.88
+                        ],
+                        [
+                            -82.92,
+                            29.89
+                        ],
+                        [
+                            -82.96,
                             29.97
                         ],
                         [
-                            -82.21,
-                            29.97
+                            -82.15,
+                            29.96
                         ],
                         [
-                            -82.24,
-                            28.96
+                            -81.95,
+                            28.97
                         ],
                         [
                             -82.31,
                             28.96
                         ],
                         [
-                            -82.32,
-                            28.97
+                            -82.47,
+                            29.05
                         ]
                     ]
                 ]
             },
             "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.810f25594b66e704a7644c44a43442d40840cd16.001.1",
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b2cd75db4b4d7e82c91cbf75065315f50192957.001.1",
                 "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.810f25594b66e704a7644c44a43442d40840cd16.001.1",
-                "areaDesc": "Union; Bradford; Gilchrist; Eastern Alachua; Western Alachua; Central Marion; Western Marion; Southeastern Columbia; Southwestern Columbia",
+                "id": "urn:oid:2.49.0.1.840.0.4b2cd75db4b4d7e82c91cbf75065315f50192957.001.1",
+                "areaDesc": "Suwannee; Union; Bradford; Gilchrist; Eastern Alachua; Western Alachua; Central Marion; Western Marion; Southeastern Columbia; Southwestern Columbia",
                 "geocode": {
                     "SAME": [
+                        "012121",
                         "012125",
                         "012007",
                         "012041",
@@ -106,6 +264,7 @@
                         "012023"
                     ],
                     "UGC": [
+                        "FLZ021",
                         "FLZ030",
                         "FLZ031",
                         "FLZ035",
@@ -118,6 +277,7 @@
                     ]
                 },
                 "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/FLZ021",
                     "https://api.weather.gov/zones/forecast/FLZ030",
                     "https://api.weather.gov/zones/forecast/FLZ031",
                     "https://api.weather.gov/zones/forecast/FLZ035",
@@ -129,10 +289,10 @@
                     "https://api.weather.gov/zones/forecast/FLZ522"
                 ],
                 "references": [],
-                "sent": "2026-10-09T17:37:00-04:00",
-                "effective": "2026-10-09T17:37:00-04:00",
-                "onset": "2026-10-09T17:37:00-04:00",
-                "expires": "2026-10-09T18:15:00-04:00",
+                "sent": "2026-10-09T18:12:00-04:00",
+                "effective": "2026-10-09T18:12:00-04:00",
+                "onset": "2026-10-09T18:12:00-04:00",
+                "expires": "2026-10-09T18:45:00-04:00",
                 "ends": null,
                 "status": "Actual",
                 "messageType": "Alert",
@@ -143,8 +303,8 @@
                 "event": "Special Weather Statement",
                 "sender": "w-nws.webmaster@noaa.gov",
                 "senderName": "NWS Jacksonville FL",
-                "headline": "Special Weather Statement issued October 9 at 5:37PM EDT by NWS Jacksonville FL",
-                "description": "At 537 PM EDT, Doppler radar was tracking a strong thunderstorm\ncapable of producing a landspout near Archer, or 7 miles north of\nWilliston, moving north at 30 mph.\n\nHAZARD...Landspouts and wind gusts of 45 to 55 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to outdoor objects is possible. Gusty winds\ncould knock down tree limbs and blow around unsecured\nobjects.\n\nLocations impacted include...\nGainesville, Rainbow Lakes Estates, Worthington Spring, Alachua, High\nSprings, Archer, Fort White, Worthington Springs, University Of\nFlorida, and New River.",
+                "headline": "Special Weather Statement issued October 9 at 6:12PM EDT by NWS Jacksonville FL",
+                "description": "At 612 PM EDT, Doppler radar was tracking a strong thunderstorm\ncapable of producing a landspout 7 miles east of Williston, moving\nnorth at 35 mph.\n\nHAZARD...Landspouts and wind gusts of 45 to 55 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to outdoor objects is possible. Gusty winds\ncould knock down tree limbs and blow around unsecured\nobjects.\n\nLocations impacted include...\nGainesville, Ocala, Rainbow Lakes Estates, Trenton, Bell, Worthington\nSpring, Ichetucknee Spring, Citra, Alachua, and High Springs.",
                 "instruction": "If outdoors, consider seeking shelter inside a building.\n\nTorrential rainfall is also occurring with this storm and may lead to\nlocalized flooding. Do not drive your vehicle through flooded\nroadways.\n\nA Tornado Watch remains in effect until 900 PM EDT for northern\nFlorida.",
                 "response": "Execute",
                 "note": null,
@@ -153,13 +313,13 @@
                         "SPSJAX"
                     ],
                     "WMOidentifier": [
-                        "WWUS82 KJAX 092137"
+                        "WWUS82 KJAX 092212"
                     ],
                     "NWSheadline": [
-                        "A STRONG THUNDERSTORM WILL IMPACT SOUTHEASTERN GILCHRIST...WEST CENTRAL BRADFORD...ALACHUA...WESTERN MARION...SOUTHWESTERN UNION AND SOUTH CENTRAL COLUMBIA COUNTIES THROUGH 615 PM EDT"
+                        "A STRONG THUNDERSTORM WILL IMPACT GILCHRIST...CENTRAL BRADFORD... ALACHUA...WESTERN MARION...SOUTHWESTERN UNION...SOUTHWESTERN COLUMBIA AND SOUTHEASTERN SUWANNEE COUNTIES THROUGH 645 PM EDT"
                     ],
                     "eventMotionDescription": [
-                        "2026-10-09T21:37:00-00:00...storm...180DEG...29KT...29.48,-82.46"
+                        "2026-10-09T22:12:00-00:00...storm...179DEG...37KT...29.36,-82.33"
                     ],
                     "maxWindGust": [
                         "55 MPH"
@@ -457,5 +617,5 @@
         }
     ],
     "title": "Current watches, warnings, and advisories for 29.6436 N, 82.3549 W",
-    "updated": "2026-10-09T22:00:06+00:00"
+    "updated": "2026-10-09T22:17:40+00:00"
 }
