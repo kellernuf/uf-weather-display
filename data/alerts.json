@@ -10,62 +10,51 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd86b4cec6409e7c96b546ec4f9b5e840a0cd9e2.001.1",
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3b192ac5ff3a41897696b5c5afad54abc41523f.001.1",
             "type": "Feature",
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
                     [
                         [
-                            -82.4,
-                            29.5
+                            -82.45,
+                            30.34
                         ],
                         [
-                            -82.55,
-                            29.54
+                            -81.99,
+                            30.04
                         ],
                         [
-                            -82.63,
-                            29.69
+                            -81.78,
+                            29.64
                         ],
                         [
-                            -82.53,
-                            30.21
+                            -81.91,
+                            29.28
                         ],
                         [
-                            -82.46,
-                            30.15
+                            -82.39,
+                            29.63
                         ],
                         [
-                            -82.46,
-                            30.14
+                            -82.67,
+                            29.91
                         ],
                         [
                             -82.45,
-                            30.14
-                        ],
-                        [
-                            -81.8,
-                            29.59
-                        ],
-                        [
-                            -81.88,
-                            29.02
-                        ],
-                        [
-                            -82.4,
-                            29.5
+                            30.34
                         ]
                     ]
                 ]
             },
             "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd86b4cec6409e7c96b546ec4f9b5e840a0cd9e2.001.1",
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3b192ac5ff3a41897696b5c5afad54abc41523f.001.1",
                 "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.dd86b4cec6409e7c96b546ec4f9b5e840a0cd9e2.001.1",
-                "areaDesc": "Union; Bradford; Eastern Alachua; Eastern Marion; Western Clay; Western Alachua; Western Putnam; Central Marion; Western Marion; Southeastern Columbia; Southwestern Columbia",
+                "id": "urn:oid:2.49.0.1.840.0.b3b192ac5ff3a41897696b5c5afad54abc41523f.001.1",
+                "areaDesc": "Baker; Union; Bradford; Eastern Alachua; Eastern Marion; Western Clay; Western Alachua; Western Putnam; Central Marion; Northern Columbia; Southeastern Columbia; Southwestern Columbia",
                 "geocode": {
                     "SAME": [
+                        "012003",
                         "012125",
                         "012007",
                         "012001",
@@ -75,6 +64,7 @@
                         "012023"
                     ],
                     "UGC": [
+                        "FLZ023",
                         "FLZ030",
                         "FLZ031",
                         "FLZ136",
@@ -83,12 +73,13 @@
                         "FLZ236",
                         "FLZ237",
                         "FLZ240",
-                        "FLZ340",
+                        "FLZ322",
                         "FLZ422",
                         "FLZ522"
                     ]
                 },
                 "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/FLZ023",
                     "https://api.weather.gov/zones/forecast/FLZ030",
                     "https://api.weather.gov/zones/forecast/FLZ031",
                     "https://api.weather.gov/zones/forecast/FLZ136",
@@ -97,15 +88,15 @@
                     "https://api.weather.gov/zones/forecast/FLZ236",
                     "https://api.weather.gov/zones/forecast/FLZ237",
                     "https://api.weather.gov/zones/forecast/FLZ240",
-                    "https://api.weather.gov/zones/forecast/FLZ340",
+                    "https://api.weather.gov/zones/forecast/FLZ322",
                     "https://api.weather.gov/zones/forecast/FLZ422",
                     "https://api.weather.gov/zones/forecast/FLZ522"
                 ],
                 "references": [],
-                "sent": "2026-10-09T18:47:00-04:00",
-                "effective": "2026-10-09T18:47:00-04:00",
-                "onset": "2026-10-09T18:47:00-04:00",
-                "expires": "2026-10-09T19:15:00-04:00",
+                "sent": "2026-10-09T19:19:00-04:00",
+                "effective": "2026-10-09T19:19:00-04:00",
+                "onset": "2026-10-09T19:19:00-04:00",
+                "expires": "2026-10-09T19:45:00-04:00",
                 "ends": null,
                 "status": "Actual",
                 "messageType": "Alert",
@@ -116,8 +107,8 @@
                 "event": "Special Weather Statement",
                 "sender": "w-nws.webmaster@noaa.gov",
                 "senderName": "NWS Jacksonville FL",
-                "headline": "Special Weather Statement issued October 9 at 6:47PM EDT by NWS Jacksonville FL",
-                "description": "At 647 PM EDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Gainesville to Lynne. Movement was north\nat 30 mph.\n\nHAZARD...Wind gusts around 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nGainesville, Lake Butler, Interlachen, Melrose, Worthington Spring,\nFort McCoy, Citra, Lynne, Alachua, and High Springs.",
+                "headline": "Special Weather Statement issued October 9 at 7:19PM EDT by NWS Jacksonville FL",
+                "description": "At 719 PM EDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Worthington Spring to Melrose to near Fort\nMcCoy. Movement was north at 20 mph.\n\nHAZARD...Wind gusts around 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nGainesville, Starke, Lake Butler, Interlachen, Keystone Heights,\nRaiford, Melrose, Worthington Spring, Fort McCoy, and Alachua.",
                 "instruction": "If outdoors, consider seeking shelter inside a building.\n\nTorrential rainfall is also occurring with these storms and may lead\nto localized flooding. Do not drive your vehicle through flooded\nroadways.\n\nA Tornado Watch remains in effect until 900 PM EDT for northern and\nnortheastern Florida.",
                 "response": "Execute",
                 "note": null,
@@ -126,13 +117,13 @@
                         "SPSJAX"
                     ],
                     "WMOidentifier": [
-                        "WWUS82 KJAX 092247"
+                        "WWUS82 KJAX 092319"
                     ],
                     "NWSheadline": [
-                        "STRONG THUNDERSTORMS WILL IMPACT CENTRAL BRADFORD...ALACHUA... EASTERN MARION...WEST CENTRAL PUTNAM...WESTERN UNION...SOUTHWESTERN CLAY AND SOUTHEASTERN COLUMBIA COUNTIES THROUGH 715 PM EDT"
+                        "STRONG THUNDERSTORMS WILL IMPACT BRADFORD...ALACHUA...NORTH CENTRAL MARION...SOUTHWESTERN BAKER...NORTHWESTERN PUTNAM...UNION... SOUTHWESTERN CLAY AND SOUTHEASTERN COLUMBIA COUNTIES THROUGH 745 PM EDT"
                     ],
                     "eventMotionDescription": [
-                        "2026-10-09T22:47:00-00:00...storm...182DEG...24KT...29.74,-82.37 29.22,-81.93"
+                        "2026-10-09T23:19:00-00:00...storm...193DEG...16KT...29.91,-82.39 29.71,-82.08 29.42,-81.93"
                     ],
                     "maxWindGust": [
                         "40 MPH"
@@ -575,5 +566,5 @@
         }
     ],
     "title": "Current watches, warnings, and advisories for 29.6436 N, 82.3549 W",
-    "updated": "2026-10-09T23:13:50+00:00"
+    "updated": "2026-10-09T23:27:37+00:00"
 }
