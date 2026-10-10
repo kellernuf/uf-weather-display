@@ -10,100 +10,6 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1de262af06e9304c7515ed55a8835d7b54a5283a.001.1",
-            "type": "Feature",
-            "geometry": null,
-            "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1de262af06e9304c7515ed55a8835d7b54a5283a.001.1",
-                "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.1de262af06e9304c7515ed55a8835d7b54a5283a.001.1",
-                "areaDesc": "Alachua, FL; Baker, FL; Bradford, FL; Columbia, FL; Gilchrist, FL; Marion, FL; Union, FL",
-                "geocode": {
-                    "SAME": [
-                        "012001",
-                        "012003",
-                        "012007",
-                        "012023",
-                        "012041",
-                        "012083",
-                        "012125"
-                    ],
-                    "UGC": [
-                        "FLC001",
-                        "FLC003",
-                        "FLC007",
-                        "FLC023",
-                        "FLC041",
-                        "FLC083",
-                        "FLC125"
-                    ]
-                },
-                "affectedZones": [
-                    "https://api.weather.gov/zones/county/FLC001",
-                    "https://api.weather.gov/zones/county/FLC003",
-                    "https://api.weather.gov/zones/county/FLC007",
-                    "https://api.weather.gov/zones/county/FLC023",
-                    "https://api.weather.gov/zones/county/FLC041",
-                    "https://api.weather.gov/zones/county/FLC083",
-                    "https://api.weather.gov/zones/county/FLC125"
-                ],
-                "references": [],
-                "sent": "2026-10-09T16:24:00-04:00",
-                "effective": "2026-10-09T16:24:00-04:00",
-                "onset": "2026-10-09T16:24:00-04:00",
-                "expires": "2026-10-09T21:00:00-04:00",
-                "ends": "2026-10-09T21:00:00-04:00",
-                "status": "Actual",
-                "messageType": "Alert",
-                "category": "Met",
-                "severity": "Extreme",
-                "certainty": "Possible",
-                "urgency": "Future",
-                "event": "Tornado Watch",
-                "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Jacksonville FL",
-                "headline": "Tornado Watch issued October 9 at 4:24PM EDT until October 9 at 9:00PM EDT by NWS Jacksonville FL",
-                "description": "THE NATIONAL WEATHER SERVICE HAS EXTENDED TORNADO WATCH 677 TO\nINCLUDE THE FOLLOWING AREAS UNTIL 9 PM EDT THIS EVENING\n\nIN FLORIDA THIS WATCH INCLUDES 7 COUNTIES\n\nIN NORTHEAST FLORIDA\n\nBAKER\n\nIN NORTHERN FLORIDA\n\nALACHUA               BRADFORD              COLUMBIA\nGILCHRIST             MARION                UNION\n\nTHIS INCLUDES THE CITIES OF ANTHONY, BURBANK, COLUMBIA,\nGAINESVILLE, GAINESVILLE AIRPORT, LAKE BUTLER, LAKE CITY, LULU,\nMACCLENNY, NEW RIVER, NEWNANS LAKE, OCALA, OCALA AIRPORT,\nOLENO STATE PARK, OLUSTEE, STARKE, TRENTON, WATERTOWN,\nAND WEIRSDALE.",
-                "instruction": null,
-                "response": "Monitor",
-                "note": null,
-                "parameters": {
-                    "AWIPSidentifier": [
-                        "WCNJAX"
-                    ],
-                    "WMOidentifier": [
-                        "WWUS62 KJAX 092024"
-                    ],
-                    "BLOCKCHANNEL": [
-                        "EAS",
-                        "NWEM",
-                        "CMAS"
-                    ],
-                    "EAS-ORG": [
-                        "WXR"
-                    ],
-                    "VTEC": [
-                        "/O.EXA.KJAX.TO.A.0677.000000T0000Z-261010T0100Z/"
-                    ],
-                    "eventEndingTime": [
-                        "2026-10-09T21:00:00-04:00"
-                    ]
-                },
-                "scope": "Public",
-                "code": "IPAWSv1.0",
-                "language": "en-US",
-                "web": "http://www.weather.gov",
-                "eventCode": {
-                    "SAME": [
-                        "TOA"
-                    ],
-                    "NationalWeatherService": [
-                        "TOA"
-                    ]
-                }
-            }
-        },
-        {
             "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.765b542604ba5e5c7b4ba9370e65bf2905a8ebaf.002.1",
             "type": "Feature",
             "geometry": null,
@@ -276,5 +182,5 @@
         }
     ],
     "title": "Current watches, warnings, and advisories for 29.6436 N, 82.3549 W",
-    "updated": "2026-10-10T00:34:01+00:00"
+    "updated": "2026-10-10T00:56:31+00:00"
 }
