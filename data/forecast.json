@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-10T02:14:20+00:00",
+        "generatedAt": "2026-10-10T04:13:15+00:00",
         "updateTime": "2026-10-10T00:56:33+00:00",
         "validTimes": "2026-10-09T18:00:00+00:00/P7DT7H",
         "elevation": {
@@ -50,8 +50,8 @@
         "periods": [
             {
                 "number": 1,
-                "name": "Tonight",
-                "startTime": "2026-10-09T22:00:00-04:00",
+                "name": "Overnight",
+                "startTime": "2026-10-10T00:00:00-04:00",
                 "endTime": "2026-10-10T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 74,
@@ -59,13 +59,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 39
+                    "value": 20
                 },
                 "windSpeed": "13 mph",
                 "windDirection": "SE",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,40/rain_showers,20?size=medium",
-                "shortForecast": "Chance Rain Showers",
-                "detailedForecast": "A chance of rain showers before 2am. Mostly cloudy. Low around 74, with temperatures rising to around 75 overnight. Southeast wind around 13 mph, with gusts as high as 20 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible."
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=medium",
+                "shortForecast": "Slight Chance Rain Showers",
+                "detailedForecast": "A slight chance of rain showers before 2am. Mostly cloudy. Low around 74, with temperatures rising to around 75 overnight. Southeast wind around 13 mph, with gusts as high as 20 mph. Chance of precipitation is 20%. New rainfall amounts between a tenth and quarter of an inch possible."
             },
             {
                 "number": 2,
