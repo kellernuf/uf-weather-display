@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-10T19:51:17+00:00",
+        "generatedAt": "2026-10-10T18:28:19+00:00",
         "updateTime": "2026-10-10T18:21:01+00:00",
         "validTimes": "2026-10-10T12:00:00+00:00/P7DT13H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "This Afternoon",
-                "startTime": "2026-10-10T15:00:00-04:00",
+                "startTime": "2026-10-10T14:00:00-04:00",
                 "endTime": "2026-10-10T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 87,
@@ -61,11 +61,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 88
                 },
-                "windSpeed": "12 mph",
+                "windSpeed": "13 mph",
                 "windDirection": "S",
                 "icon": "https://api.weather.gov/icons/land/day/tsra,90?size=medium",
                 "shortForecast": "Showers And Thunderstorms",
-                "detailedForecast": "Showers and thunderstorms. Cloudy. High near 87, with temperatures falling to around 83 in the afternoon. South wind around 12 mph, with gusts as high as 23 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible."
+                "detailedForecast": "Showers and thunderstorms. Cloudy. High near 87, with temperatures falling to around 83 in the afternoon. South wind around 13 mph, with gusts as high as 24 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible."
             },
             {
                 "number": 2,
