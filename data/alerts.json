@@ -1,9 +1,137 @@
 {
-    "@context": {
-        "@version": "1.1"
-    },
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
     "type": "FeatureCollection",
-    "features": [],
+    "features": [
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a59286fea8b5367d56afc03ba54b8eba7b8464b1.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -82.56,
+                            29.54
+                        ],
+                        [
+                            -82.65,
+                            29.54
+                        ],
+                        [
+                            -82.57,
+                            29.76
+                        ],
+                        [
+                            -82.42,
+                            29.76
+                        ],
+                        [
+                            -82.32,
+                            29.66
+                        ],
+                        [
+                            -82.44,
+                            29.48
+                        ],
+                        [
+                            -82.55,
+                            29.48
+                        ],
+                        [
+                            -82.56,
+                            29.54
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a59286fea8b5367d56afc03ba54b8eba7b8464b1.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.a59286fea8b5367d56afc03ba54b8eba7b8464b1.001.1",
+                "areaDesc": "Eastern Alachua; Western Alachua",
+                "geocode": {
+                    "SAME": [
+                        "012001"
+                    ],
+                    "UGC": [
+                        "FLZ136",
+                        "FLZ236"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/FLZ136",
+                    "https://api.weather.gov/zones/forecast/FLZ236"
+                ],
+                "references": [],
+                "sent": "2026-10-10T23:58:00-04:00",
+                "effective": "2026-10-10T23:58:00-04:00",
+                "onset": "2026-10-10T23:58:00-04:00",
+                "expires": "2026-10-11T00:30:00-04:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Observed",
+                "urgency": "Expected",
+                "event": "Special Weather Statement",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Jacksonville FL",
+                "headline": "Special Weather Statement issued October 10 at 11:58PM EDT by NWS Jacksonville FL",
+                "description": "At 1158 PM EDT, Doppler radar was tracking a strong thunderstorm over\nEast Bronson, or near Bronson, moving north at 30 mph.\n\nHAZARD...Wind gusts around 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nGainesville, Archer, University Of Florida, and Newberry.",
+                "instruction": "If outdoors, consider seeking shelter inside a building.\n\nTorrential rainfall is also occurring with this storm and may lead to\nlocalized flooding. Do not drive your vehicle through flooded\nroadways.",
+                "response": "Execute",
+                "note": null,
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SPSJAX"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS82 KJAX 110358"
+                    ],
+                    "NWSheadline": [
+                        "A STRONG THUNDERSTORM WILL IMPACT SOUTHWESTERN ALACHUA COUNTY THROUGH 1230 AM EDT"
+                    ],
+                    "eventMotionDescription": [
+                        "2026-10-11T03:58:00-00:00...storm...201DEG...27KT...29.47,-82.57"
+                    ],
+                    "maxWindGust": [
+                        "40 MPH"
+                    ],
+                    "maxHailSize": [
+                        "0.00"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "SPS"
+                    ],
+                    "NationalWeatherService": [
+                        "SPS"
+                    ]
+                }
+            }
+        }
+    ],
     "title": "Current watches, warnings, and advisories for 29.6436 N, 82.3549 W",
-    "updated": "2026-10-11T03:48:06+00:00"
+    "updated": "2026-10-11T04:00:00+00:00"
 }
