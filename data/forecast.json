@@ -40,8 +40,8 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-11T11:29:07+00:00",
-        "updateTime": "2026-10-11T11:01:11+00:00",
+        "generatedAt": "2026-10-11T12:07:14+00:00",
+        "updateTime": "2026-10-11T11:26:24+00:00",
         "validTimes": "2026-10-11T05:00:00+00:00/P7DT20H",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Today",
-                "startTime": "2026-10-11T07:00:00-04:00",
+                "startTime": "2026-10-11T08:00:00-04:00",
                 "endTime": "2026-10-11T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 82,
@@ -59,13 +59,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 63
+                    "value": 42
                 },
                 "windSpeed": "6 to 9 mph",
                 "windDirection": "W",
-                "icon": "https://api.weather.gov/icons/land/day/tsra_hi,60/bkn?size=medium",
+                "icon": "https://api.weather.gov/icons/land/day/tsra_hi,40/bkn?size=medium",
                 "shortForecast": "Showers And Thunderstorms Likely then Partly Sunny",
-                "detailedForecast": "Showers and thunderstorms likely before 11am. Some of the storms could produce heavy rain. Partly sunny, with a high near 82. West wind 6 to 9 mph, with gusts as high as 16 mph. Chance of precipitation is 60%. New rainfall amounts between three quarters and one inch possible."
+                "detailedForecast": "Showers and thunderstorms likely before 11am. Partly sunny, with a high near 82. West wind 6 to 9 mph, with gusts as high as 16 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
             },
             {
                 "number": 2,
