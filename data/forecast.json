@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-12T17:23:40+00:00",
+        "generatedAt": "2026-10-12T18:26:10+00:00",
         "updateTime": "2026-10-12T12:06:48+00:00",
         "validTimes": "2026-10-12T06:00:00+00:00/P7DT19H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Columbus Day",
-                "startTime": "2026-10-12T13:00:00-04:00",
+                "startTime": "2026-10-12T14:00:00-04:00",
                 "endTime": "2026-10-12T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 87,
