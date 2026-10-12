@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-12T14:48:54+00:00",
+        "generatedAt": "2026-10-12T12:17:44+00:00",
         "updateTime": "2026-10-12T12:06:48+00:00",
         "validTimes": "2026-10-12T06:00:00+00:00/P7DT19H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Columbus Day",
-                "startTime": "2026-10-12T10:00:00-04:00",
+                "startTime": "2026-10-12T08:00:00-04:00",
                 "endTime": "2026-10-12T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 87,
@@ -61,11 +61,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "6 to 10 mph",
+                "windSpeed": "5 to 10 mph",
                 "windDirection": "NW",
-                "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
                 "shortForecast": "Sunny",
-                "detailedForecast": "Sunny. High near 87, with temperatures falling to around 86 in the afternoon. Northwest wind 6 to 10 mph, with gusts as high as 16 mph."
+                "detailedForecast": "Sunny. High near 87, with temperatures falling to around 86 in the afternoon. Northwest wind 5 to 10 mph, with gusts as high as 16 mph."
             },
             {
                 "number": 2,
