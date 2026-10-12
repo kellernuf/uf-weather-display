@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-12T11:38:28+00:00",
-        "updateTime": "2026-10-12T06:20:59+00:00",
-        "validTimes": "2026-10-12T00:00:00+00:00/P8DT1H",
+        "generatedAt": "2026-10-12T12:17:44+00:00",
+        "updateTime": "2026-10-12T12:06:48+00:00",
+        "validTimes": "2026-10-12T06:00:00+00:00/P7DT19H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,21 +51,21 @@
             {
                 "number": 1,
                 "name": "Columbus Day",
-                "startTime": "2026-10-12T07:00:00-04:00",
+                "startTime": "2026-10-12T08:00:00-04:00",
                 "endTime": "2026-10-12T18:00:00-04:00",
                 "isDaytime": true,
-                "temperature": 85,
+                "temperature": 87,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "5 to 12 mph",
+                "windSpeed": "5 to 10 mph",
                 "windDirection": "NW",
-                "icon": "https://api.weather.gov/icons/land/day/fog/few?size=medium",
-                "shortForecast": "Patchy Fog then Sunny",
-                "detailedForecast": "Patchy fog before 8am. Sunny. High near 85, with temperatures falling to around 83 in the afternoon. Northwest wind 5 to 12 mph, with gusts as high as 20 mph."
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "shortForecast": "Sunny",
+                "detailedForecast": "Sunny. High near 87, with temperatures falling to around 86 in the afternoon. Northwest wind 5 to 10 mph, with gusts as high as 16 mph."
             },
             {
                 "number": 2,
@@ -73,18 +73,18 @@
                 "startTime": "2026-10-12T18:00:00-04:00",
                 "endTime": "2026-10-13T06:00:00-04:00",
                 "isDaytime": false,
-                "temperature": 64,
+                "temperature": 60,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "0 to 6 mph",
-                "windDirection": "N",
-                "icon": "https://api.weather.gov/icons/land/night/skc/fog?size=medium",
-                "shortForecast": "Clear then Patchy Fog",
-                "detailedForecast": "Patchy fog after 5am. Clear. Low around 64, with temperatures rising to around 65 overnight. North wind 0 to 6 mph."
+                "windSpeed": "0 to 7 mph",
+                "windDirection": "NW",
+                "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+                "shortForecast": "Clear",
+                "detailedForecast": "Clear. Low around 60, with temperatures rising to around 61 overnight. Northwest wind 0 to 7 mph."
             },
             {
                 "number": 3,
@@ -99,11 +99,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "1 to 6 mph",
+                "windSpeed": "0 to 6 mph",
                 "windDirection": "N",
-                "icon": "https://api.weather.gov/icons/land/day/fog/skc?size=medium",
-                "shortForecast": "Patchy Fog then Sunny",
-                "detailedForecast": "Patchy fog before 8am. Sunny. High near 86, with temperatures falling to around 85 in the afternoon. North wind 1 to 6 mph."
+                "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+                "shortForecast": "Sunny",
+                "detailedForecast": "Sunny. High near 86, with temperatures falling to around 85 in the afternoon. North wind 0 to 6 mph."
             },
             {
                 "number": 4,
