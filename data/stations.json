@@ -243,8 +243,8 @@
                 "stationIdentifier": "K28J",
                 "name": "Palatka Kay Larkin Field",
                 "timeZone": "America/New_York",
-                "provider": "OTHER-MTR",
-                "subProvider": "",
+                "provider": "NonFedAWOS",
+                "subProvider": "TG",
                 "distance": {
                     "unitCode": "wmoUnit:m",
                     "value": 64617.938600384
@@ -698,7 +698,7 @@
                 "stationIdentifier": "KDAB",
                 "name": "Daytona Beach International Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS",
+                "provider": "ASOS-HFM",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -1433,7 +1433,7 @@
                 "stationIdentifier": "KSAV",
                 "name": "Savannah-Hilton Head International Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS-HFM",
+                "provider": "ASOS",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
