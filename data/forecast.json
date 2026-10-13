@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-13T04:35:53+00:00",
+        "generatedAt": "2026-10-13T05:47:39+00:00",
         "updateTime": "2026-10-13T04:16:27+00:00",
         "validTimes": "2026-10-12T22:00:00+00:00/P8DT3H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Overnight",
-                "startTime": "2026-10-13T00:00:00-04:00",
+                "startTime": "2026-10-13T01:00:00-04:00",
                 "endTime": "2026-10-13T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 64,
