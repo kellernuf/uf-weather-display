@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-13T02:47:32+00:00",
+        "generatedAt": "2026-10-13T01:21:11+00:00",
         "updateTime": "2026-10-13T00:01:23+00:00",
         "validTimes": "2026-10-12T18:00:00+00:00/P7DT7H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Tonight",
-                "startTime": "2026-10-12T22:00:00-04:00",
+                "startTime": "2026-10-12T21:00:00-04:00",
                 "endTime": "2026-10-13T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 61,
@@ -61,11 +61,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "2 mph",
+                "windSpeed": "0 to 3 mph",
                 "windDirection": "N",
                 "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
                 "shortForecast": "Clear",
-                "detailedForecast": "Clear. Low around 61, with temperatures rising to around 62 overnight. North wind around 2 mph."
+                "detailedForecast": "Clear. Low around 61, with temperatures rising to around 62 overnight. North wind 0 to 3 mph."
             },
             {
                 "number": 2,
