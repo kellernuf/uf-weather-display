@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-12T22:13:01+00:00",
-        "updateTime": "2026-10-12T18:21:28+00:00",
-        "validTimes": "2026-10-12T12:00:00+00:00/P7DT13H",
+        "generatedAt": "2026-10-13T00:03:35+00:00",
+        "updateTime": "2026-10-12T23:41:23+00:00",
+        "validTimes": "2026-10-12T17:00:00+00:00/P7DT8H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,21 +51,21 @@
             {
                 "number": 1,
                 "name": "Tonight",
-                "startTime": "2026-10-12T18:00:00-04:00",
+                "startTime": "2026-10-12T20:00:00-04:00",
                 "endTime": "2026-10-13T06:00:00-04:00",
                 "isDaytime": false,
-                "temperature": 60,
+                "temperature": 61,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "0 to 7 mph",
-                "windDirection": "NW",
+                "windSpeed": "0 to 3 mph",
+                "windDirection": "N",
                 "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
                 "shortForecast": "Clear",
-                "detailedForecast": "Clear. Low around 60, with temperatures rising to around 61 overnight. Northwest wind 0 to 7 mph."
+                "detailedForecast": "Clear. Low around 61, with temperatures rising to around 62 overnight. North wind 0 to 3 mph."
             },
             {
                 "number": 2,
@@ -81,10 +81,10 @@
                     "value": 0
                 },
                 "windSpeed": "0 to 6 mph",
-                "windDirection": "N",
-                "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+                "windDirection": "NE",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
                 "shortForecast": "Sunny",
-                "detailedForecast": "Sunny. High near 87, with temperatures falling to around 85 in the afternoon. North wind 0 to 6 mph."
+                "detailedForecast": "Sunny. High near 87, with temperatures falling to around 85 in the afternoon. Northeast wind 0 to 6 mph."
             },
             {
                 "number": 3,
@@ -101,9 +101,9 @@
                 },
                 "windSpeed": "1 to 5 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/skc/fog?size=medium",
-                "shortForecast": "Clear then Patchy Fog",
-                "detailedForecast": "Patchy fog after 5am. Clear. Low around 64, with temperatures rising to around 66 overnight. Northeast wind 1 to 5 mph."
+                "icon": "https://api.weather.gov/icons/land/night/few/fog?size=medium",
+                "shortForecast": "Mostly Clear then Patchy Fog",
+                "detailedForecast": "Patchy fog after 5am. Mostly clear. Low around 64, with temperatures rising to around 65 overnight. Northeast wind 1 to 5 mph."
             },
             {
                 "number": 4,
