@@ -1,9 +1,201 @@
 {
-    "@context": {
-        "@version": "1.1"
-    },
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
     "type": "FeatureCollection",
-    "features": [],
+    "features": [
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.803f5d73d7de21a03f6af6432ecf67fdf3d27e93.001.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.803f5d73d7de21a03f6af6432ecf67fdf3d27e93.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.803f5d73d7de21a03f6af6432ecf67fdf3d27e93.001.1",
+                "areaDesc": "Suwannee; Baker; Inland Nassau; Union; Bradford; Gilchrist; Eastern Hamilton; Coastal Nassau; Coastal Duval; Eastern Clay; Eastern Alachua; Eastern Putnam; Eastern Marion; Western Hamilton; Trout River; Western Clay; Western Alachua; Western Putnam; Central Marion; Northern Columbia; South Central Duval; Western Marion; Southeastern Columbia; Western Duval; Southwestern Columbia; Western St. Johns; Coffee; Jeff Davis; Bacon; Appling; Wayne; Atkinson; Pierce; Brantley; Inland Glynn; Coastal Glynn; Echols; Clinch; Inland Camden; Coastal Camden; Northern Ware; Northeastern Charlton; Southern Ware; Western Charlton",
+                "geocode": {
+                    "SAME": [
+                        "012121",
+                        "012003",
+                        "012089",
+                        "012125",
+                        "012007",
+                        "012041",
+                        "012047",
+                        "012031",
+                        "012019",
+                        "012001",
+                        "012107",
+                        "012083",
+                        "012023",
+                        "012109",
+                        "013069",
+                        "013161",
+                        "013005",
+                        "013001",
+                        "013305",
+                        "013003",
+                        "013229",
+                        "013025",
+                        "013127",
+                        "013101",
+                        "013065",
+                        "013039",
+                        "013299",
+                        "013049"
+                    ],
+                    "UGC": [
+                        "FLZ021",
+                        "FLZ023",
+                        "FLZ024",
+                        "FLZ030",
+                        "FLZ031",
+                        "FLZ035",
+                        "FLZ120",
+                        "FLZ124",
+                        "FLZ125",
+                        "FLZ132",
+                        "FLZ136",
+                        "FLZ137",
+                        "FLZ140",
+                        "FLZ220",
+                        "FLZ225",
+                        "FLZ232",
+                        "FLZ236",
+                        "FLZ237",
+                        "FLZ240",
+                        "FLZ322",
+                        "FLZ325",
+                        "FLZ340",
+                        "FLZ422",
+                        "FLZ425",
+                        "FLZ522",
+                        "FLZ633",
+                        "GAZ132",
+                        "GAZ133",
+                        "GAZ134",
+                        "GAZ135",
+                        "GAZ136",
+                        "GAZ149",
+                        "GAZ151",
+                        "GAZ152",
+                        "GAZ153",
+                        "GAZ154",
+                        "GAZ162",
+                        "GAZ163",
+                        "GAZ165",
+                        "GAZ166",
+                        "GAZ250",
+                        "GAZ264",
+                        "GAZ350",
+                        "GAZ364"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/FLZ021",
+                    "https://api.weather.gov/zones/forecast/FLZ023",
+                    "https://api.weather.gov/zones/forecast/FLZ024",
+                    "https://api.weather.gov/zones/forecast/FLZ030",
+                    "https://api.weather.gov/zones/forecast/FLZ031",
+                    "https://api.weather.gov/zones/forecast/FLZ035",
+                    "https://api.weather.gov/zones/forecast/FLZ120",
+                    "https://api.weather.gov/zones/forecast/FLZ124",
+                    "https://api.weather.gov/zones/forecast/FLZ125",
+                    "https://api.weather.gov/zones/forecast/FLZ132",
+                    "https://api.weather.gov/zones/forecast/FLZ136",
+                    "https://api.weather.gov/zones/forecast/FLZ137",
+                    "https://api.weather.gov/zones/forecast/FLZ140",
+                    "https://api.weather.gov/zones/forecast/FLZ220",
+                    "https://api.weather.gov/zones/forecast/FLZ225",
+                    "https://api.weather.gov/zones/forecast/FLZ232",
+                    "https://api.weather.gov/zones/forecast/FLZ236",
+                    "https://api.weather.gov/zones/forecast/FLZ237",
+                    "https://api.weather.gov/zones/forecast/FLZ240",
+                    "https://api.weather.gov/zones/forecast/FLZ322",
+                    "https://api.weather.gov/zones/forecast/FLZ325",
+                    "https://api.weather.gov/zones/forecast/FLZ340",
+                    "https://api.weather.gov/zones/forecast/FLZ422",
+                    "https://api.weather.gov/zones/forecast/FLZ425",
+                    "https://api.weather.gov/zones/forecast/FLZ522",
+                    "https://api.weather.gov/zones/forecast/FLZ633",
+                    "https://api.weather.gov/zones/forecast/GAZ132",
+                    "https://api.weather.gov/zones/forecast/GAZ133",
+                    "https://api.weather.gov/zones/forecast/GAZ134",
+                    "https://api.weather.gov/zones/forecast/GAZ135",
+                    "https://api.weather.gov/zones/forecast/GAZ136",
+                    "https://api.weather.gov/zones/forecast/GAZ149",
+                    "https://api.weather.gov/zones/forecast/GAZ151",
+                    "https://api.weather.gov/zones/forecast/GAZ152",
+                    "https://api.weather.gov/zones/forecast/GAZ153",
+                    "https://api.weather.gov/zones/forecast/GAZ154",
+                    "https://api.weather.gov/zones/forecast/GAZ162",
+                    "https://api.weather.gov/zones/forecast/GAZ163",
+                    "https://api.weather.gov/zones/forecast/GAZ165",
+                    "https://api.weather.gov/zones/forecast/GAZ166",
+                    "https://api.weather.gov/zones/forecast/GAZ250",
+                    "https://api.weather.gov/zones/forecast/GAZ264",
+                    "https://api.weather.gov/zones/forecast/GAZ350",
+                    "https://api.weather.gov/zones/forecast/GAZ364"
+                ],
+                "references": [],
+                "sent": "2026-10-14T02:31:00-04:00",
+                "effective": "2026-10-14T02:31:00-04:00",
+                "onset": "2026-10-14T02:31:00-04:00",
+                "expires": "2026-10-14T07:15:00-04:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Observed",
+                "urgency": "Expected",
+                "event": "Special Weather Statement",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Jacksonville FL",
+                "headline": "Special Weather Statement issued October 14 at 2:31AM EDT by NWS Jacksonville FL",
+                "description": "Locally dense fog developing across southeast Georgia and\nnortheast Florida this morning will impact visibility through\nabout 7 AM. Given the nature of the fog, visibilities on area\nroadways can reduce to one half mile or less over short distances.\n\nPRECAUTIONARY PREPAREDNESS ACTIONS...\n\nThe nature of the fog is such that visibilities will vary greatly\nover short distances. Motorists should be alert for rapidly\nchanging conditions through sunrise.",
+                "instruction": null,
+                "response": "Execute",
+                "note": null,
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SPSJAX"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS82 KJAX 140631"
+                    ],
+                    "NWSheadline": [
+                        "PATCHY DENSE FOG ACROSS SE GEORGIA AND NE FLORIDA THROUGH 7 AM"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "SPS"
+                    ],
+                    "NationalWeatherService": [
+                        "SPS"
+                    ]
+                }
+            }
+        }
+    ],
     "title": "Current watches, warnings, and advisories for 29.6436 N, 82.3549 W",
-    "updated": "2026-10-14T06:27:36+00:00"
+    "updated": "2026-10-14T07:10:36+00:00"
 }
