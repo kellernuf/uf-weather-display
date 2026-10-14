@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-14T02:34:14+00:00",
+        "generatedAt": "2026-10-14T03:01:54+00:00",
         "updateTime": "2026-10-13T23:26:10+00:00",
         "validTimes": "2026-10-13T17:00:00+00:00/P7DT8H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Tonight",
-                "startTime": "2026-10-13T22:00:00-04:00",
+                "startTime": "2026-10-13T23:00:00-04:00",
                 "endTime": "2026-10-14T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 66,
