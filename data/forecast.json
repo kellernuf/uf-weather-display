@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-14T14:21:52+00:00",
+        "generatedAt": "2026-10-14T12:18:09+00:00",
         "updateTime": "2026-10-14T06:21:45+00:00",
         "validTimes": "2026-10-14T00:00:00+00:00/P8DT1H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Today",
-                "startTime": "2026-10-14T10:00:00-04:00",
+                "startTime": "2026-10-14T08:00:00-04:00",
                 "endTime": "2026-10-14T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 87,
@@ -63,9 +63,9 @@
                 },
                 "windSpeed": "1 to 6 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-                "shortForecast": "Sunny",
-                "detailedForecast": "Sunny. High near 87, with temperatures falling to around 85 in the afternoon. Northeast wind 1 to 6 mph."
+                "icon": "https://api.weather.gov/icons/land/day/fog/few?size=medium",
+                "shortForecast": "Areas Of Fog then Sunny",
+                "detailedForecast": "Areas of fog before 9am. Sunny. High near 87, with temperatures falling to around 85 in the afternoon. Northeast wind 1 to 6 mph."
             },
             {
                 "number": 2,
