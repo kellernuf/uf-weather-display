@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-14T03:01:54+00:00",
-        "updateTime": "2026-10-13T23:26:10+00:00",
-        "validTimes": "2026-10-13T17:00:00+00:00/P7DT8H",
+        "generatedAt": "2026-10-14T04:31:30+00:00",
+        "updateTime": "2026-10-14T04:16:29+00:00",
+        "validTimes": "2026-10-13T22:00:00+00:00/P8DT3H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -50,8 +50,8 @@
         "periods": [
             {
                 "number": 1,
-                "name": "Tonight",
-                "startTime": "2026-10-13T23:00:00-04:00",
+                "name": "Overnight",
+                "startTime": "2026-10-14T00:00:00-04:00",
                 "endTime": "2026-10-14T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 66,
@@ -61,11 +61,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "3 mph",
+                "windSpeed": "2 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/night/few/fog?size=medium",
-                "shortForecast": "Mostly Clear then Patchy Fog",
-                "detailedForecast": "Patchy fog after 4am. Mostly clear, with a low around 66. East wind around 3 mph."
+                "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+                "shortForecast": "Patchy Fog",
+                "detailedForecast": "Patchy fog after 2am. Mostly clear. Low around 66, with temperatures rising to around 67 overnight. East wind around 2 mph."
             },
             {
                 "number": 2,
@@ -73,18 +73,18 @@
                 "startTime": "2026-10-14T06:00:00-04:00",
                 "endTime": "2026-10-14T18:00:00-04:00",
                 "isDaytime": true,
-                "temperature": 89,
+                "temperature": 87,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 2
+                    "value": 0
                 },
-                "windSpeed": "0 to 9 mph",
+                "windSpeed": "1 to 6 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/day/fog/few?size=medium",
                 "shortForecast": "Areas Of Fog then Sunny",
-                "detailedForecast": "Areas of fog before 9am. Sunny. High near 89, with temperatures falling to around 87 in the afternoon. Northeast wind 0 to 9 mph."
+                "detailedForecast": "Areas of fog before 9am. Sunny. High near 87, with temperatures falling to around 85 in the afternoon. Northeast wind 1 to 6 mph."
             },
             {
                 "number": 3,
@@ -92,18 +92,18 @@
                 "startTime": "2026-10-14T18:00:00-04:00",
                 "endTime": "2026-10-15T06:00:00-04:00",
                 "isDaytime": false,
-                "temperature": 64,
+                "temperature": 68,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "2 to 8 mph",
+                "windSpeed": "1 to 7 mph",
                 "windDirection": "E",
                 "icon": "https://api.weather.gov/icons/land/night/few/fog?size=medium",
-                "shortForecast": "Mostly Clear then Areas Of Fog",
-                "detailedForecast": "Areas of fog after 2am. Mostly clear, with a low around 64. East wind 2 to 8 mph."
+                "shortForecast": "Mostly Clear then Patchy Fog",
+                "detailedForecast": "Patchy fog after 5am. Mostly clear, with a low around 68. East wind 1 to 7 mph."
             },
             {
                 "number": 4,
@@ -111,18 +111,18 @@
                 "startTime": "2026-10-15T06:00:00-04:00",
                 "endTime": "2026-10-15T18:00:00-04:00",
                 "isDaytime": true,
-                "temperature": 90,
+                "temperature": 88,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 2
+                    "value": 0
                 },
-                "windSpeed": "2 to 8 mph",
+                "windSpeed": "1 to 6 mph",
                 "windDirection": "E",
                 "icon": "https://api.weather.gov/icons/land/day/fog/few?size=medium",
-                "shortForecast": "Areas Of Fog then Sunny",
-                "detailedForecast": "Areas of fog before 10am. Sunny. High near 90, with temperatures falling to around 88 in the afternoon. East wind 2 to 8 mph."
+                "shortForecast": "Patchy Fog then Sunny",
+                "detailedForecast": "Patchy fog before 9am. Sunny. High near 88, with temperatures falling to around 87 in the afternoon. East wind 1 to 6 mph."
             },
             {
                 "number": 5,
@@ -130,18 +130,18 @@
                 "startTime": "2026-10-15T18:00:00-04:00",
                 "endTime": "2026-10-16T06:00:00-04:00",
                 "isDaytime": false,
-                "temperature": 66,
+                "temperature": 69,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 2
+                    "value": 0
                 },
                 "windSpeed": "1 to 7 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/night/few/fog?size=medium",
-                "shortForecast": "Mostly Clear then Areas Of Fog",
-                "detailedForecast": "Areas of fog after 2am. Mostly clear. Low around 66, with temperatures rising to around 68 overnight. East wind 1 to 7 mph."
+                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+                "shortForecast": "Mostly Clear",
+                "detailedForecast": "Mostly clear. Low around 69, with temperatures rising to around 70 overnight. East wind 1 to 7 mph."
             },
             {
                 "number": 6,
@@ -149,18 +149,18 @@
                 "startTime": "2026-10-16T06:00:00-04:00",
                 "endTime": "2026-10-16T18:00:00-04:00",
                 "isDaytime": true,
-                "temperature": 90,
+                "temperature": 87,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 20
+                    "value": 15
                 },
-                "windSpeed": "1 to 8 mph",
-                "windDirection": "N",
-                "icon": "https://api.weather.gov/icons/land/day/fog/tsra_hi,20?size=medium",
-                "shortForecast": "Areas Of Fog then Slight Chance Showers And Thunderstorms",
-                "detailedForecast": "Areas of fog before 9am, then a slight chance of showers and thunderstorms. Mostly sunny, with a high near 90. Chance of precipitation is 20%."
+                "windSpeed": "0 to 6 mph",
+                "windDirection": "W",
+                "icon": "https://api.weather.gov/icons/land/day/few/rain_showers,20?size=medium",
+                "shortForecast": "Sunny then Slight Chance Rain Showers",
+                "detailedForecast": "A slight chance of rain showers after 2pm. Sunny, with a high near 87. Chance of precipitation is 20%."
             },
             {
                 "number": 7,
@@ -168,18 +168,18 @@
                 "startTime": "2026-10-16T18:00:00-04:00",
                 "endTime": "2026-10-17T06:00:00-04:00",
                 "isDaytime": false,
-                "temperature": 69,
+                "temperature": 68,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 20
+                    "value": 15
                 },
                 "windSpeed": "1 to 14 mph",
-                "windDirection": "NW",
-                "icon": "https://api.weather.gov/icons/land/night/tsra_hi,20/sct?size=medium",
-                "shortForecast": "Slight Chance Showers And Thunderstorms then Partly Cloudy",
-                "detailedForecast": "A slight chance of showers and thunderstorms before 8pm. Partly cloudy, with a low around 69. Chance of precipitation is 20%."
+                "windDirection": "W",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/sct?size=medium",
+                "shortForecast": "Slight Chance Rain Showers then Partly Cloudy",
+                "detailedForecast": "A slight chance of rain showers before 8pm. Partly cloudy, with a low around 68. Chance of precipitation is 20%."
             },
             {
                 "number": 8,
@@ -187,18 +187,18 @@
                 "startTime": "2026-10-17T06:00:00-04:00",
                 "endTime": "2026-10-17T18:00:00-04:00",
                 "isDaytime": true,
-                "temperature": 78,
+                "temperature": 77,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 4
+                    "value": 2
                 },
-                "windSpeed": "16 to 21 mph",
-                "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/wind_sct?size=medium",
+                "windSpeed": "16 to 20 mph",
+                "windDirection": "N",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
                 "shortForecast": "Mostly Sunny",
-                "detailedForecast": "Mostly sunny, with a high near 78."
+                "detailedForecast": "Mostly sunny, with a high near 77."
             },
             {
                 "number": 9,
@@ -206,18 +206,18 @@
                 "startTime": "2026-10-17T18:00:00-04:00",
                 "endTime": "2026-10-18T06:00:00-04:00",
                 "isDaytime": false,
-                "temperature": 65,
+                "temperature": 64,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
                     "value": 4
                 },
-                "windSpeed": "15 to 20 mph",
+                "windSpeed": "15 to 18 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
                 "shortForecast": "Partly Cloudy",
-                "detailedForecast": "Partly cloudy, with a low around 65."
+                "detailedForecast": "Partly cloudy, with a low around 64."
             },
             {
                 "number": 10,
@@ -225,18 +225,18 @@
                 "startTime": "2026-10-18T06:00:00-04:00",
                 "endTime": "2026-10-18T18:00:00-04:00",
                 "isDaytime": true,
-                "temperature": 79,
+                "temperature": 78,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 12
+                    "value": 15
                 },
                 "windSpeed": "17 to 22 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/wind_sct?size=medium",
-                "shortForecast": "Mostly Sunny",
-                "detailedForecast": "Mostly sunny, with a high near 79."
+                "icon": "https://api.weather.gov/icons/land/day/wind_sct/rain_showers,20?size=medium",
+                "shortForecast": "Mostly Sunny then Slight Chance Rain Showers",
+                "detailedForecast": "A slight chance of rain showers after 2pm. Mostly sunny, with a high near 78. Chance of precipitation is 20%."
             },
             {
                 "number": 11,
@@ -249,13 +249,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 12
+                    "value": 15
                 },
-                "windSpeed": "12 to 20 mph",
+                "windSpeed": "13 to 20 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-                "shortForecast": "Partly Cloudy",
-                "detailedForecast": "Partly cloudy, with a low around 67."
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/sct?size=medium",
+                "shortForecast": "Slight Chance Rain Showers then Partly Cloudy",
+                "detailedForecast": "A slight chance of rain showers before 8pm. Partly cloudy, with a low around 67. Chance of precipitation is 20%."
             },
             {
                 "number": 12,
@@ -268,13 +268,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 13
+                    "value": 18
                 },
                 "windSpeed": "15 to 21 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/wind_sct?size=medium",
-                "shortForecast": "Mostly Sunny",
-                "detailedForecast": "Mostly sunny, with a high near 82."
+                "icon": "https://api.weather.gov/icons/land/day/wind_few/rain_showers,20?size=medium",
+                "shortForecast": "Sunny then Slight Chance Rain Showers",
+                "detailedForecast": "A slight chance of rain showers after 2pm. Sunny, with a high near 82. Chance of precipitation is 20%."
             },
             {
                 "number": 13,
@@ -287,13 +287,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 13
+                    "value": 18
                 },
-                "windSpeed": "9 to 18 mph",
+                "windSpeed": "10 to 18 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-                "shortForecast": "Partly Cloudy",
-                "detailedForecast": "Partly cloudy, with a low around 67."
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/few?size=medium",
+                "shortForecast": "Slight Chance Rain Showers then Mostly Clear",
+                "detailedForecast": "A slight chance of rain showers before 8pm. Mostly clear, with a low around 67. Chance of precipitation is 20%."
             },
             {
                 "number": 14,
@@ -306,13 +306,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 26
+                    "value": 27
                 },
                 "windSpeed": "13 to 20 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/sct/rain_showers,30?size=medium",
-                "shortForecast": "Mostly Sunny then Chance Rain Showers",
-                "detailedForecast": "A chance of rain showers after 2pm. Mostly sunny, with a high near 82."
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/rain_showers,30?size=medium",
+                "shortForecast": "Chance Rain Showers",
+                "detailedForecast": "A chance of rain showers after 8am. Mostly sunny, with a high near 82."
             }
         ]
     }
