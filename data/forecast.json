@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-15T07:29:35+00:00",
+        "generatedAt": "2026-10-15T08:05:59+00:00",
         "updateTime": "2026-10-15T06:21:30+00:00",
         "validTimes": "2026-10-15T00:00:00+00:00/P8DT1H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Overnight",
-                "startTime": "2026-10-15T03:00:00-04:00",
+                "startTime": "2026-10-15T04:00:00-04:00",
                 "endTime": "2026-10-15T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 68,
@@ -61,11 +61,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "2 mph",
+                "windSpeed": "1 mph",
                 "windDirection": "E",
                 "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
                 "shortForecast": "Areas Of Fog",
-                "detailedForecast": "Areas of fog. Mostly clear. Low around 68, with temperatures rising to around 69 overnight. East wind around 2 mph."
+                "detailedForecast": "Areas of fog. Mostly clear. Low around 68, with temperatures rising to around 69 overnight. East wind around 1 mph."
             },
             {
                 "number": 2,
