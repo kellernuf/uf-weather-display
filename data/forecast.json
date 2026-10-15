@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-15T08:05:59+00:00",
-        "updateTime": "2026-10-15T06:21:30+00:00",
-        "validTimes": "2026-10-15T00:00:00+00:00/P8DT1H",
+        "generatedAt": "2026-10-15T08:37:43+00:00",
+        "updateTime": "2026-10-15T08:06:33+00:00",
+        "validTimes": "2026-10-15T02:00:00+00:00/P7DT23H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -54,7 +54,7 @@
                 "startTime": "2026-10-15T04:00:00-04:00",
                 "endTime": "2026-10-15T06:00:00-04:00",
                 "isDaytime": false,
-                "temperature": 68,
+                "temperature": 65,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
@@ -65,7 +65,7 @@
                 "windDirection": "E",
                 "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
                 "shortForecast": "Areas Of Fog",
-                "detailedForecast": "Areas of fog. Mostly clear. Low around 68, with temperatures rising to around 69 overnight. East wind around 1 mph."
+                "detailedForecast": "Areas of fog. Mostly clear. Low around 65, with temperatures rising to around 66 overnight. East wind around 1 mph."
             },
             {
                 "number": 2,
@@ -116,13 +116,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 38
+                    "value": 37
                 },
                 "windSpeed": "0 to 6 mph",
                 "windDirection": "S",
                 "icon": "https://api.weather.gov/icons/land/day/sct/tsra_hi,40?size=medium",
                 "shortForecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
-                "detailedForecast": "A slight chance of showers and thunderstorms between 2pm and 3pm, then a chance of showers and thunderstorms between 3pm and 5pm, then a chance of showers and thunderstorms. Mostly sunny. High near 88, with temperatures falling to around 84 in the afternoon. South wind 0 to 6 mph. Chance of precipitation is 40%."
+                "detailedForecast": "A slight chance of showers and thunderstorms between 2pm and 4pm, then a chance of showers and thunderstorms between 4pm and 5pm, then a chance of showers and thunderstorms. Mostly sunny. High near 88, with temperatures falling to around 84 in the afternoon. South wind 0 to 6 mph. Chance of precipitation is 40%."
             },
             {
                 "number": 5,
@@ -135,7 +135,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 37
+                    "value": 35
                 },
                 "windSpeed": "2 to 6 mph",
                 "windDirection": "W",
