@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-15T13:22:56+00:00",
-        "updateTime": "2026-10-15T12:46:36+00:00",
-        "validTimes": "2026-10-15T06:00:00+00:00/P7DT19H",
+        "generatedAt": "2026-10-15T14:01:58+00:00",
+        "updateTime": "2026-10-15T13:56:34+00:00",
+        "validTimes": "2026-10-15T07:00:00+00:00/P7DT18H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Today",
-                "startTime": "2026-10-15T09:00:00-04:00",
+                "startTime": "2026-10-15T10:00:00-04:00",
                 "endTime": "2026-10-15T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 88,
@@ -63,9 +63,9 @@
                 },
                 "windSpeed": "5 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/day/fog/few?size=medium",
-                "shortForecast": "Areas Of Fog then Sunny",
-                "detailedForecast": "Areas of fog before 10am. Sunny. High near 88, with temperatures falling to around 87 in the afternoon. East wind around 5 mph."
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "shortForecast": "Sunny",
+                "detailedForecast": "Sunny. High near 88, with temperatures falling to around 87 in the afternoon. East wind around 5 mph."
             },
             {
                 "number": 2,
