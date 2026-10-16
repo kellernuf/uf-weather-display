@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-16T17:51:07+00:00",
+        "generatedAt": "2026-10-16T16:26:43+00:00",
         "updateTime": "2026-10-16T15:01:33+00:00",
         "validTimes": "2026-10-16T09:00:00+00:00/P7DT16H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "This Afternoon",
-                "startTime": "2026-10-16T13:00:00-04:00",
+                "startTime": "2026-10-16T12:00:00-04:00",
                 "endTime": "2026-10-16T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 89,
@@ -61,11 +61,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 16
                 },
-                "windSpeed": "6 mph",
-                "windDirection": "W",
+                "windSpeed": "2 to 6 mph",
+                "windDirection": "NW",
                 "icon": "https://api.weather.gov/icons/land/day/tsra_hi,20?size=medium",
                 "shortForecast": "Slight Chance Showers And Thunderstorms",
-                "detailedForecast": "A slight chance of showers and thunderstorms after 4pm. Mostly sunny. High near 89, with temperatures falling to around 88 in the afternoon. West wind around 6 mph. Chance of precipitation is 20%."
+                "detailedForecast": "A slight chance of showers and thunderstorms after 4pm. Mostly sunny. High near 89, with temperatures falling to around 88 in the afternoon. Northwest wind 2 to 6 mph. Chance of precipitation is 20%."
             },
             {
                 "number": 2,
