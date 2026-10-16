@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-16T07:13:59+00:00",
-        "updateTime": "2026-10-16T06:21:23+00:00",
-        "validTimes": "2026-10-16T00:00:00+00:00/P8DT1H",
+        "generatedAt": "2026-10-16T09:48:41+00:00",
+        "updateTime": "2026-10-16T08:41:31+00:00",
+        "validTimes": "2026-10-16T02:00:00+00:00/P7DT23H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,10 +51,10 @@
             {
                 "number": 1,
                 "name": "Overnight",
-                "startTime": "2026-10-16T03:00:00-04:00",
+                "startTime": "2026-10-16T05:00:00-04:00",
                 "endTime": "2026-10-16T06:00:00-04:00",
                 "isDaytime": false,
-                "temperature": 69,
+                "temperature": 65,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
@@ -65,7 +65,7 @@
                 "windDirection": "E",
                 "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
                 "shortForecast": "Mostly Clear",
-                "detailedForecast": "Mostly clear. Low around 69, with temperatures rising to around 70 overnight. East wind around 1 mph."
+                "detailedForecast": "Mostly clear. Low around 65, with temperatures rising to around 66 overnight. East wind around 1 mph."
             },
             {
                 "number": 2,
@@ -78,7 +78,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 11
+                    "value": 13
                 },
                 "windSpeed": "0 to 5 mph",
                 "windDirection": "W",
