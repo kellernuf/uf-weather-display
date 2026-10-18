@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KGNV/observations/2026-10-18T19:05:00+00:00",
+    "id": "https://api.weather.gov/stations/KGNV/observations/2026-10-18T19:35:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-10-18T19:05:00+00:00",
+        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-10-18T19:35:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,7 +61,7 @@
         "station": "https://api.weather.gov/stations/KGNV",
         "stationId": "KGNV",
         "stationName": "Gainesville, Gainesville Regional Airport",
-        "timestamp": "2026-10-18T19:05:00+00:00",
+        "timestamp": "2026-10-18T19:35:00+00:00",
         "rawMessage": "",
         "textDescription": "Cloudy",
         "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
@@ -88,12 +88,12 @@
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 42.588,
+            "qualityControl": "C"
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102472.12,
+            "value": 102438.26,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -138,7 +138,7 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1676.4
+                    "value": 1524
                 },
                 "amount": "OVC"
             }
