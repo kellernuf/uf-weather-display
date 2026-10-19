@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-19T18:02:10+00:00",
-        "updateTime": "2026-10-19T16:16:31+00:00",
-        "validTimes": "2026-10-19T10:00:00+00:00/P7DT15H",
+        "generatedAt": "2026-10-19T18:34:03+00:00",
+        "updateTime": "2026-10-19T18:20:57+00:00",
+        "validTimes": "2026-10-19T12:00:00+00:00/P7DT13H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -187,18 +187,18 @@
                 "startTime": "2026-10-22T18:00:00-04:00",
                 "endTime": "2026-10-23T06:00:00-04:00",
                 "isDaytime": false,
-                "temperature": 54,
+                "temperature": 55,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "3 to 9 mph",
+                "windSpeed": "5 to 9 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
                 "shortForecast": "Clear",
-                "detailedForecast": "Clear, with a low around 54."
+                "detailedForecast": "Clear, with a low around 55."
             },
             {
                 "number": 9,
@@ -215,7 +215,7 @@
                 },
                 "windSpeed": "8 to 17 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
                 "shortForecast": "Sunny",
                 "detailedForecast": "Sunny, with a high near 78."
             },
@@ -244,7 +244,7 @@
                 "startTime": "2026-10-24T06:00:00-04:00",
                 "endTime": "2026-10-24T18:00:00-04:00",
                 "isDaytime": true,
-                "temperature": 77,
+                "temperature": 76,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
@@ -255,7 +255,7 @@
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/day/wind_few/rain_showers,20?size=medium",
                 "shortForecast": "Sunny then Slight Chance Rain Showers",
-                "detailedForecast": "A slight chance of rain showers after 2pm. Sunny, with a high near 77. Chance of precipitation is 20%."
+                "detailedForecast": "A slight chance of rain showers after 2pm. Sunny, with a high near 76. Chance of precipitation is 20%."
             },
             {
                 "number": 12,
@@ -282,18 +282,18 @@
                 "startTime": "2026-10-25T06:00:00-04:00",
                 "endTime": "2026-10-25T18:00:00-04:00",
                 "isDaytime": true,
-                "temperature": 77,
+                "temperature": 76,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 18
+                    "value": 17
                 },
                 "windSpeed": "17 to 24 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/day/wind_sct/rain_showers,20?size=medium",
                 "shortForecast": "Mostly Sunny then Slight Chance Rain Showers",
-                "detailedForecast": "A slight chance of rain showers after 2pm. Mostly sunny, with a high near 77. Chance of precipitation is 20%."
+                "detailedForecast": "A slight chance of rain showers after 2pm. Mostly sunny, with a high near 76. Chance of precipitation is 20%."
             },
             {
                 "number": 14,
@@ -306,7 +306,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 18
+                    "value": 17
                 },
                 "windSpeed": "15 to 23 mph",
                 "windDirection": "NE",
