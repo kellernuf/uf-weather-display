@@ -138,8 +138,8 @@
                 "stationIdentifier": "K42J",
                 "name": "Keystone Heights Airport",
                 "timeZone": "America/New_York",
-                "provider": "OTHER-MTR",
-                "subProvider": "",
+                "provider": "NonFedAWOS",
+                "subProvider": "TG",
                 "distance": {
                     "unitCode": "wmoUnit:m",
                     "value": 37192.655583351
@@ -243,8 +243,8 @@
                 "stationIdentifier": "K28J",
                 "name": "Palatka Kay Larkin Field",
                 "timeZone": "America/New_York",
-                "provider": "OTHER-MTR",
-                "subProvider": "",
+                "provider": "NonFedAWOS",
+                "subProvider": "TG",
                 "distance": {
                     "unitCode": "wmoUnit:m",
                     "value": 64617.938600384
@@ -851,6 +851,41 @@
                 "forecast": "https://api.weather.gov/zones/forecast/GAZ160",
                 "county": "https://api.weather.gov/zones/county/GAC185",
                 "fireWeatherZone": "https://api.weather.gov/zones/fire/GAZ160"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KHOE",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.7741,
+                    31.0559
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KHOE",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 56.388
+                },
+                "stationIdentifier": "KHOE",
+                "name": "Homerville Airport",
+                "timeZone": "America/New_York",
+                "provider": "OTHER-MTR",
+                "subProvider": "",
+                "distance": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 161784.63022712
+                },
+                "bearing": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 345
+                },
+                "forecast": "https://api.weather.gov/zones/forecast/GAZ163",
+                "county": "https://api.weather.gov/zones/county/GAC065",
+                "fireWeatherZone": "https://api.weather.gov/zones/fire/GAZ163"
             }
         },
         {
@@ -1508,6 +1543,7 @@
         "https://api.weather.gov/stations/KSFB",
         "https://api.weather.gov/stations/KEVB",
         "https://api.weather.gov/stations/KVLD",
+        "https://api.weather.gov/stations/KHOE",
         "https://api.weather.gov/stations/KVAD",
         "https://api.weather.gov/stations/KAYS",
         "https://api.weather.gov/stations/KSSI",
