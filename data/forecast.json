@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-20T22:08:33+00:00",
-        "updateTime": "2026-10-20T18:20:56+00:00",
-        "validTimes": "2026-10-20T12:00:00+00:00/P7DT13H",
+        "generatedAt": "2026-10-21T02:17:24+00:00",
+        "updateTime": "2026-10-21T01:21:38+00:00",
+        "validTimes": "2026-10-20T19:00:00+00:00/P7DT6H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Tonight",
-                "startTime": "2026-10-20T18:00:00-04:00",
+                "startTime": "2026-10-20T22:00:00-04:00",
                 "endTime": "2026-10-21T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 52,
@@ -61,11 +61,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "5 to 10 mph",
+                "windSpeed": "6 mph",
                 "windDirection": "N",
                 "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
                 "shortForecast": "Clear",
-                "detailedForecast": "Clear, with a low around 52. North wind 5 to 10 mph, with gusts as high as 16 mph."
+                "detailedForecast": "Clear, with a low around 52. North wind around 6 mph."
             },
             {
                 "number": 2,
@@ -80,11 +80,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "6 to 12 mph",
-                "windDirection": "N",
+                "windSpeed": "6 to 10 mph",
+                "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
                 "shortForecast": "Sunny",
-                "detailedForecast": "Sunny. High near 81, with temperatures falling to around 78 in the afternoon. North wind 6 to 12 mph, with gusts as high as 18 mph."
+                "detailedForecast": "Sunny. High near 81, with temperatures falling to around 78 in the afternoon. Northeast wind 6 to 10 mph, with gusts as high as 18 mph."
             },
             {
                 "number": 3,
@@ -99,11 +99,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "3 to 9 mph",
+                "windSpeed": "3 to 8 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
                 "shortForecast": "Clear",
-                "detailedForecast": "Clear. Low around 54, with temperatures rising to around 55 overnight. Northeast wind 3 to 9 mph, with gusts as high as 16 mph."
+                "detailedForecast": "Clear. Low around 54, with temperatures rising to around 55 overnight. Northeast wind 3 to 8 mph, with gusts as high as 16 mph."
             },
             {
                 "number": 4,
