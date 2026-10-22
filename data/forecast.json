@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-22T13:21:30+00:00",
+        "generatedAt": "2026-10-22T17:12:42+00:00",
         "updateTime": "2026-10-22T12:21:36+00:00",
         "validTimes": "2026-10-22T06:00:00+00:00/P7DT19H",
         "elevation": {
@@ -50,8 +50,8 @@
         "periods": [
             {
                 "number": 1,
-                "name": "Today",
-                "startTime": "2026-10-22T09:00:00-04:00",
+                "name": "This Afternoon",
+                "startTime": "2026-10-22T13:00:00-04:00",
                 "endTime": "2026-10-22T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 80,
@@ -61,11 +61,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "6 to 9 mph",
-                "windDirection": "N",
+                "windSpeed": "9 mph",
+                "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
                 "shortForecast": "Sunny",
-                "detailedForecast": "Sunny. High near 80, with temperatures falling to around 78 in the afternoon. North wind 6 to 9 mph."
+                "detailedForecast": "Sunny. High near 80, with temperatures falling to around 78 in the afternoon. Northeast wind around 9 mph."
             },
             {
                 "number": 2,
