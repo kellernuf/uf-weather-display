@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-22T20:44:15+00:00",
+        "generatedAt": "2026-10-22T21:14:06+00:00",
         "updateTime": "2026-10-22T20:16:24+00:00",
         "validTimes": "2026-10-22T14:00:00+00:00/P7DT11H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "This Afternoon",
-                "startTime": "2026-10-22T16:00:00-04:00",
+                "startTime": "2026-10-22T17:00:00-04:00",
                 "endTime": "2026-10-22T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 77,
@@ -61,11 +61,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "8 mph",
+                "windSpeed": "7 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
                 "shortForecast": "Sunny",
-                "detailedForecast": "Sunny. High near 77, with temperatures falling to around 76 in the afternoon. Northeast wind around 8 mph."
+                "detailedForecast": "Sunny. High near 77, with temperatures falling to around 76 in the afternoon. Northeast wind around 7 mph."
             },
             {
                 "number": 2,
