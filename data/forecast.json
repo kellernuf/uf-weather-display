@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-22T06:13:46+00:00",
-        "updateTime": "2026-10-22T05:11:25+00:00",
-        "validTimes": "2026-10-21T23:00:00+00:00/P8DT2H",
+        "generatedAt": "2026-10-22T06:56:19+00:00",
+        "updateTime": "2026-10-22T06:21:10+00:00",
+        "validTimes": "2026-10-22T00:00:00+00:00/P8DT1H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -225,18 +225,18 @@
                 "startTime": "2026-10-26T06:00:00-04:00",
                 "endTime": "2026-10-26T18:00:00-04:00",
                 "isDaytime": true,
-                "temperature": 75,
+                "temperature": 76,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 11
+                    "value": 10
                 },
-                "windSpeed": "17 to 21 mph",
+                "windSpeed": "16 to 21 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/day/wind_sct?size=medium",
                 "shortForecast": "Mostly Sunny",
-                "detailedForecast": "Mostly sunny, with a high near 75."
+                "detailedForecast": "Mostly sunny, with a high near 76."
             },
             {
                 "number": 11,
@@ -253,9 +253,9 @@
                 },
                 "windSpeed": "13 to 20 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-                "shortForecast": "Mostly Clear",
-                "detailedForecast": "Mostly clear, with a low around 59."
+                "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+                "shortForecast": "Partly Cloudy",
+                "detailedForecast": "Partly cloudy, with a low around 59."
             },
             {
                 "number": 12,
@@ -272,9 +272,9 @@
                 },
                 "windSpeed": "15 to 18 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-                "shortForecast": "Mostly Sunny",
-                "detailedForecast": "Mostly sunny, with a high near 77."
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "shortForecast": "Sunny",
+                "detailedForecast": "Sunny, with a high near 77."
             },
             {
                 "number": 13,
@@ -282,7 +282,7 @@
                 "startTime": "2026-10-27T18:00:00-04:00",
                 "endTime": "2026-10-28T06:00:00-04:00",
                 "isDaytime": false,
-                "temperature": 59,
+                "temperature": 58,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
@@ -291,9 +291,9 @@
                 },
                 "windSpeed": "9 to 16 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-                "shortForecast": "Mostly Clear",
-                "detailedForecast": "Mostly clear, with a low around 59."
+                "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+                "shortForecast": "Partly Cloudy",
+                "detailedForecast": "Partly cloudy, with a low around 58."
             },
             {
                 "number": 14,
