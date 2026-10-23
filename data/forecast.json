@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-23T22:59:24+00:00",
-        "updateTime": "2026-10-23T18:21:32+00:00",
-        "validTimes": "2026-10-23T12:00:00+00:00/P7DT13H",
+        "generatedAt": "2026-10-23T23:21:18+00:00",
+        "updateTime": "2026-10-23T23:06:35+00:00",
+        "validTimes": "2026-10-23T17:00:00+00:00/P7DT8H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Tonight",
-                "startTime": "2026-10-23T18:00:00-04:00",
+                "startTime": "2026-10-23T19:00:00-04:00",
                 "endTime": "2026-10-24T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 56,
@@ -61,11 +61,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "10 to 14 mph",
+                "windSpeed": "12 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
                 "shortForecast": "Clear",
-                "detailedForecast": "Clear. Low around 56, with temperatures rising to around 57 overnight. Northeast wind 10 to 14 mph, with gusts as high as 22 mph."
+                "detailedForecast": "Clear. Low around 56, with temperatures rising to around 57 overnight. Northeast wind around 12 mph, with gusts as high as 17 mph."
             },
             {
                 "number": 2,
@@ -80,11 +80,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 3
                 },
-                "windSpeed": "13 to 18 mph",
+                "windSpeed": "10 to 18 mph",
                 "windDirection": "N",
                 "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
                 "shortForecast": "Mostly Sunny",
-                "detailedForecast": "Mostly sunny. High near 78, with temperatures falling to around 76 in the afternoon. North wind 13 to 18 mph, with gusts as high as 30 mph."
+                "detailedForecast": "Mostly sunny. High near 78, with temperatures falling to around 76 in the afternoon. North wind 10 to 18 mph, with gusts as high as 29 mph."
             },
             {
                 "number": 3,
@@ -99,11 +99,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 27
                 },
-                "windSpeed": "14 to 18 mph",
+                "windSpeed": "14 to 17 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/rain_showers,30?size=medium",
                 "shortForecast": "Chance Rain Showers",
-                "detailedForecast": "A chance of rain showers between 10pm and 2am. Mostly cloudy. Low around 66, with temperatures rising to around 67 overnight. Northeast wind 14 to 18 mph, with gusts as high as 29 mph. Chance of precipitation is 30%."
+                "detailedForecast": "A chance of rain showers between 10pm and 2am. Mostly cloudy. Low around 66, with temperatures rising to around 67 overnight. Northeast wind 14 to 17 mph, with gusts as high as 28 mph. Chance of precipitation is 30%."
             },
             {
                 "number": 4,
