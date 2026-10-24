@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "HourlyForecastGenerator",
-        "generatedAt": "2026-10-24T23:25:23+00:00",
-        "updateTime": "2026-10-24T18:21:43+00:00",
-        "validTimes": "2026-10-24T12:00:00+00:00/P7DT13H",
+        "generatedAt": "2026-10-24T23:44:55+00:00",
+        "updateTime": "2026-10-24T23:26:38+00:00",
+        "validTimes": "2026-10-24T17:00:00+00:00/P7DT8H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -59,7 +59,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 14
+                    "value": 5
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -69,7 +69,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 73
                 },
-                "windSpeed": "20 mph",
+                "windSpeed": "15 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/night/bkn?size=small",
                 "shortForecast": "Mostly Cloudy",
@@ -86,7 +86,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 17
+                    "value": 5
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -96,10 +96,10 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 81
                 },
-                "windSpeed": "18 mph",
+                "windSpeed": "15 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=small",
-                "shortForecast": "Slight Chance Rain Showers",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=small",
+                "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
@@ -113,7 +113,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 24
+                    "value": 9
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -123,10 +123,10 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 84
                 },
-                "windSpeed": "18 mph",
+                "windSpeed": "14 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=small",
-                "shortForecast": "Slight Chance Rain Showers",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=small",
+                "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
@@ -140,7 +140,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 24
+                    "value": 14
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -150,10 +150,10 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 90
                 },
-                "windSpeed": "17 mph",
+                "windSpeed": "14 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=small",
-                "shortForecast": "Slight Chance Rain Showers",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=small",
+                "shortForecast": "Mostly Cloudy",
                 "detailedForecast": ""
             },
             {
@@ -177,7 +177,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 93
                 },
-                "windSpeed": "17 mph",
+                "windSpeed": "14 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=small",
                 "shortForecast": "Slight Chance Rain Showers",
@@ -194,7 +194,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 13
+                    "value": 17
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -204,10 +204,10 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 93
                 },
-                "windSpeed": "17 mph",
+                "windSpeed": "14 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/bkn?size=small",
-                "shortForecast": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=small",
+                "shortForecast": "Slight Chance Rain Showers",
                 "detailedForecast": ""
             },
             {
@@ -221,7 +221,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 14
+                    "value": 15
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -231,10 +231,10 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 93
                 },
-                "windSpeed": "16 mph",
+                "windSpeed": "13 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/bkn?size=small",
-                "shortForecast": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=small",
+                "shortForecast": "Slight Chance Rain Showers",
                 "detailedForecast": ""
             },
             {
@@ -248,7 +248,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 13
+                    "value": 14
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -258,7 +258,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 90
                 },
-                "windSpeed": "15 mph",
+                "windSpeed": "13 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/night/bkn?size=small",
                 "shortForecast": "Mostly Cloudy",
@@ -275,7 +275,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 13
+                    "value": 10
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -302,7 +302,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 11
+                    "value": 7
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -312,7 +312,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 90
                 },
-                "windSpeed": "15 mph",
+                "windSpeed": "14 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/night/bkn?size=small",
                 "shortForecast": "Mostly Cloudy",
@@ -329,7 +329,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 4
+                    "value": 3
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -339,7 +339,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 90
                 },
-                "windSpeed": "15 mph",
+                "windSpeed": "14 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/night/sct?size=small",
                 "shortForecast": "Partly Cloudy",
@@ -383,7 +383,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 0
+                    "value": 1
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -420,7 +420,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 93
                 },
-                "windSpeed": "16 mph",
+                "windSpeed": "15 mph",
                 "windDirection": "N",
                 "icon": "https://api.weather.gov/icons/land/day/sct?size=small",
                 "shortForecast": "Mostly Sunny",
@@ -447,7 +447,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 93
                 },
-                "windSpeed": "20 mph",
+                "windSpeed": "16 mph",
                 "windDirection": "N",
                 "icon": "https://api.weather.gov/icons/land/day/sct?size=small",
                 "shortForecast": "Mostly Sunny",
@@ -474,7 +474,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 87
                 },
-                "windSpeed": "20 mph",
+                "windSpeed": "16 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/day/few?size=small",
                 "shortForecast": "Sunny",
@@ -501,9 +501,9 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 79
                 },
-                "windSpeed": "21 mph",
+                "windSpeed": "16 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/wind_sct?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=small",
                 "shortForecast": "Mostly Sunny",
                 "detailedForecast": ""
             },
@@ -528,7 +528,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 74
                 },
-                "windSpeed": "20 mph",
+                "windSpeed": "16 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/day/sct?size=small",
                 "shortForecast": "Mostly Sunny",
@@ -555,7 +555,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 69
                 },
-                "windSpeed": "20 mph",
+                "windSpeed": "17 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/day/bkn?size=small",
                 "shortForecast": "Partly Sunny",
@@ -582,7 +582,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 67
                 },
-                "windSpeed": "20 mph",
+                "windSpeed": "17 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/day/sct?size=small",
                 "shortForecast": "Mostly Sunny",
@@ -609,9 +609,9 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 64
                 },
-                "windSpeed": "21 mph",
+                "windSpeed": "18 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/wind_sct?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=small",
                 "shortForecast": "Mostly Sunny",
                 "detailedForecast": ""
             },
@@ -636,9 +636,9 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 67
                 },
-                "windSpeed": "22 mph",
+                "windSpeed": "18 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/wind_sct?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=small",
                 "shortForecast": "Mostly Sunny",
                 "detailedForecast": ""
             },
@@ -663,9 +663,9 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 69
                 },
-                "windSpeed": "22 mph",
+                "windSpeed": "18 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/wind_sct?size=small",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=small",
                 "shortForecast": "Mostly Sunny",
                 "detailedForecast": ""
             },
@@ -690,9 +690,9 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 71
                 },
-                "windSpeed": "22 mph",
+                "windSpeed": "18 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/wind_sct?size=small",
+                "icon": "https://api.weather.gov/icons/land/night/sct?size=small",
                 "shortForecast": "Partly Cloudy",
                 "detailedForecast": ""
             },
@@ -717,7 +717,7 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 76
                 },
-                "windSpeed": "20 mph",
+                "windSpeed": "18 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/night/bkn?size=small",
                 "shortForecast": "Mostly Cloudy",
