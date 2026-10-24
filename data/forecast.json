@@ -40,8 +40,8 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-24T16:27:02+00:00",
-        "updateTime": "2026-10-24T16:20:42+00:00",
+        "generatedAt": "2026-10-24T16:55:06+00:00",
+        "updateTime": "2026-10-24T16:26:54+00:00",
         "validTimes": "2026-10-24T10:00:00+00:00/P7DT15H",
         "elevation": {
             "unitCode": "wmoUnit:m",
