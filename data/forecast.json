@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-24T22:16:29+00:00",
-        "updateTime": "2026-10-24T18:21:43+00:00",
-        "validTimes": "2026-10-24T12:00:00+00:00/P7DT13H",
+        "generatedAt": "2026-10-25T00:31:42+00:00",
+        "updateTime": "2026-10-25T00:16:19+00:00",
+        "validTimes": "2026-10-24T18:00:00+00:00/P7DT7H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Tonight",
-                "startTime": "2026-10-24T18:00:00-04:00",
+                "startTime": "2026-10-24T20:00:00-04:00",
                 "endTime": "2026-10-25T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 64,
@@ -59,13 +59,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 24
+                    "value": 18
                 },
-                "windSpeed": "14 to 21 mph",
+                "windSpeed": "15 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/wind_bkn?size=medium",
-                "shortForecast": "Slight Chance Rain Showers then Mostly Cloudy",
-                "detailedForecast": "A slight chance of rain showers before midnight. Mostly cloudy. Low around 64, with temperatures rising to around 65 overnight. Northeast wind 14 to 21 mph, with gusts as high as 31 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=medium",
+                "shortForecast": "Slight Chance Rain Showers",
+                "detailedForecast": "A slight chance of rain showers between 11pm and 2am. Mostly cloudy. Low around 64, with temperatures rising to around 65 overnight. Northeast wind around 15 mph, with gusts as high as 28 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
             },
             {
                 "number": 2,
@@ -80,11 +80,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 2
                 },
-                "windSpeed": "15 to 22 mph",
+                "windSpeed": "15 to 18 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/day/wind_sct?size=medium",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
                 "shortForecast": "Mostly Sunny",
-                "detailedForecast": "Mostly sunny. High near 79, with temperatures falling to around 76 in the afternoon. Northeast wind 15 to 22 mph, with gusts as high as 32 mph."
+                "detailedForecast": "Mostly sunny. High near 79, with temperatures falling to around 76 in the afternoon. Northeast wind 15 to 18 mph, with gusts as high as 31 mph."
             },
             {
                 "number": 3,
@@ -99,11 +99,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 19
                 },
-                "windSpeed": "14 to 22 mph",
+                "windSpeed": "14 to 18 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/wind_bkn/rain_showers,20?size=medium",
+                "icon": "https://api.weather.gov/icons/land/night/bkn/rain_showers,20?size=medium",
                 "shortForecast": "Mostly Cloudy then Slight Chance Rain Showers",
-                "detailedForecast": "A slight chance of rain showers between 1am and 2am. Mostly cloudy. Low around 66, with temperatures rising to around 67 overnight. Northeast wind 14 to 22 mph, with gusts as high as 31 mph. Chance of precipitation is 20%."
+                "detailedForecast": "A slight chance of rain showers between 1am and 2am. Mostly cloudy. Low around 66, with temperatures rising to around 67 overnight. Northeast wind 14 to 18 mph, with gusts as high as 31 mph. Chance of precipitation is 20%."
             },
             {
                 "number": 4,
