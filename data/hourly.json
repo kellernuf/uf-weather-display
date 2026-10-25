@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "HourlyForecastGenerator",
-        "generatedAt": "2026-10-25T10:19:00+00:00",
+        "generatedAt": "2026-10-25T10:49:11+00:00",
         "updateTime": "2026-10-25T06:21:23+00:00",
         "validTimes": "2026-10-25T00:00:00+00:00/P8DT1H",
         "elevation": {
