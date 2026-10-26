@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-26T17:42:52+00:00",
+        "generatedAt": "2026-10-26T18:17:11+00:00",
         "updateTime": "2026-10-26T17:06:50+00:00",
         "validTimes": "2026-10-26T11:00:00+00:00/P7DT14H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "This Afternoon",
-                "startTime": "2026-10-26T13:00:00-04:00",
+                "startTime": "2026-10-26T14:00:00-04:00",
                 "endTime": "2026-10-26T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 78,
