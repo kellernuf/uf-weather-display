@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-25T22:44:41+00:00",
-        "updateTime": "2026-10-25T18:26:15+00:00",
-        "validTimes": "2026-10-25T12:00:00+00:00/P7DT13H",
+        "generatedAt": "2026-10-26T00:03:49+00:00",
+        "updateTime": "2026-10-25T23:56:43+00:00",
+        "validTimes": "2026-10-25T17:00:00+00:00/P7DT8H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Tonight",
-                "startTime": "2026-10-25T18:00:00-04:00",
+                "startTime": "2026-10-25T20:00:00-04:00",
                 "endTime": "2026-10-26T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 64,
@@ -61,11 +61,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 28
                 },
-                "windSpeed": "14 to 22 mph",
+                "windSpeed": "14 to 18 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,30/wind_bkn?size=medium",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,30/bkn?size=medium",
                 "shortForecast": "Chance Rain Showers then Mostly Cloudy",
-                "detailedForecast": "A chance of rain showers between 7pm and midnight. Mostly cloudy. Low around 64, with temperatures rising to around 66 overnight. Northeast wind 14 to 22 mph, with gusts as high as 33 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
+                "detailedForecast": "A chance of rain showers before midnight. Mostly cloudy. Low around 64, with temperatures rising to around 66 overnight. Northeast wind 14 to 18 mph, with gusts as high as 28 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
             },
             {
                 "number": 2,
