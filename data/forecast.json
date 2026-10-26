@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-26T04:58:11+00:00",
+        "generatedAt": "2026-10-26T05:26:05+00:00",
         "updateTime": "2026-10-26T00:46:26+00:00",
         "validTimes": "2026-10-25T18:00:00+00:00/P7DT7H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Overnight",
-                "startTime": "2026-10-26T00:00:00-04:00",
+                "startTime": "2026-10-26T01:00:00-04:00",
                 "endTime": "2026-10-26T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 64,
@@ -59,7 +59,7 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 14
+                    "value": 11
                 },
                 "windSpeed": "13 mph",
                 "windDirection": "NE",
