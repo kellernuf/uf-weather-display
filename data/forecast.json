@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-26T22:13:31+00:00",
-        "updateTime": "2026-10-26T18:21:40+00:00",
-        "validTimes": "2026-10-26T12:00:00+00:00/P7DT13H",
+        "generatedAt": "2026-10-27T00:04:20+00:00",
+        "updateTime": "2026-10-26T23:46:49+00:00",
+        "validTimes": "2026-10-26T17:00:00+00:00/P7DT8H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,21 +51,21 @@
             {
                 "number": 1,
                 "name": "Tonight",
-                "startTime": "2026-10-26T18:00:00-04:00",
+                "startTime": "2026-10-26T20:00:00-04:00",
                 "endTime": "2026-10-27T06:00:00-04:00",
                 "isDaytime": false,
-                "temperature": 62,
+                "temperature": 61,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
                     "value": 1
                 },
-                "windSpeed": "12 to 17 mph",
+                "windSpeed": "13 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-                "shortForecast": "Partly Cloudy",
-                "detailedForecast": "Partly cloudy, with a low around 62. Northeast wind 12 to 17 mph, with gusts as high as 26 mph."
+                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+                "shortForecast": "Mostly Clear",
+                "detailedForecast": "Mostly clear. Low around 61, with temperatures rising to around 62 overnight. Northeast wind around 13 mph, with gusts as high as 24 mph."
             },
             {
                 "number": 2,
@@ -80,11 +80,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 0
                 },
-                "windSpeed": "13 to 18 mph",
+                "windSpeed": "12 to 18 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
                 "shortForecast": "Mostly Sunny",
-                "detailedForecast": "Mostly sunny. High near 81, with temperatures falling to around 79 in the afternoon. Northeast wind 13 to 18 mph, with gusts as high as 28 mph."
+                "detailedForecast": "Mostly sunny. High near 81, with temperatures falling to around 79 in the afternoon. Northeast wind 12 to 18 mph, with gusts as high as 28 mph."
             },
             {
                 "number": 3,
