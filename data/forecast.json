@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-28T13:23:19+00:00",
-        "updateTime": "2026-10-28T13:11:58+00:00",
-        "validTimes": "2026-10-28T07:00:00+00:00/P7DT18H",
+        "generatedAt": "2026-10-28T14:30:29+00:00",
+        "updateTime": "2026-10-28T14:01:34+00:00",
+        "validTimes": "2026-10-28T08:00:00+00:00/P7DT17H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Today",
-                "startTime": "2026-10-28T09:00:00-04:00",
+                "startTime": "2026-10-28T10:00:00-04:00",
                 "endTime": "2026-10-28T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 80,
