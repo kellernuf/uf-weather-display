@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-28T11:21:47+00:00",
+        "generatedAt": "2026-10-28T12:48:34+00:00",
         "updateTime": "2026-10-28T06:20:59+00:00",
         "validTimes": "2026-10-28T00:00:00+00:00/P8DT1H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Today",
-                "startTime": "2026-10-28T07:00:00-04:00",
+                "startTime": "2026-10-28T08:00:00-04:00",
                 "endTime": "2026-10-28T18:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 80,
@@ -61,11 +61,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 6
                 },
-                "windSpeed": "8 to 17 mph",
+                "windSpeed": "9 to 17 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
                 "shortForecast": "Partly Sunny",
-                "detailedForecast": "Partly sunny. High near 80, with temperatures falling to around 78 in the afternoon. Northeast wind 8 to 17 mph, with gusts as high as 26 mph."
+                "detailedForecast": "Partly sunny. High near 80, with temperatures falling to around 78 in the afternoon. Northeast wind 9 to 17 mph, with gusts as high as 26 mph."
             },
             {
                 "number": 2,
