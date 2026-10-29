@@ -42,17 +42,17 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KGNV/observations/2026-10-29T20:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KGNV/observations/2026-10-29T21:40:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -82.28,
-            29.7
+            -82.27,
+            29.68
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-10-29T20:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-10-29T21:40:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,30 +61,30 @@
         "station": "https://api.weather.gov/stations/KGNV",
         "stationId": "KGNV",
         "stationName": "Gainesville, Gainesville Regional Airport",
-        "timestamp": "2026-10-29T20:53:00+00:00",
-        "rawMessage": "KGNV 292053Z 04012KT 10SM FEW024 BKN041 OVC050 26/20 A3007 RMK AO2 SLP182 T02560200 56002",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "timestamp": "2026-10-29T21:40:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 25.6,
+            "value": 26,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 20,
+            "value": 19,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 30,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 18.504,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -93,17 +93,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101830,
+            "value": 101828.7,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101820,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 16093.44,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -114,24 +114,14 @@
             "unitCode": "wmoUnit:degC",
             "value": null
         },
-        "precipitationLastHour": {
-            "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
-        },
         "precipitationLast3Hours": {
-            "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
-        },
-        "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
             "value": null,
             "qualityControl": "Z"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 71.214708535234,
+            "value": 65.355762196942,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,30 +131,30 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 26.075050722864443,
+            "value": 26.36206712403111,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 730
+                    "value": 762
                 },
                 "amount": "FEW"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1250
+                    "value": 1188.72
                 },
-                "amount": "BKN"
+                "amount": "FEW"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1520
+                    "value": 3048
                 },
-                "amount": "OVC"
+                "amount": "BKN"
             }
         ]
     }
