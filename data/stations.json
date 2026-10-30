@@ -558,7 +558,7 @@
                 "stationIdentifier": "KJAX",
                 "name": "Jacksonville International Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS-HFM",
+                "provider": "ASOS",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -698,7 +698,7 @@
                 "stationIdentifier": "KDAB",
                 "name": "Daytona Beach International Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS-HFM",
+                "provider": "ASOS",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -1258,8 +1258,8 @@
                 "stationIdentifier": "KLHW",
                 "name": "Wright Army Airfield (Fort Stewart)/Midcoast Regional Airport",
                 "timeZone": "America/New_York",
-                "provider": "NonFedAWOS",
-                "subProvider": "TG",
+                "provider": "OTHER-MTR",
+                "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
                     "value": 260524.04959737
@@ -1468,7 +1468,7 @@
                 "stationIdentifier": "KSAV",
                 "name": "Savannah-Hilton Head International Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS-HFM",
+                "provider": "ASOS",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
