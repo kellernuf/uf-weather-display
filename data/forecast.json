@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-10-30T22:52:25+00:00",
+        "generatedAt": "2026-10-31T00:21:43+00:00",
         "updateTime": "2026-10-30T18:20:57+00:00",
         "validTimes": "2026-10-30T12:00:00+00:00/P7DT13H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Tonight",
-                "startTime": "2026-10-30T18:00:00-04:00",
+                "startTime": "2026-10-30T20:00:00-04:00",
                 "endTime": "2026-10-31T06:00:00-04:00",
                 "isDaytime": false,
                 "temperature": 69,
@@ -61,11 +61,11 @@
                     "unitCode": "wmoUnit:percent",
                     "value": 3
                 },
-                "windSpeed": "6 to 10 mph",
+                "windSpeed": "6 to 9 mph",
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
                 "shortForecast": "Mostly Cloudy",
-                "detailedForecast": "Mostly cloudy, with a low around 69. Northeast wind 6 to 10 mph, with gusts as high as 21 mph."
+                "detailedForecast": "Mostly cloudy, with a low around 69. Northeast wind 6 to 9 mph, with gusts as high as 20 mph."
             },
             {
                 "number": 2,
