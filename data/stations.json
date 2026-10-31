@@ -418,7 +418,7 @@
                 "stationIdentifier": "KSGJ",
                 "name": "Northeast Florida Regional Airport",
                 "timeZone": "America/New_York",
-                "provider": "OTHER-MTR",
+                "provider": "ASOS-HFM",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -1258,8 +1258,8 @@
                 "stationIdentifier": "KLHW",
                 "name": "Wright Army Airfield (Fort Stewart)/Midcoast Regional Airport",
                 "timeZone": "America/New_York",
-                "provider": "NonFedAWOS",
-                "subProvider": "TG",
+                "provider": "OTHER-MTR",
+                "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
                     "value": 260524.04959737
