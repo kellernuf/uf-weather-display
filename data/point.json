@@ -92,15 +92,15 @@
         "timeZone": "America/New_York",
         "radarStation": "KJAX",
         "astronomicalData": {
-            "sunrise": "2026-10-31T07:42:14-04:00",
-            "sunset": "2026-10-31T18:43:48-04:00",
-            "transit": "2026-10-31T13:13:01-04:00",
-            "civilTwilightBegin": "2026-10-31T07:17:45-04:00",
-            "civilTwilightEnd": "2026-10-31T19:08:16-04:00",
-            "nauticalTwilightBegin": "2026-10-31T06:49:35-04:00",
-            "nauticalTwilightEnd": "2026-10-31T19:36:27-04:00",
-            "astronomicalTwilightBegin": "2026-10-31T06:21:41-04:00",
-            "astronomicalTwilightEnd": "2026-10-31T20:04:21-04:00"
+            "sunrise": "2026-11-01T06:42:59-05:00",
+            "sunset": "2026-11-01T17:43:00-05:00",
+            "transit": "2026-11-01T12:12:59-05:00",
+            "civilTwilightBegin": "2026-11-01T06:18:28-05:00",
+            "civilTwilightEnd": "2026-11-01T18:07:31-05:00",
+            "nauticalTwilightBegin": "2026-11-01T05:50:15-05:00",
+            "nauticalTwilightEnd": "2026-11-01T18:35:43-05:00",
+            "astronomicalTwilightBegin": "2026-11-01T05:22:20-05:00",
+            "astronomicalTwilightEnd": "2026-11-01T19:03:39-05:00"
         },
         "nwr": {
             "transmitter": "WXJ60",
