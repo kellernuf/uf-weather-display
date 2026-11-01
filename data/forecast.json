@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-11-01T00:15:09+00:00",
-        "updateTime": "2026-10-31T22:21:32+00:00",
-        "validTimes": "2026-10-31T16:00:00+00:00/P7DT9H",
+        "generatedAt": "2026-11-01T01:09:23+00:00",
+        "updateTime": "2026-11-01T00:31:27+00:00",
+        "validTimes": "2026-10-31T18:00:00+00:00/P7DT7H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Tonight",
-                "startTime": "2026-10-31T20:00:00-04:00",
+                "startTime": "2026-10-31T21:00:00-04:00",
                 "endTime": "2026-11-01T06:00:00-05:00",
                 "isDaytime": false,
                 "temperature": 71,
@@ -59,13 +59,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 16
+                    "value": 12
                 },
                 "windSpeed": "10 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/bkn/rain_showers,20?size=medium",
-                "shortForecast": "Mostly Cloudy then Slight Chance Rain Showers",
-                "detailedForecast": "A slight chance of rain showers after 4am. Mostly cloudy, with a low around 71. Northeast wind around 10 mph, with gusts as high as 22 mph. Chance of precipitation is 20%. New rainfall amounts between a tenth and quarter of an inch possible."
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": "Mostly cloudy, with a low around 71. Northeast wind around 10 mph, with gusts as high as 21 mph. New rainfall amounts between a tenth and quarter of an inch possible."
             },
             {
                 "number": 2,
