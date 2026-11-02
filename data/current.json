@@ -42,17 +42,17 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KGNV/observations/2026-11-02T21:43:00+00:00",
+    "id": "https://api.weather.gov/stations/KGNV/observations/2026-11-02T22:55:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -82.28,
-            29.7
+            -82.27,
+            29.68
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-11-02T21:43:00+00:00",
+        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-11-02T22:55:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,24 +61,24 @@
         "station": "https://api.weather.gov/stations/KGNV",
         "stationId": "KGNV",
         "stationName": "Gainesville, Gainesville Regional Airport",
-        "timestamp": "2026-11-02T21:43:00+00:00",
-        "rawMessage": "KGNV 022143Z 07007KT 10SM BKN024 BKN035 BKN050 24/21 A3008 RMK AO2 T02440206",
+        "timestamp": "2026-11-02T22:55:00+00:00",
+        "rawMessage": "",
         "textDescription": "Mostly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 24.4,
+            "value": 23,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 20.6,
+            "value": 21,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 70,
+            "value": 80,
             "qualityControl": "V"
         },
         "windSpeed": {
@@ -93,7 +93,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101860,
+            "value": 101930.3,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -103,7 +103,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 11265.41,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -114,24 +114,14 @@
             "unitCode": "wmoUnit:degC",
             "value": null
         },
-        "precipitationLastHour": {
-            "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
-        },
         "precipitationLast3Hours": {
-            "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
-        },
-        "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
             "value": null,
             "qualityControl": "Z"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 79.384885834063,
+            "value": 88.518307938961,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,28 +131,21 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 24.96838313011167,
+            "value": 23.666866929517223,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 730
+                    "value": 1341.12
                 },
-                "amount": "BKN"
+                "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1070
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1520
+                    "value": 1676.4
                 },
                 "amount": "BKN"
             }
