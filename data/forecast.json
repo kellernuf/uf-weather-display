@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-11-02T06:44:41+00:00",
+        "generatedAt": "2026-11-02T08:04:36+00:00",
         "updateTime": "2026-11-02T06:21:24+00:00",
         "validTimes": "2026-11-02T00:00:00+00:00/P8DT1H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Overnight",
-                "startTime": "2026-11-02T01:00:00-05:00",
+                "startTime": "2026-11-02T03:00:00-05:00",
                 "endTime": "2026-11-02T06:00:00-05:00",
                 "isDaytime": false,
                 "temperature": 69,
@@ -65,7 +65,7 @@
                 "windDirection": "E",
                 "icon": "https://api.weather.gov/icons/land/night/tsra,80?size=medium",
                 "shortForecast": "Showers And Thunderstorms",
-                "detailedForecast": "Showers and thunderstorms. Cloudy, with a low around 69. East wind around 10 mph, with gusts as high as 20 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
+                "detailedForecast": "Showers and thunderstorms. Cloudy, with a low around 69. East wind around 10 mph, with gusts as high as 18 mph. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible."
             },
             {
                 "number": 2,
