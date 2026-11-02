@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-11-01T23:47:26+00:00",
+        "generatedAt": "2026-11-02T00:16:53+00:00",
         "updateTime": "2026-11-01T23:11:34+00:00",
         "validTimes": "2026-11-01T17:00:00+00:00/P7DT8H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Tonight",
-                "startTime": "2026-11-01T18:00:00-05:00",
+                "startTime": "2026-11-01T19:00:00-05:00",
                 "endTime": "2026-11-02T06:00:00-05:00",
                 "isDaytime": false,
                 "temperature": 68,
@@ -65,7 +65,7 @@
                 "windDirection": "NE",
                 "icon": "https://api.weather.gov/icons/land/night/rain_showers,40/tsra,60?size=medium",
                 "shortForecast": "Showers And Thunderstorms Likely",
-                "detailedForecast": "A chance of rain showers before 3am, then showers and thunderstorms likely. Cloudy, with a low around 68. Northeast wind around 12 mph, with gusts as high as 22 mph. Chance of precipitation is 60%. New rainfall amounts between a half and three quarters of an inch possible."
+                "detailedForecast": "A chance of rain showers before 3am, then showers and thunderstorms likely. Cloudy, with a low around 68. Northeast wind around 12 mph, with gusts as high as 21 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible."
             },
             {
                 "number": 2,
