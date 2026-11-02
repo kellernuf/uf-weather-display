@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-11-02T11:37:44+00:00",
-        "updateTime": "2026-11-02T06:21:24+00:00",
-        "validTimes": "2026-11-02T00:00:00+00:00/P8DT1H",
+        "generatedAt": "2026-11-02T12:30:09+00:00",
+        "updateTime": "2026-11-02T11:41:26+00:00",
+        "validTimes": "2026-11-02T05:00:00+00:00/P7DT20H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Today",
-                "startTime": "2026-11-02T06:00:00-05:00",
+                "startTime": "2026-11-02T07:00:00-05:00",
                 "endTime": "2026-11-02T18:00:00-05:00",
                 "isDaytime": true,
                 "temperature": 81,
@@ -59,13 +59,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 53
+                    "value": 39
                 },
                 "windSpeed": "9 to 15 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/day/rain_showers,50/tsra_sct,50?size=medium",
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers,40/tsra_sct,40?size=medium",
                 "shortForecast": "Chance Rain Showers",
-                "detailedForecast": "A chance of rain showers before 1pm, then a chance of showers and thunderstorms. Mostly cloudy. High near 81, with temperatures falling to around 78 in the afternoon. East wind 9 to 15 mph, with gusts as high as 24 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible."
+                "detailedForecast": "A chance of rain showers before 1pm, then a chance of showers and thunderstorms between 1pm and 5pm, then a slight chance of showers and thunderstorms. Mostly cloudy. High near 81, with temperatures falling to around 78 in the afternoon. East wind 9 to 15 mph, with gusts as high as 24 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
             },
             {
                 "number": 2,
@@ -78,13 +78,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 22
+                    "value": 20
                 },
                 "windSpeed": "12 mph",
                 "windDirection": "NE",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/bkn?size=medium",
-                "shortForecast": "Slight Chance Rain Showers then Mostly Cloudy",
-                "detailedForecast": "A slight chance of rain showers before 9pm. Mostly cloudy. Low around 69, with temperatures rising to around 70 overnight. Northeast wind around 12 mph, with gusts as high as 22 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+                "icon": "https://api.weather.gov/icons/land/night/tsra_hi,20/bkn?size=medium",
+                "shortForecast": "Slight Chance Showers And Thunderstorms then Mostly Cloudy",
+                "detailedForecast": "A slight chance of showers and thunderstorms before 9pm. Mostly cloudy. Low around 69, with temperatures rising to around 70 overnight. Northeast wind around 12 mph, with gusts as high as 22 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
             },
             {
                 "number": 3,
