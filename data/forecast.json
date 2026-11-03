@@ -40,9 +40,9 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-11-03T12:41:21+00:00",
-        "updateTime": "2026-11-03T06:21:31+00:00",
-        "validTimes": "2026-11-03T00:00:00+00:00/P8DT1H",
+        "generatedAt": "2026-11-03T13:50:00+00:00",
+        "updateTime": "2026-11-03T12:46:34+00:00",
+        "validTimes": "2026-11-03T06:00:00+00:00/P7DT19H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 29.8704
@@ -51,21 +51,21 @@
             {
                 "number": 1,
                 "name": "Today",
-                "startTime": "2026-11-03T07:00:00-05:00",
+                "startTime": "2026-11-03T08:00:00-05:00",
                 "endTime": "2026-11-03T18:00:00-05:00",
                 "isDaytime": true,
-                "temperature": 83,
+                "temperature": 85,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 35
+                    "value": 34
                 },
-                "windSpeed": "7 to 13 mph",
+                "windSpeed": "8 to 14 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/rain_showers,40?size=medium",
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers,30?size=medium",
                 "shortForecast": "Chance Rain Showers",
-                "detailedForecast": "A chance of rain showers. Partly sunny. High near 83, with temperatures falling to around 79 in the afternoon. East wind 7 to 13 mph, with gusts as high as 22 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible."
+                "detailedForecast": "A chance of rain showers. Mostly cloudy. High near 85, with temperatures falling to around 79 in the afternoon. East wind 8 to 14 mph, with gusts as high as 21 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible."
             },
             {
                 "number": 2,
@@ -78,13 +78,13 @@
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": 16
+                    "value": 22
                 },
-                "windSpeed": "5 to 10 mph",
+                "windSpeed": "6 to 12 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/fog?size=medium",
-                "shortForecast": "Slight Chance Rain Showers then Patchy Fog",
-                "detailedForecast": "A slight chance of rain showers before 7pm, then patchy fog. Partly cloudy, with a low around 69. East wind 5 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=medium",
+                "shortForecast": "Slight Chance Rain Showers",
+                "detailedForecast": "A slight chance of rain showers before 5am. Mostly cloudy, with a low around 69. East wind 6 to 12 mph, with gusts as high as 17 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
             },
             {
                 "number": 3,
@@ -101,7 +101,7 @@
                 },
                 "windSpeed": "3 to 10 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/day/fog/tsra_hi,40?size=medium",
+                "icon": "https://api.weather.gov/icons/land/day/fog/tsra_sct,40?size=medium",
                 "shortForecast": "Patchy Fog then Chance Showers And Thunderstorms",
                 "detailedForecast": "Patchy fog before 7am, then a chance of rain showers between 1pm and 4pm, then a chance of showers and thunderstorms. Partly sunny. High near 85, with temperatures falling to around 82 in the afternoon. East wind 3 to 10 mph, with gusts as high as 16 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible."
             },
