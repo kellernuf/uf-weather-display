@@ -40,7 +40,7 @@
     "properties": {
         "units": "us",
         "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2026-11-03T15:21:22+00:00",
+        "generatedAt": "2026-11-03T16:14:30+00:00",
         "updateTime": "2026-11-03T12:46:34+00:00",
         "validTimes": "2026-11-03T06:00:00+00:00/P7DT19H",
         "elevation": {
@@ -51,7 +51,7 @@
             {
                 "number": 1,
                 "name": "Today",
-                "startTime": "2026-11-03T10:00:00-05:00",
+                "startTime": "2026-11-03T11:00:00-05:00",
                 "endTime": "2026-11-03T18:00:00-05:00",
                 "isDaytime": true,
                 "temperature": 85,
