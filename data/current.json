@@ -42,17 +42,17 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KGNV/observations/2026-11-04T04:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KGNV/observations/2026-11-04T05:35:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -82.28,
-            29.7
+            -82.27,
+            29.68
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-11-04T04:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-11-04T05:35:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,14 +61,14 @@
         "station": "https://api.weather.gov/stations/KGNV",
         "stationId": "KGNV",
         "stationName": "Gainesville, Gainesville Regional Airport",
-        "timestamp": "2026-11-04T04:53:00+00:00",
-        "rawMessage": "KGNV 040453Z AUTO 08005KT 10SM CLR 21/20 A3007 RMK AO2 SLP178 T02110200 402940211",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+        "timestamp": "2026-11-04T05:35:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 21.1,
+            "value": 21,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -78,12 +78,12 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 80,
+            "value": 50,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 9.36,
+            "value": 9.252,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,17 +93,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101830,
+            "value": 101794.84,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101780,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 16093.44,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -114,24 +114,14 @@
             "unitCode": "wmoUnit:degC",
             "value": null
         },
-        "precipitationLastHour": {
-            "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
-        },
         "precipitationLast3Hours": {
-            "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
-        },
-        "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
             "value": null,
             "qualityControl": "Z"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 93.443072582485,
+            "value": 94.018757001038,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,9 +138,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 2133.6
                 },
-                "amount": "CLR"
+                "amount": "BKN"
             }
         ]
     }
