@@ -68,7 +68,7 @@
                 "stationIdentifier": "KGNV",
                 "name": "Gainesville, Gainesville Regional Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS",
+                "provider": "ASOS-HFM",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -418,7 +418,7 @@
                 "stationIdentifier": "KSGJ",
                 "name": "Northeast Florida Regional Airport",
                 "timeZone": "America/New_York",
-                "provider": "OTHER-MTR",
+                "provider": "ASOS-HFM",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -453,7 +453,7 @@
                 "stationIdentifier": "KLEE",
                 "name": "Leesburg International Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS",
+                "provider": "ASOS-HFM",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -488,7 +488,7 @@
                 "stationIdentifier": "KCRG",
                 "name": "Jacksonville Craig Municipal Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS",
+                "provider": "ASOS-HFM",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -558,7 +558,7 @@
                 "stationIdentifier": "KJAX",
                 "name": "Jacksonville International Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS",
+                "provider": "ASOS-HFM",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -698,7 +698,7 @@
                 "stationIdentifier": "KDAB",
                 "name": "Daytona Beach International Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS",
+                "provider": "ASOS-HFM",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -768,7 +768,7 @@
                 "stationIdentifier": "KSFB",
                 "name": "Orlando / Sanford Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS",
+                "provider": "ASOS-HFM",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -838,7 +838,7 @@
                 "stationIdentifier": "KVLD",
                 "name": "Valdosta Regional Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS",
+                "provider": "ASOS-HFM",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -1083,7 +1083,7 @@
                 "stationIdentifier": "KTLH",
                 "name": "Tallahassee International Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS",
+                "provider": "ASOS-HFM",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -1239,41 +1239,6 @@
             }
         },
         {
-            "id": "https://api.weather.gov/stations/KAZE",
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -82.6474,
-                    31.8847
-                ]
-            },
-            "properties": {
-                "@id": "https://api.weather.gov/stations/KAZE",
-                "@type": "wx:ObservationStation",
-                "elevation": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 77.724
-                },
-                "stationIdentifier": "KAZE",
-                "name": "Hazlehurst Airport",
-                "timeZone": "America/New_York",
-                "provider": "OTHER-MTR",
-                "subProvider": "",
-                "distance": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 250462.26688278
-                },
-                "bearing": {
-                    "unitCode": "wmoUnit:degree_(angle)",
-                    "value": 353
-                },
-                "forecast": "https://api.weather.gov/zones/forecast/GAZ133",
-                "county": "https://api.weather.gov/zones/county/GAC161",
-                "fireWeatherZone": "https://api.weather.gov/zones/fire/GAZ133"
-            }
-        },
-        {
             "id": "https://api.weather.gov/stations/KLHW",
             "type": "Feature",
             "geometry": {
@@ -1293,8 +1258,8 @@
                 "stationIdentifier": "KLHW",
                 "name": "Wright Army Airfield (Fort Stewart)/Midcoast Regional Airport",
                 "timeZone": "America/New_York",
-                "provider": "OTHER-MTR",
-                "subProvider": "",
+                "provider": "NonFedAWOS",
+                "subProvider": "TG",
                 "distance": {
                     "unitCode": "wmoUnit:m",
                     "value": 260524.04959737
@@ -1503,7 +1468,7 @@
                 "stationIdentifier": "KSAV",
                 "name": "Savannah-Hilton Head International Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS",
+                "provider": "ASOS-HFM",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -1589,7 +1554,6 @@
         "https://api.weather.gov/stations/KJES",
         "https://api.weather.gov/stations/KTMA",
         "https://api.weather.gov/stations/KFZG",
-        "https://api.weather.gov/stations/KAZE",
         "https://api.weather.gov/stations/KLHW",
         "https://api.weather.gov/stations/KRVJ",
         "https://api.weather.gov/stations/KABY",
