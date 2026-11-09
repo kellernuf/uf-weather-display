@@ -68,7 +68,7 @@
                 "stationIdentifier": "KGNV",
                 "name": "Gainesville, Gainesville Regional Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS-HFM",
+                "provider": "ASOS",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -243,8 +243,8 @@
                 "stationIdentifier": "K28J",
                 "name": "Palatka Kay Larkin Field",
                 "timeZone": "America/New_York",
-                "provider": "OTHER-MTR",
-                "subProvider": "",
+                "provider": "NonFedAWOS",
+                "subProvider": "TG",
                 "distance": {
                     "unitCode": "wmoUnit:m",
                     "value": 64617.938600384
@@ -418,7 +418,7 @@
                 "stationIdentifier": "KSGJ",
                 "name": "Northeast Florida Regional Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS-HFM",
+                "provider": "OTHER-MTR",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -488,7 +488,7 @@
                 "stationIdentifier": "KCRG",
                 "name": "Jacksonville Craig Municipal Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS-HFM",
+                "provider": "ASOS",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -558,7 +558,7 @@
                 "stationIdentifier": "KJAX",
                 "name": "Jacksonville International Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS-HFM",
+                "provider": "ASOS",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
@@ -838,7 +838,7 @@
                 "stationIdentifier": "KVLD",
                 "name": "Valdosta Regional Airport",
                 "timeZone": "America/New_York",
-                "provider": "ASOS-HFM",
+                "provider": "ASOS",
                 "subProvider": "",
                 "distance": {
                     "unitCode": "wmoUnit:m",
