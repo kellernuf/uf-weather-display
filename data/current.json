@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KGNV/observations/2026-11-10T15:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KGNV/observations/2026-11-10T21:53:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-11-10T15:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KGNV/observations/2026-11-10T21:53:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,8 +61,8 @@
         "station": "https://api.weather.gov/stations/KGNV",
         "stationId": "KGNV",
         "stationName": "Gainesville, Gainesville Regional Airport",
-        "timestamp": "2026-11-10T15:53:00+00:00",
-        "rawMessage": "KGNV 101553Z 35003KT 10SM CLR 23/14 A3020 RMK AO2 SLP225 T02330144",
+        "timestamp": "2026-11-10T21:53:00+00:00",
+        "rawMessage": "KGNV 102153Z 32003KT 10SM CLR 24/17 A3010 RMK AO2 SLP191 T02390167",
         "textDescription": "Clear",
         "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
